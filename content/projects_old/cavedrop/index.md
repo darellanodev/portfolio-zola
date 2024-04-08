@@ -7,7 +7,7 @@ weight = 10
 local_image = "projects_old/cavedrop/logo.png"
 +++
 
-**Cave drop** This is a game I developed for desktop and mobile android devices using Processing.
+**Cave drop** is a game I developed for desktop and mobile android devices using Processing.
 
 ![Cave drop 1](./screenshot1.png)
 ![Cave drop 2](./screenshot2.png)
