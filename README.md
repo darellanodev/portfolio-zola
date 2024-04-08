@@ -2,6 +2,10 @@
 
 This is my personal porfolio made with zola and tabi.
 
+## Tasks
+
+- [ ] Artwork section
+
 ## Requires
 
 You need to download zola.exe in the root
