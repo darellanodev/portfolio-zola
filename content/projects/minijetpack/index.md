@@ -12,7 +12,7 @@ local_image = "projects/minijetpack/logo.png"
 ![Mini Jetpack screenshot 1](./screenshot1.jpg)
 ![Mini Jetpack screenshot 2](./screenshot2.jpg)
 
-#### [GitHub](https://github.com/darellanodev/gif-tower-defense) • [Play online](http://127.0.0.1:5500/playablegames/giftowerdefense/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/gif-tower-defense) • [Play online](../../playablegames/giftowerdefense/index.html) {.centered-text}
 
 #### Made with [Golang](https://go.dev/) | [Ebitengine](https://ebitengine.org/) | [InkScape](https://www.inkscape.org/) | [Piskel](https://www.piskelapp.com/) | [Bfxr](https://www.bfxr.net/)
 

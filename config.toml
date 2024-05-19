@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "./"
+# base_url = "http://localhost/proyectos/portfolio-zola/public/"
+base_url = "https://darellanodev.github.io/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
