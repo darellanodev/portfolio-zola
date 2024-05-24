@@ -4,9 +4,10 @@ This is my personal porfolio made with zola and tabi.
 
 ## Tasks
 
-- [x] Artwork section
-- [ ] Playable demos
-- [ ] Make the first blog entry
+- [ ] Add node script into utils folder to update playable demos
+  - [x] gif tower defense demo
+  - [ ] minijetpack
+  - [ ] jsconcepts
 
 ## Requires
 
