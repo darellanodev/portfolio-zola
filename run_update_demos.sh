@@ -1,1 +1,1 @@
-node ./utils/update_demos.js
+node ./utils/playable_demos/update_demos.js

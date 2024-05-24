@@ -68,12 +68,24 @@ const copyIndexJSReference = (debugMode, indexPath, distPath, destinyPath) => {
     })
 }
 
-const copyIndex = (debugMode, indexPath, destinyPath) => {
-    const indexPathDestiny = destinyPath + "\\index.html"
+const copyIndexToMain = (debugMode, indexPath, destinyPath) => {
+    const indexPathDestiny = destinyPath + "\\main.html"
     console.log(`copying ${indexPath} to ${indexPathDestiny}`)
     if (debugMode === false){
         console.log('lets do it')
         fs.copyFileSync(indexPath, indexPathDestiny)
+    } else {
+        console.log('debugMode mode: dont apply changes to filesystem')
+    }
+}
+
+const copyTemplateIndex = (debugMode, indexPath, destinyPath) => {
+
+    const destinyPathTemplate = destinyPath + "\\index.html"
+    console.log(`copying ${indexPath} to ${destinyPathTemplate}`)
+    if (debugMode === false){
+        console.log('lets do it')
+        fs.copyFileSync(indexPath, destinyPathTemplate)
     } else {
         console.log('debugMode mode: dont apply changes to filesystem')
     }
@@ -85,6 +97,8 @@ const updateGifTowerDefenseDemo = (debugMode) => {
     const originPath = rootPath + '\\gif-tower-defense-p5js'
     const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\giftowerdefense'   
     const destinyDistPath = destinyPath + '\\dist'   
+    
+    const templateIndex = rootPath + '\\portfolio-zola\\utils\\playable_demos\\templates\\index_giftowerdefense.html'   
 
     const distPath = originPath + '\\dist'
     const indexPath = distPath + '\\index.html'
@@ -94,7 +108,8 @@ const updateGifTowerDefenseDemo = (debugMode) => {
     recreateDestinyDir(debugMode, destinyPath)
     createDistDir(debugMode, destinyDistPath)
     copyResourcesFolderFromOriginToDestiny(debugMode, originPath, destinyPath)
-    copyIndex(debugMode, indexPath, destinyDistPath)
+    copyIndexToMain(debugMode, indexPath, destinyDistPath)
+    copyTemplateIndex(debugMode, templateIndex, destinyPath)
     copyIndexJSReference(debugMode, indexPath, distPath, destinyDistPath) 
 }
 
