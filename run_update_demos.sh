@@ -1,0 +1,1 @@
+node ./utils/update_demos.js
