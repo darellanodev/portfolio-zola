@@ -11,7 +11,7 @@ const updateJSConceptsDemo = (debugMode) => {
     const indexPath = originPath + '\\index.html';
     deleteDestinyDir(debugMode, destinyPath);
     recreateDestinyDir(debugMode, destinyPath);
-    const originFolders = ['img', 'js'];
+    const originFolders = ['css', 'js'];
     originFolders.forEach((originFolder) => {
         copyFolderFromOriginToDestiny(debugMode, originPath, originFolder, destinyPath);
     });
