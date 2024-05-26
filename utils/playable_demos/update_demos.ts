@@ -7,5 +7,5 @@ const main = (debugMode: boolean) => {
   updateGifTowerDefenseDemo(debugMode)
   updateJSConceptsDemo(debugMode)
 }
-const debugMode = true
+const debugMode = false
 main(debugMode)

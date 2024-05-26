@@ -6,5 +6,5 @@ const main = (debugMode) => {
     updateGifTowerDefenseDemo(debugMode);
     updateJSConceptsDemo(debugMode);
 };
-const debugMode = true;
+const debugMode = false;
 main(debugMode);
