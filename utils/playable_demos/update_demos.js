@@ -32,9 +32,9 @@ const createDistDir = (debugMode, destinyDistPath) => {
     }
 }
 
-const copyResourcesFolderFromOriginToDestiny = (debugMode, originPath, destinyPath) => {
-    const imgResourcesPathOrigin = originPath + '\\img'
-    const imgResourcesPathDestiny = destinyPath + '\\img'
+const copyFolderFromOriginToDestiny = (debugMode, originPath, folderPath, destinyPath) => {
+    const imgResourcesPathOrigin = originPath + '\\' + folderPath
+    const imgResourcesPathDestiny = destinyPath + '\\' + folderPath
     console.log(`copying folder ${imgResourcesPathOrigin} to ${imgResourcesPathDestiny}`)
     if (debugMode === false){
         console.log('lets do it')
@@ -68,8 +68,8 @@ const copyIndexJSReference = (debugMode, indexPath, distPath, destinyPath) => {
     })
 }
 
-const copyIndexToMain = (debugMode, indexPath, destinyPath) => {
-    const indexPathDestiny = destinyPath + "\\main.html"
+const copyIndexToDestiny = (debugMode, indexPath, destinyPath, destinyName) => {
+    const indexPathDestiny = destinyPath + "\\" + destinyName
     console.log(`copying ${indexPath} to ${indexPathDestiny}`)
     if (debugMode === false){
         console.log('lets do it')
@@ -93,6 +93,8 @@ const copyTemplateIndex = (debugMode, indexPath, destinyPath) => {
 
 const updateGifTowerDefenseDemo = (debugMode) => {
 
+    console.log('starting updating gif tower defense playable demo')
+
     const rootPath = 'D:\\xampp\\htdocs\\proyectos'
     const originPath = rootPath + '\\gif-tower-defense-p5js'
     const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\giftowerdefense'   
@@ -103,19 +105,41 @@ const updateGifTowerDefenseDemo = (debugMode) => {
     const distPath = originPath + '\\dist'
     const indexPath = distPath + '\\index.html'
 
-    console.log('starting updating demos')
     deleteDestinyDir(debugMode, destinyPath)
     recreateDestinyDir(debugMode, destinyPath)
     createDistDir(debugMode, destinyDistPath)
-    copyResourcesFolderFromOriginToDestiny(debugMode, originPath, destinyPath)
-    copyIndexToMain(debugMode, indexPath, destinyDistPath)
+    copyFolderFromOriginToDestiny(debugMode, originPath, 'img', destinyPath)
+    copyIndexToDestiny(debugMode, indexPath, destinyDistPath, 'main.html')
     copyTemplateIndex(debugMode, templateIndex, destinyPath)
     copyIndexJSReference(debugMode, indexPath, distPath, destinyDistPath) 
 }
 
-const main = (debugMode) => {
-    updateGifTowerDefenseDemo(debugMode)
+const updateJSConceptsDemo = (debugMode) => {
+
+    console.log('start updating JS Concepts playable demo')
+
+    const rootPath = 'D:\\xampp\\htdocs\\proyectos'
+    const originPath = rootPath + '\\js-concepts'
+    const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\js_concepts'   
+    const indexPath = originPath + '\\index.html'
+
+    deleteDestinyDir(debugMode, destinyPath)
+    recreateDestinyDir(debugMode, destinyPath)
+    
+    const originFolders = ['img', 'js']
+    originFolders.forEach((originFolder) => {
+        copyFolderFromOriginToDestiny(debugMode, originPath, originFolder, destinyPath)
+    })
+
+    copyIndexToDestiny(debugMode, indexPath, destinyPath, 'index.html')
 }
 
-const debugMode = false
+const main = (debugMode) => {
+    console.log('start updating demos')
+
+    // updateGifTowerDefenseDemo(debugMode)
+    updateJSConceptsDemo(debugMode)
+}
+
+const debugMode = true
 main(debugMode)
