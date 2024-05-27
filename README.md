@@ -7,15 +7,15 @@ This is my personal porfolio made with zola and tabi.
 - [ ] Add node script into utils folder to update playable demos
   - [x] gif tower defense demo
   - [x] jsconcepts
-  - [ ] minijetpack
+  - [x] minijetpack
   - [ ] Also copy them to D:\xampp\htdocs\proyectos\darellanodev.github.io\playablegames\
 
 ## Playable demos updater util
 
 - For updating the playable demos updater:
-  - First you must update the typescript files "D:\xampp\htdocs\proyectos\portfolio-zola\utils\playable_demos"
-  - Then use the `run_tsc.sh`
-  - Finally the `run_update_demos.sh`
+  - First you must update the typescript files `D:\xampp\htdocs\proyectos\portfolio-zola\utils\playable_demos`
+  - Then use the `run_tsc.sh` to compile the typescript files into javascript files in `utils/dist` directory
+  - Finally the `run_update_demos.sh`. It will copy from the demo projects to this project, and also to the darellanodev.github.io project
 
 ## Requires
 
