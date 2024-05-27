@@ -1,6 +1,5 @@
-import { copyFileToDestiny } from './files'
-
-const { deleteDestinyDir, recreateDestinyDir } = require('./directories')
+const { copyFileToDestiny } = require('./lib/files')
+const { deleteDestinyDir, recreateDestinyDir } = require('./lib/directories')
 
 export const updateMiniJetPackDemo = (debugMode: boolean) => {
   console.log('starting updating minijetpack playable demo')

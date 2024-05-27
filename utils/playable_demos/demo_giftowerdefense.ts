@@ -2,8 +2,8 @@ const {
   deleteDestinyDir,
   recreateDestinyDir,
   copyFolderFromOriginToDestiny,
-} = require('./directories')
-const { copyIndexToDestiny } = require('./files')
+} = require('./lib/directories')
+const { copyIndexToDestiny } = require('./lib/files')
 
 const fs = require('fs')
 

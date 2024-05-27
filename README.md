@@ -14,8 +14,8 @@ This is my personal porfolio made with zola and tabi.
 
 - For updating the playable demos updater:
   - First you must update the typescript files `D:\xampp\htdocs\proyectos\portfolio-zola\utils\playable_demos`
-  - Then use the `run_tsc.sh` to compile the typescript files into javascript files in `utils/dist` directory
-  - Finally the `run_update_demos.sh`. It will copy from the demo projects to this project, and also to the darellanodev.github.io project
+  - Then use the `run_utils_tsc.sh` to compile the typescript files into javascript files in `utils/dist` directory
+  - Finally the `run_utils_update_demos.sh`. It will copy from the demo projects to this project, and also to the darellanodev.github.io project
 
 ## Requires
 

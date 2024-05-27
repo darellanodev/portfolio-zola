@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.updateGifTowerDefenseDemo = void 0;
-const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('./directories');
-const { copyIndexToDestiny } = require('./files');
+const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('./lib/directories');
+const { copyIndexToDestiny } = require('./lib/files');
 const fs = require('fs');
 const createDistDir = (debugMode, destinyDistPath) => {
     console.log(`recreating dist dir ${destinyDistPath}`);

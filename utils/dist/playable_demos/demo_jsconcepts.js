@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.updateJSConceptsDemo = void 0;
-const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('./directories');
-const { copyIndexToDestiny } = require('./files');
+const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('./lib/directories');
+const { copyIndexToDestiny } = require('./lib/files');
 const updateJSConceptsDemo = (debugMode) => {
     console.log('start updating JS Concepts playable demo');
     const rootPath = 'D:\\xampp\\htdocs\\proyectos';

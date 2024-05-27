@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.updateMiniJetPackDemo = void 0;
-const files_1 = require("./files");
-const { deleteDestinyDir, recreateDestinyDir } = require('./directories');
+const { copyFileToDestiny } = require('./lib/files');
+const { deleteDestinyDir, recreateDestinyDir } = require('./lib/directories');
 const updateMiniJetPackDemo = (debugMode) => {
     console.log('starting updating minijetpack playable demo');
     const rootPath = 'D:\\xampp\\htdocs\\proyectos';
@@ -19,7 +19,7 @@ const updateMiniJetPackDemo = (debugMode) => {
     ];
     const buildWebOriginPath = originPath + '\\build_web';
     filesToCopy.forEach((file) => {
-        (0, files_1.copyFileToDestiny)(debugMode, buildWebOriginPath, file, destinyPath, file);
+        copyFileToDestiny(debugMode, buildWebOriginPath, file, destinyPath, file);
     });
 };
 exports.updateMiniJetPackDemo = updateMiniJetPackDemo;
