@@ -1,0 +1,28 @@
+import { copyFileToDestiny } from './files'
+
+const { deleteDestinyDir, recreateDestinyDir } = require('./directories')
+
+export const updateMiniJetPackDemo = (debugMode: boolean) => {
+  console.log('starting updating minijetpack playable demo')
+  const rootPath = 'D:\\xampp\\htdocs\\proyectos'
+  const originPath = rootPath + '\\go-jetpack-game'
+  const destinyPath =
+    rootPath + '\\portfolio-zola\\static\\playablegames\\jetpack'
+
+  deleteDestinyDir(debugMode, destinyPath)
+  recreateDestinyDir(debugMode, destinyPath)
+
+  const filesToCopy = [
+    'index.html',
+    'jetpackgame.wasm',
+    'main.html',
+    'style.css',
+    'wasm_exec.js',
+  ]
+
+  const buildWebOriginPath = originPath + '\\build_web'
+
+  filesToCopy.forEach((file) => {
+    copyFileToDestiny(debugMode, buildWebOriginPath, file, destinyPath, file)
+  })
+}
