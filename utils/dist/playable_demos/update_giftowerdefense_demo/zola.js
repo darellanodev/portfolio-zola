@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.updateGifTowerDefenseDemo = void 0;
-const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('./lib/directories');
-const { copyIndexToDestiny } = require('./lib/files');
+exports.updateInZola = void 0;
+const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('../lib/directories');
+const { copyIndexToDestiny } = require('../lib/files');
 const fs = require('fs');
 const createDistDir = (debugMode, destinyDistPath) => {
     console.log(`recreating dist dir ${destinyDistPath}`);
@@ -48,11 +48,11 @@ const copyTemplateIndex = (debugMode, indexPath, destinyPath) => {
         console.log('debugMode mode: dont apply changes to filesystem');
     }
 };
-const updateGifTowerDefenseDemo = (debugMode) => {
-    console.log('starting updating gif tower defense playable demo');
+const updateInZola = (debugMode) => {
+    console.log('starting updating gif tower defense in Zola');
     const rootPath = 'D:\\xampp\\htdocs\\proyectos';
-    const originPath = rootPath + '\\gif-tower-defense-p5js';
-    const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\giftowerdefense';
+    let originPath = rootPath + '\\gif-tower-defense-p5js';
+    let destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\giftowerdefense';
     const destinyDistPath = destinyPath + '\\dist';
     const templateIndex = rootPath +
         '\\portfolio-zola\\utils\\playable_demos\\templates\\index_giftowerdefense.html';
@@ -66,4 +66,4 @@ const updateGifTowerDefenseDemo = (debugMode) => {
     copyTemplateIndex(debugMode, templateIndex, destinyPath);
     copyIndexJSReference(debugMode, indexPath, distPath, destinyDistPath);
 };
-exports.updateGifTowerDefenseDemo = updateGifTowerDefenseDemo;
+exports.updateInZola = updateInZola;

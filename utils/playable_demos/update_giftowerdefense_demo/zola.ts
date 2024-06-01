@@ -2,8 +2,9 @@ const {
   deleteDestinyDir,
   recreateDestinyDir,
   copyFolderFromOriginToDestiny,
-} = require('./lib/directories')
-const { copyIndexToDestiny } = require('./lib/files')
+} = require('../lib/directories')
+
+const { copyIndexToDestiny } = require('../lib/files')
 
 const fs = require('fs')
 
@@ -22,6 +23,7 @@ const getJSFile = (content: string) => {
   const aux2 = aux1.split('"></script')[0]
   return aux2
 }
+
 const copyIndexJSReference = (
   debugMode: boolean,
   indexPath: string,
@@ -63,11 +65,11 @@ const copyTemplateIndex = (
   }
 }
 
-export const updateGifTowerDefenseDemo = (debugMode: boolean) => {
-  console.log('starting updating gif tower defense playable demo')
+export const updateInZola = (debugMode: boolean) => {
+  console.log('starting updating gif tower defense in Zola')
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
-  const originPath = rootPath + '\\gif-tower-defense-p5js'
-  const destinyPath =
+  let originPath = rootPath + '\\gif-tower-defense-p5js'
+  let destinyPath =
     rootPath + '\\portfolio-zola\\static\\playablegames\\giftowerdefense'
   const destinyDistPath = destinyPath + '\\dist'
   const templateIndex =
