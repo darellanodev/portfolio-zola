@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.updateInZola = void 0;
 const { deleteDestinyDir, recreateDestinyDir, copyFolderFromOriginToDestiny, } = require('../lib/directories');
-const { copyIndexToDestiny } = require('../lib/files');
+const { copyIndexToDestiny, copyFileToDestiny } = require('../lib/files');
 const fs = require('fs');
 const createDistDir = (debugMode, destinyDistPath) => {
     console.log(`recreating dist dir ${destinyDistPath}`);
@@ -21,21 +21,19 @@ const getJSFile = (content) => {
 };
 const copyIndexJSReference = (debugMode, indexPath, distPath, destinyPath) => {
     console.log(`looking inside ${indexPath} for the .js resource`);
-    const indexContents = fs.readFile(indexPath, 'utf-8', (err, data) => {
-        if (err)
-            throw err;
-        const jsPathOrigin = distPath + '\\' + getJSFile(data);
-        const jsPathDestiny = destinyPath + '\\' + getJSFile(data);
-        // copy the referenced .js
-        console.log(`copying ${jsPathOrigin} to ${jsPathDestiny}`);
-        if (debugMode === false) {
-            console.log('lets do it');
-            fs.copyFileSync(jsPathOrigin, jsPathDestiny);
-        }
-        else {
-            console.log('debugMode mode: dont apply changes to filesystem');
-        }
-    });
+    const indexContents = fs.readFileSync(indexPath, 'utf-8');
+    const jsFilename = getJSFile(indexContents);
+    const jsPathOrigin = distPath + '\\' + jsFilename;
+    const jsPathDestiny = destinyPath + '\\' + jsFilename;
+    // copy the referenced .js
+    console.log(`copying ${jsPathOrigin} to ${jsPathDestiny}`);
+    if (debugMode === false) {
+        console.log('lets do it');
+        copyFileToDestiny(debugMode, distPath, jsFilename, destinyPath, jsFilename);
+    }
+    else {
+        console.log('debugMode mode: dont apply changes to filesystem');
+    }
 };
 const copyTemplateIndex = (debugMode, indexPath, destinyPath) => {
     const destinyPathTemplate = destinyPath + '\\index.html';
