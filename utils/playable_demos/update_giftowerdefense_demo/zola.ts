@@ -66,7 +66,7 @@ const copyTemplateIndex = (
 }
 
 export const updateInZola = (debugMode: boolean) => {
-  console.log('starting updating gif tower defense in Zola')
+  console.log('starting updating giftowerdefense in Zola')
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   let originPath = rootPath + '\\gif-tower-defense-p5js'
   let destinyPath =

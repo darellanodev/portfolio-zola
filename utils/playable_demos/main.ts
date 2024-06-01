@@ -1,13 +1,13 @@
 'use strict'
 const { updateGifTowerDefenseDemo } = require('./update_giftowerdefense_demo')
 const { updateJSConceptsDemo } = require('./update_jsconcepts_demo')
-const { updateMiniJetPackDemo } = require('./update_minijetpack_demo')
+const { updateJetpackDemo } = require('./update_jetpack_demo')
 
 const main = (debugMode: boolean) => {
   console.log('start updating demos')
   updateGifTowerDefenseDemo(debugMode)
-  // updateJSConceptsDemo(debugMode)
-  // updateMiniJetPackDemo(debugMode)
+  updateJSConceptsDemo(debugMode)
+  updateJetpackDemo(debugMode)
 }
 const debugMode = false
 main(debugMode)

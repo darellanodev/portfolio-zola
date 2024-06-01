@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.copyFolderFromOriginToDestiny = exports.recreateDestinyDir = exports.deleteDestinyDir = void 0;
+exports.transferFolderFromZolaToDarellanodevGithubIoProject = exports.copyFolderFromOriginToDestiny = exports.recreateDestinyDir = exports.deleteDestinyDir = void 0;
 const fs = require('fs');
 const deleteDestinyDir = (debugMode, destinyPath) => {
     if (fs.existsSync(destinyPath)) {
@@ -41,3 +41,12 @@ const copyFolderFromOriginToDestiny = (debugMode, originPath, folderPath, destin
     }
 };
 exports.copyFolderFromOriginToDestiny = copyFolderFromOriginToDestiny;
+const transferFolderFromZolaToDarellanodevGithubIoProject = (debugMode, folder) => {
+    const rootPath = 'D:\\xampp\\htdocs\\proyectos';
+    let destinyPath = rootPath + '\\darellanodev.github.io\\playablegames\\' + folder;
+    (0, exports.deleteDestinyDir)(debugMode, destinyPath);
+    destinyPath = rootPath + '\\darellanodev.github.io\\playablegames';
+    const originPath = rootPath + '\\portfolio-zola\\static\\playablegames';
+    (0, exports.copyFolderFromOriginToDestiny)(debugMode, originPath, folder, destinyPath);
+};
+exports.transferFolderFromZolaToDarellanodevGithubIoProject = transferFolderFromZolaToDarellanodevGithubIoProject;

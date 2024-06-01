@@ -1,8 +1,8 @@
-const { copyFileToDestiny } = require('./lib/files')
-const { deleteDestinyDir, recreateDestinyDir } = require('./lib/directories')
+const { copyFileToDestiny } = require('../lib/files')
+const { deleteDestinyDir, recreateDestinyDir } = require('../lib/directories')
 
-export const updateMiniJetPackDemo = (debugMode: boolean) => {
-  console.log('starting updating minijetpack playable demo')
+export const updateInZola = (debugMode: boolean) => {
+  console.log('starting updating jetpack playable demo')
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   const originPath = rootPath + '\\go-jetpack-game'
   const destinyPath =

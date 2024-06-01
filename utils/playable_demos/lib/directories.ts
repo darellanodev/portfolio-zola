@@ -40,3 +40,17 @@ export const copyFolderFromOriginToDestiny = (
     console.log('debugMode mode: dont apply changes to filesystem')
   }
 }
+
+export const transferFolderFromZolaToDarellanodevGithubIoProject = (
+  debugMode: boolean,
+  folder: string,
+) => {
+  const rootPath = 'D:\\xampp\\htdocs\\proyectos'
+  let destinyPath =
+    rootPath + '\\darellanodev.github.io\\playablegames\\' + folder
+  deleteDestinyDir(debugMode, destinyPath)
+
+  destinyPath = rootPath + '\\darellanodev.github.io\\playablegames'
+  const originPath = rootPath + '\\portfolio-zola\\static\\playablegames'
+  copyFolderFromOriginToDestiny(debugMode, originPath, folder, destinyPath)
+}
