@@ -4,6 +4,6 @@ exports.updateInDarellanodevGithubIoProject = void 0;
 const { transferFolderFromZolaToDarellanodevGithubIoProject, } = require('../lib/directories');
 const updateInDarellanodevGithubIoProject = (debugMode) => {
     console.log('starting updating jsconcepts in DarellanodevGithubIoProject');
-    transferFolderFromZolaToDarellanodevGithubIoProject(debugMode, 'js_concepts');
+    transferFolderFromZolaToDarellanodevGithubIoProject(debugMode, 'jsconcepts');
 };
 exports.updateInDarellanodevGithubIoProject = updateInDarellanodevGithubIoProject;

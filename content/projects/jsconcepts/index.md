@@ -12,6 +12,6 @@ local_image = "projects/jsconcepts/logo.png"
 ![JS Concepts screenshot 1](./screenshot1.png)
 ![JS Concepts screenshot 2](./screenshot2.png)
 
-#### [GitHub](https://github.com/darellanodev/js-concepts) • [Try online](../../playablegames/js_concepts/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/js-concepts) • [Try online](../../playablegames/jsconcepts/index.html) {.centered-text}
 
 #### Made with Made with [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

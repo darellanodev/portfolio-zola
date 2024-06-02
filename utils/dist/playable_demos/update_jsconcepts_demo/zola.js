@@ -7,7 +7,7 @@ const updateInZola = (debugMode) => {
     console.log('start updating JS Concepts playable demo');
     const rootPath = 'D:\\xampp\\htdocs\\proyectos';
     const originPath = rootPath + '\\js-concepts';
-    const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\js_concepts';
+    const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\jsconcepts';
     const indexPath = originPath + '\\index.html';
     deleteDestinyDir(debugMode, destinyPath);
     recreateDestinyDir(debugMode, destinyPath);

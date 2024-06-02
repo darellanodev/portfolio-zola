@@ -5,5 +5,5 @@ const {
 export const updateInDarellanodevGithubIoProject = (debugMode: boolean) => {
   console.log('starting updating jsconcepts in DarellanodevGithubIoProject')
 
-  transferFolderFromZolaToDarellanodevGithubIoProject(debugMode, 'js_concepts')
+  transferFolderFromZolaToDarellanodevGithubIoProject(debugMode, 'jsconcepts')
 }
