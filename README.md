@@ -2,13 +2,17 @@
 
 This is my personal porfolio made with zola and tabi.
 
+## Requires
+
+You need to download `zola.exe` in the root
+
 ## Tasks
 
-- [ ] Add node script into utils folder to update playable demos
+- [x] Add node script into utils folder to update playable demos
   - [x] gif tower defense demo
   - [x] jsconcepts
   - [x] minijetpack
-  - [ ] Also copy them to D:\xampp\htdocs\proyectos\darellanodev.github.io\playablegames\
+  - [x] Also copy them to D:\xampp\htdocs\proyectos\darellanodev.github.io\playablegames\
 
 ## Playable demos updater util
 
@@ -16,9 +20,9 @@ This is my personal porfolio made with zola and tabi.
   - First you must update the typescript files `D:\xampp\htdocs\proyectos\portfolio-zola\utils\playable_demos`
   - Then use the `run_utils_update_demos.sh` to compile the typescript files into javascript files in `utils/dist` directory and then it will copy from the demo projects to this project, and also to the darellanodev.github.io project
 
-## Requires
+## Build
 
-You need to download zola.exe in the root
+execute `./run_build.sh`
 
 ## Customize keybindings.json in VSCode
 
