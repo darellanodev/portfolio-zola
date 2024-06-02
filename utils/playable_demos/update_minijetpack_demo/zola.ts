@@ -2,11 +2,11 @@ const { copyFileToDestiny } = require('../lib/files')
 const { deleteDestinyDir, recreateDestinyDir } = require('../lib/directories')
 
 export const updateInZola = (debugMode: boolean) => {
-  console.log('starting updating jetpack playable demo')
+  console.log('starting updating minijetpack playable demo')
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   const originPath = rootPath + '\\go-jetpack-game'
   const destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\jetpack'
+    rootPath + '\\portfolio-zola\\static\\playablegames\\minijetpack'
 
   deleteDestinyDir(debugMode, destinyPath)
   recreateDestinyDir(debugMode, destinyPath)
