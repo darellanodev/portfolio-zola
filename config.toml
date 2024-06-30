@@ -180,8 +180,7 @@ favicon_emoji = "🌱"
 social_media_card = "social_cards/index.jpg"
 
 menu = [
-    { name = "last projects", url = "projects", trailing_slash = true },
-    { name = "old projects", url = "projects_old", trailing_slash = true },
+    { name = "projects", url = "projects", trailing_slash = true },
     { name = "artwork", url = "artwork", trailing_slash = true },
     { name = "blog", url = "blog", trailing_slash = true },
 ]

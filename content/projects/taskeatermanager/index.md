@@ -1,7 +1,7 @@
 +++
-title = "Mini Jetpack"
-description = "A simple game to learn Go and Ebitengine, for desktop and web."
-weight = 20
+title = "Task Eater Manager"
+description = "A simple to-do app to learn more about typescript, jest, tdd, patterns..."
+weight = 30
 
 [extra]
 local_image = "projects/minijetpack/logo.png"

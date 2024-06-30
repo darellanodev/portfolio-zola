@@ -1,7 +1,7 @@
 +++
 title = "JavaScript concepts"
 description = "A simple app to summarize concepts of the JavaScript language in the context of a game"
-weight = 50
+weight = 40
 
 [extra]
 local_image = "projects/jsconcepts/logo.png"

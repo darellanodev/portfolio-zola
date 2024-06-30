@@ -1,10 +1,10 @@
 +++
 title = "Cave drop"
 description = "This is a game I developed for desktop and mobile android devices using Processing. "
-weight = 10
+weight = 70
 
 [extra]
-local_image = "projects_old/cavedrop/logo.png"
+local_image = "projects/cavedrop/logo.png"
 +++
 
 **Cave drop** is a game I developed for desktop and mobile android devices using Processing.

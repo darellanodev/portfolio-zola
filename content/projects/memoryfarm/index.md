@@ -1,10 +1,10 @@
 +++
 title = "Memory farm"
 description = "This is a game I developed for mobile android devices using augmented reallity using Unity3d and a library for markers recognition."
-weight = 10
+weight = 50
 
 [extra]
-local_image = "projects_old/memoryfarm/logo.png"
+local_image = "projects/memoryfarm/logo.png"
 +++
 
 **Memory farm** is a game I developed for mobile android devices using augmented reallity using Unity3d and a library for markers recognition.
