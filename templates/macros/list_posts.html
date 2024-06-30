@@ -1,4 +1,6 @@
-{% macro list_posts(posts, max, language_strings="") %}
+{% macro list_posts(posts, max, language_strings="", allLinkPath="blog", allLinkText="All posts",
+allLinkKey="all_posts")
+%}
 
 <div class="bloglist-container">
     {% for post in posts %}
@@ -56,8 +58,8 @@
             {% if not loop.last %}
             {% if loop.index == max %}
             <div class="all-posts">
-                <a href="{{ get_url(path=" blog", lang=lang) }}/">{{ macros_translate::translate(key="all_posts",
-                    default="All posts", language_strings=language_strings) }}&nbsp;<span class="arrow">⟶</span></a>
+                <a href="{{ get_url(path=allLinkPath, lang=lang) }}/">{{ macros_translate::translate(key=allLinkKey,
+                    default=allLinkText, language_strings=language_strings) }}&nbsp;<span class="arrow">⟶</span></a>
             </div>
             {% endif %}
             {% endif %}

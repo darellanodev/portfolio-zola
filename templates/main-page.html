@@ -23,7 +23,10 @@
         {% endif -%}
 
         {% set max = section.extra.max_posts | default(value=999999) %}
-        {{ macros_list_posts::list_posts(posts=pages, max=max, language_strings=language_strings) }}
+        {{ macros_list_posts::list_posts(posts=pages, max=max, language_strings=language_strings,
+        allLinkPath="projects",
+        allLinkText="All projects", allLinkKey="all_projects")
+        }}
     </div>
 
 </main>
