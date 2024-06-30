@@ -4,7 +4,7 @@ description = "A simple to-do app to learn more about typescript, jest, tdd, pat
 weight = 30
 
 [extra]
-local_image = "projects/minijetpack/logo.png"
+local_image = "projects/taskeatermanager/logo.png"
 +++
 
 **Mini Jetpack** is a simple game to learn Go and Ebitengine, for desktop (Windows) and web.
