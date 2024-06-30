@@ -9,7 +9,6 @@ tags = ["news", "showcase"]
 
 [extra]
 footnote_backlinks = true
-social_media_card = "social_cards/blog_markdown.jpg"
 +++
 
 ## Welcome to the new version of the Darellanodev website

@@ -9,7 +9,6 @@ tags = ["VIM", "VSCode"]
 
 [extra]
 footnote_backlinks = true
-social_media_card = "social_cards/blog_markdown.jpg"
 +++
 
 ## Using Vim in VSCODE
