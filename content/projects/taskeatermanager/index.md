@@ -1,30 +1,27 @@
 +++
 title = "Task Eater Manager"
-description = "A simple to-do app to learn more about typescript, jest, tdd, patterns..."
+description = "A simple to-do app to learn more about Typescript, Jest, TDD, patterns..."
 weight = 30
 
 [extra]
 local_image = "projects/taskeatermanager/logo.png"
 +++
 
-**Mini Jetpack** is a simple game to learn Go and Ebitengine, for desktop (Windows) and web.
+**Task Eater Manager** is a simple to-do list app for web browser, to learn more about Typescript, Jest, TDD, patterns, ...
 
-![Mini Jetpack screenshot 1](./screenshot1.jpg)
-![Mini Jetpack screenshot 2](./screenshot2.jpg)
+![Task Eater Manager screenshot 1](./screenshot1.jpg)
 
-#### [GitHub](https://github.com/darellanodev/jetpack-game) • [Play online](../../playablegames/minijetpack/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/task-eater-manager)
 
-#### Made with [Golang](https://go.dev/) | [Ebitengine](https://ebitengine.org/) | [InkScape](https://www.inkscape.org/) | [Piskel](https://www.piskelapp.com/) | [Bfxr](https://www.bfxr.net/)
+#### Made with [Typescript](https://www.typescriptlang.org/) | [InkScape](https://www.inkscape.org/)
 
 ## Main Features
 
-- **Play desktop (Windows)**: This is a game that can be played in desktop (Windows).
-- **Play in web**: This is a game that can be played in a modern web browser.
-- **Level editor**: The player can make their own levels.
+- **Run in web**: This is an app that can be used in a modern web browser.
 
 ## Development Best Practices
 
-- **Unit testing**: Uses Go testing capabilities to make unit testing.
 - **TDD**: Made with TDD when its possible.
 - **OOP**: Using Oriented Object paradigm style.
+- **Patterns**: Use patterns like: Oberver pattern, mixing pattern, singleton pattern.
 - **Documentation**: Documenting tasks.
