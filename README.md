@@ -22,7 +22,9 @@ You need to download `zola.exe` in the root
 
 ## Build
 
-execute `./run_build.sh`
+- For updating the darellanodev.github.io:
+  - Execute `./run_build.sh`
+  - Copy public directory into darellanodev.github.io (you can skip the playablegames directory if you want to update it separately)
 
 ## Customize keybindings.json in VSCode
 
