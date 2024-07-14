@@ -1,13 +1,13 @@
 +++
 title = "Task Eater Manager"
-description = "A simple to-do app to learn more about Typescript, Jest, TDD, patterns..."
+description = "A clicker style game based on a to-do task management. To learn more about Typescript, Jest, TDD, patterns..."
 weight = 30
 
 [extra]
 local_image = "projects/taskeatermanager/logo.png"
 +++
 
-**Task Eater Manager** is a simple to-do list app for web browser, to learn more about Typescript, Jest, TDD, patterns, ...
+**Task Eater Manager** is a clicker style game based on a to-do list management for web browser, to learn more about Typescript, Jest, TDD, patterns, ...
 
 ![Task Eater Manager screenshot 1](./screenshot1.jpg)
 
@@ -17,7 +17,7 @@ local_image = "projects/taskeatermanager/logo.png"
 
 ## Main Features
 
-- **Run in web**: This is an app that can be used in a modern web browser.
+- **Run in web**: This game can be played in a modern web browser.
 
 ## Development Best Practices
 
