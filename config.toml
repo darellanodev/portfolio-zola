@@ -180,6 +180,7 @@ favicon_emoji = "🌱"
 social_media_card = "social_cards/index.jpg"
 
 menu = [
+    { name = "github", url = "https://github.com/darellanodev", external=true, trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
     { name = "artwork", url = "artwork", trailing_slash = true },
     { name = "blog", url = "blog", trailing_slash = true },
