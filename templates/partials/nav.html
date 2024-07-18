@@ -1,7 +1,10 @@
 <header>
     <nav class="navbar">
         <div class="nav-title">
-            <a class="home-title" href={{ get_url(path="/" , lang=lang, external=true) }}>{{ config.title }}</a>
+            <a href={{ get_url(path="/" , lang=lang, external=true) }}>
+                <img src="{{ get_url(path='./img/darellanodev_logo.svg' , lang=lang, external=true) }}" width="400px"
+                    alt="darellanodev logo">
+            </a>
         </div>
 
         {%- if config.extra.menu %}
