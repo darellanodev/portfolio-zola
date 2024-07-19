@@ -1,11 +1,13 @@
 <header>
     <nav class="navbar">
         <div class="nav-title">
-            <a href={{ get_url(path="/" , lang=lang, external=true) }}>
-                <img src="{{ get_url(path='./img/darellanodev_logo.svg' , lang=lang, external=true) }}" width="400px"
-                    alt="darellanodev logo">
+            <a href={{ get_url(path="/" , lang=lang, external=true) }} class="withoutbg">
+                <svg id="logo-animation" xmlns="http://www.w3.org/2000/svg" width="400">
+                </svg>
             </a>
         </div>
+        <script src="{{ get_url(path='js/vivus.min.js') }}" async></script>
+        <script src="{{ get_url(path='js/logo_animation.js') }}" async></script>
 
         {%- if config.extra.menu %}
         <div class="nav-navs">
