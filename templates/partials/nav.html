@@ -2,15 +2,9 @@
     <nav class="navbar">
         <div class="nav-title">
             <a href={{ get_url(path="/" , lang=lang, external=true) }} class="withoutbg">
-                <svg id="logo-animation" xmlns="http://www.w3.org/2000/svg" width="400">
-                </svg>
+                <img src="{{ get_url(path='img/darellanodev_logo.svg') }}" alt="darellanodev logo">
             </a>
         </div>
-        <script>
-            const logo_animation_path = "{{ get_url(path='img/darellanodev_logo.svg') }}"
-        </script>
-        <script src="{{ get_url(path='js/vivus.min.js') }}" async></script>
-        <script src="{{ get_url(path='js/logo_animation.js') }}" async></script>
 
         {%- if config.extra.menu %}
         <div class="nav-navs">

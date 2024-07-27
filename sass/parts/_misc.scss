@@ -109,6 +109,16 @@ a.withoutbg:not(.no-hover-padding):hover::after {
   content: '';
 }
 
+.nav-title {
+  width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .nav-title {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .list > ul {
     margin: 0;
