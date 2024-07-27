@@ -24,7 +24,11 @@ This is a review of Git commands
 - Add files to the staged area / Add all: `git add file1.txt file2.txt` / `git add .`
 - Commit with a message: `git commit -m "start creating two sample files"`
 - Display a list of the commits: `git log`
+  - In one line `git log --oneline`
+- Amend:
+  - Amend without editing the message `git commit --amend --no-edit`
+  - Amend the message `git commit --amend -m "my new message"`
 
 ## GUIs
 
-- [GitKraken]<https://www.gitkraken.com/>
+- [GitKraken](https://www.gitkraken.com/)
