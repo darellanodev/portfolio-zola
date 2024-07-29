@@ -50,8 +50,8 @@ This is a review of Git commands
 
   - Delete a branch:
 
-    - 1: move to other branch: `git switch main`
-    - 2: delete the branch: `git branch -d bugfix`
+    - 1: Move to other branch: `git switch main`
+    - 2: Delete the branch: `git branch -d bugfix`
 
   - Rename a branch:
 
@@ -60,18 +60,28 @@ This is a review of Git commands
 
   - Merge a branch:
 
-    - 1: go to the receiving branch: `git switch main`
-    - 2: merge the desired branch into the actual branch: `git merge bugfix`
+    - 1: Go to the receiving branch: `git switch main`
+    - 2: Merge the desired branch into the actual branch: `git merge bugfix`
 
   - See changes:
 
-    - in the working directory that are not staged: `git diff`
-    - since the last commit (no matters if staged or not): `git diff HEAD`
-    - for the staged: `git diff --staged`
-    - we can add a filename to the previous commands to limit to a specific file:
+    - In the working directory that are not staged: `git diff`
+    - Since the last commit (no matters if staged or not): `git diff HEAD`
+    - For the staged: `git diff --staged`
+    - We can add a filename to the previous commands to limit to a specific file:
       - `git diff HEAD colors.txt`
-    - list the changes between the tip of branch1 and branch2: `git diff branch1 branch2`
-    - list the changes between two commits: `git diff 45bdd51 f3eaa49`
+    - List the changes between the tip of branch1 and branch2: `git diff branch1 branch2`
+    - List the changes between two commits: `git diff 45bdd51 f3eaa49`
+
+  - Stash:
+    - For save: `git stash`
+    - Restore and remove from the stash: `git stash pop`
+    - Other stash commands that are less used:
+      - Restore but keep a copy in the stash (for example to apply the stash to multiples branches) `git stash apply`
+      - If we keep more than one stashed thing: `git stash list`
+      - Apply a specific stash: `git stash apply stash@{1}`
+      - Delete a specific stash: `git stash drop stash@{1}`
+      - Delete all the stash: `git stash clear`
 
 ## GUIs
 
