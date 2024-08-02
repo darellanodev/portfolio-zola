@@ -1,0 +1,30 @@
++++
+title = "Starting my health journey at a new gym."
+date = 2024-08-01
+updated = 2024-08-01
+description = "Join me as I embark on a new health journety at a new gym. Follow along for updates on my workouts and progress."
+
+[taxonomies]
+tags = ["fitness","gym","healthylifestyle"]
+
+[extra]
+footnote_backlinks = true
++++
+
+Today, I started a new exercise routine at a new Gym, planning to go 2-3 days per week.
+
+## Weeks (listed in order from most recent)
+
+### 01-08-2024
+
+- 1: I did a 15-minute warm-up on the elliptical machine.
+- 2: Then, I spent 1'5 hours doing leg exercises on the weight machines.
+- 3: Finally, I did 15 minutes of walking on the treadmill at a speed of 5 km/h with an elevated slope.
+
+### 02-08-2024
+
+- 1: I warmed up and did some stretching exercises.
+- 2: I spent 18 minutes on the elliptical machine.
+- 3: I used torso and arm machines for 15 hours with my gym instructor advising me to puff out my chest while using the weights.
+- 4: I finisshed of with some stretching exercises.
+- 5: Finally, I did 15 minutes of walking on the treadmill at 5 km/h with an elevated slope.
