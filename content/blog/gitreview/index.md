@@ -150,3 +150,24 @@ This is a review of Git commands
 - VSCode:
   - Git Graph extension
 - [GitKraken](https://www.gitkraken.com/)
+
+## Other interesting links
+
+- <https://about.gitlab.com/blog/2018/08/08/git-happens/>
+
+## Other common scenarios
+
+### When you put something to ignore but it is commited previously and now I want to ignore it
+
+    Source: <https://stackoverflow.com/questions/7527982/applying-gitignore-to-committed-files>
+
+    After editing .gitignore to match the ignored files, you can do git ls-files -ci --exclude-standard to see the files that are included in the exclude lists; you can then do
+
+        Linux/MacOS:
+            git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached
+        Windows (PowerShell):
+            git ls-files -ci --exclude-standard | % { git rm --cached "$_" }
+        Windows (cmd.exe):
+            for /F "tokens=*" %a in ('git ls-files -ci --exclude-standard') do @git rm --cached "%a"
+
+    to remove them from the repository (without deleting them from disk).
