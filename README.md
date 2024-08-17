@@ -6,14 +6,6 @@ This is my personal porfolio made with zola and tabi.
 
 You need to download `zola.exe` in the root
 
-## Tasks
-
-- [x] Add node script into utils folder to update playable demos
-  - [x] gif tower defense demo
-  - [x] jsconcepts
-  - [x] minijetpack
-  - [x] Also copy them to D:\xampp\htdocs\proyectos\darellanodev.github.io\playablegames\
-
 ## Playable demos updater util
 
 - For updating the playable demos updater:
