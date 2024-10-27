@@ -171,3 +171,13 @@ This is a review of Git commands
             for /F "tokens=*" %a in ('git ls-files -ci --exclude-standard') do @git rm --cached "%a"
 
     to remove them from the repository (without deleting them from disk).
+
+### Workflow with GitHub Issues
+
+Example Workflow:
+
+1. Create an issue: You open a new issue titled "Add form validation" and assign it the number #10.
+2. Work on the task: You create a new branch in your local repository to work on the task: git checkout -b add-form-validation.
+3. Make commits: As you progress, you make commits with messages referencing the issue: git commit -m "Add basic form validation #10".
+4. Complete the task: Once the task is finished, you make a final commit that closes the issue: git commit -m "Complete form validation, closes #10".
+5. Merge changes: You merge the branch into the main branch, and issue #10 is automatically closed on GitHub.
