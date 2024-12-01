@@ -10,11 +10,9 @@ This is my personal porfolio made with zola and tabi.
 
 You need to download `zola.exe` in the root
 
-## Playable demos updater util
+## Utility for update the playable demos
 
-- For updating the playable demos updater:
-  - First you must update the typescript files `D:\xampp\htdocs\proyectos\portfolio-zola\utils\playable_demos`
-  - Then use the `run_utils_update_demos.sh` to compile the typescript files into javascript files in `utils/dist` directory and then it will copy from the demo projects to this project, and also to the `darellanodev.github.io project`
+If you make changes to the files in `D:\xampp\htdocs\proyectos\portfolio-zola\utils\playable_demos`, use the `run_utils_update_demos.sh` script to compile the typescript files into javascript files in the `utils/dist` directory. This script will also copy the updated files from the demo projects to this project, as well as to the `darellanodev.github.io` project.
 
 ## Build
 
