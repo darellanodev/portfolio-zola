@@ -1,18 +1,18 @@
 +++
-title = "Mini Jetpack"
+title = "Jetpack"
 description = "A simple game to learn Go and Ebitengine, for desktop and web."
 weight = 20
 
 [extra]
-local_image = "projects/minijetpack/logo.png"
+local_image = "projects/jetpack/logo.png"
 +++
 
-**Mini Jetpack** is a simple game to learn Go and Ebitengine, for desktop (Windows) and web.
+**Jetpack** is a simple game to learn Go and Ebitengine, for desktop (Windows) and web.
 
-![Mini Jetpack screenshot 1](./screenshot1.jpg)
-![Mini Jetpack screenshot 2](./screenshot2.jpg)
+![Jetpack screenshot 1](./screenshot1.jpg)
+![Jetpack screenshot 2](./screenshot2.jpg)
 
-#### [GitHub](https://github.com/darellanodev/jetpack-game) • [Play online](../../playablegames/minijetpack/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/jetpack-game) • [Play online](../../playablegames/jetpack/index.html) {.centered-text}
 
 #### Made with [Golang](https://go.dev/) | [Ebitengine](https://ebitengine.org/) | [InkScape](https://www.inkscape.org/) | [Piskel](https://www.piskelapp.com/) | [Bfxr](https://www.bfxr.net/)
 

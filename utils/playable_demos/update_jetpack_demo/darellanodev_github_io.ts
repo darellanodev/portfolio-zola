@@ -3,7 +3,7 @@ const {
 } = require('../lib/directories')
 
 export const updateInDarellanodevGithubIoProject = (debugMode: boolean) => {
-  console.log('starting updating minijetpack in DarellanodevGithubIoProject')
+  console.log('starting updating jetpack in DarellanodevGithubIoProject')
 
-  transferFolderFromZolaToDarellanodevGithubIoProject(debugMode, 'minijetpack')
+  transferFolderFromZolaToDarellanodevGithubIoProject(debugMode, 'jetpack')
 }
