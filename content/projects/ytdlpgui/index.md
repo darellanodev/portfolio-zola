@@ -1,7 +1,7 @@
 +++
 title = "yt-dlp-gui"
 description = "This a simple graphical user interface (GUI) for the yt-dlp application for learning purposes."
-weight = 20
+weight = 40
 
 [extra]
 local_image = "projects/ytdlpgui/logo.png"

@@ -1,7 +1,7 @@
 +++
 title = "Space lab"
 description = "This is a game I developed for desktop and mobile android devices using Unity3d."
-weight = 60
+weight = 80
 
 [extra]
 local_image = "projects/spacelab/logo.png"

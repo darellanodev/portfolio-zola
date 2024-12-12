@@ -1,7 +1,7 @@
 +++
 title = "Task Eater Manager"
 description = "A clicker style game based on a to-do task management. To learn more about Typescript, Jest, TDD, patterns..."
-weight = 30
+weight = 50
 
 [extra]
 local_image = "projects/taskeatermanager/logo.png"
