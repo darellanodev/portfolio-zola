@@ -25,7 +25,7 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="0.76702441"
-     inkscape:cx="163.6193"
+     inkscape:cx="162.96743"
      inkscape:cy="528.66636"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
@@ -1379,7 +1379,10 @@
        y="80.826492"
        id="tspan34">Manager</tspan></text></g><g
    id="g7"
-   transform="translate(5.2916667,63.500003)"><circle
+   transform="translate(5.2916667,63.500003)"
+   inkscape:export-filename="..\content\projects\dailyboostcalendar\logo.png"
+   inkscape:export-xdpi="281.10382"
+   inkscape:export-ydpi="281.10382"><circle
      style="fill:url(#linearGradient7);fill-opacity:1;stroke:#782121;stroke-width:1.28594;stroke-opacity:1"
      id="circle3"
      cx="168.53659"
@@ -1448,7 +1451,7 @@
    cx="173.82826"
    cy="212.46265"
    r="26.464451"
-   inkscape:export-filename=".\proj_taskeatermanager.png"
+   inkscape:export-filename="..\content\projects\ytdlpgui\logo.png"
    inkscape:export-xdpi="281.10382"
    inkscape:export-ydpi="281.10382" /><path
    d="m 181.82186,223.76724 c 0.18193,0.43879 0.10702,0.81336 -0.22474,1.12372 l -7.19176,7.19176 c -0.19264,0.20334 -0.43344,0.30501 -0.72239,0.30501 -0.28895,0 -0.52975,-0.10167 -0.72239,-0.30501 l -7.19176,-7.19176 c -0.33176,-0.31036 -0.40667,-0.68493 -0.22474,-1.12372 0.18193,-0.41737 0.49764,-0.62606 0.94713,-0.62606 h 4.10958 v -7.19177 c 0,-0.27825 0.10167,-0.51905 0.305,-0.72238 0.20334,-0.20334 0.44414,-0.30501 0.72239,-0.30501 h 4.10958 c 0.27825,0 0.51905,0.10167 0.72239,0.30501 0.20333,0.20333 0.305,0.44413 0.305,0.72238 v 7.19177 h 4.10958 c 0.44949,0 0.7652,0.20869 0.94713,0.62606 z"
