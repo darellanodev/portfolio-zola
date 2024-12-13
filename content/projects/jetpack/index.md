@@ -9,8 +9,7 @@ local_image = "projects/jetpack/logo.png"
 
 **Jetpack** is a simple game to learn Go and Ebitengine, for desktop (Windows) and web.
 
-![Jetpack screenshot 1](./screenshot1.jpg)
-![Jetpack screenshot 2](./screenshot2.jpg)
+![Jetpack screenshots](./screenshots.png)
 
 #### [GitHub](https://github.com/darellanodev/jetpack-game) • [Play online](../../playablegames/jetpack/index.html) {.centered-text}
 
