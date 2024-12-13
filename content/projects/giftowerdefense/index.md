@@ -1,6 +1,6 @@
 +++
 title = "Gif Tower Defense"
-description = "Rewritting my old 2012 game with the same name, now using p5js and Typescript."
+description = "Rewriting my old 2012 game with the same name, now using p5js and Typescript."
 weight = 10
 
 [extra]
@@ -9,8 +9,7 @@ local_image = "projects/giftowerdefense/logo.png"
 
 **Gif Tower Defense** is an attempt to rewrite my old game with the same name created in 2012 with processingjs now using p5.js and Typescript, for fun and learning purposes.
 
-![Gif Tower Defense screenshot 1](./screenshot1.jpg)
-![Gif Tower Defense screenshot 2](./screenshot2.jpg)
+![Gif Tower Defense screenshots](./screenshots.png)
 
 #### [GitHub](https://github.com/darellanodev/gif-tower-defense) • [Play online](../../playablegames/giftowerdefense/index.html) {.centered-text}
 
