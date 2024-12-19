@@ -13,7 +13,16 @@ local_image = "projects/cavedrop/logo.png"
 ![Cave drop 2](./screenshot2.png)
 ![Cave drop 3](./screenshot3.png)
 
-#### Made with [Processing](https://processing.org/) | [InkScape](https://www.inkscape.org/)
+#### Technologies
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="https://processing.org">
+        <img src="https://img.shields.io/badge/Processing-00698F?style=flat&logo=processing&logoColor=white" alt="Processing">
+    </a>
+    <a href="https://www.inkscape.org/">
+        <img src="https://img.shields.io/badge/InkScape-000000?style=flat&logo=inkscape&logoColor=white" alt="InkScape">
+    </a>
+</div>
 
 ## Main Features
 
