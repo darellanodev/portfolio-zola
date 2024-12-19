@@ -9,9 +9,7 @@ local_image = "projects/cavedrop/logo.png"
 
 **Cave drop** is a game I developed for desktop and mobile android devices using Processing.
 
-![Cave drop 1](./screenshot1.png)
-![Cave drop 2](./screenshot2.png)
-![Cave drop 3](./screenshot3.png)
+![Cave drop screenshots](./screenshots.png)
 
 #### Technologies
 
