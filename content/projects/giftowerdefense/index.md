@@ -13,7 +13,28 @@ local_image = "projects/giftowerdefense/logo.png"
 
 #### [GitHub](https://github.com/darellanodev/gif-tower-defense) • [Play online](../../playablegames/giftowerdefense/index.html) {.centered-text}
 
-#### Made with [Typescript](https://www.typescriptlang.org/) | [p5js](https://p5js.org/) | [InkScape](https://www.inkscape.org/)
+## Technologies
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; padding: .8em">
+    <a href="https://www.typescriptlang.org">
+        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
+    </a>
+    <a href="https://p5js.org">
+        <img src="https://img.shields.io/badge/p5.js-ED225D?style=flat&logo=p5dotjs&logoColor=white" alt="p5.js">
+    </a>
+    <a href="https://jestjs.io">
+        <img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" alt="Jest">
+    </a>
+    <a href="https://pnpm.io">
+        <img src="https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=flat&logo=pnpm&logoColor=f69220" alt="pnpm">
+    </a>
+    <a href="https://prettier.io">
+        <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black" alt="Prettier">
+    </a>
+    <a href="https://parceljs.org/">
+        <img src="https://img.shields.io/badge/Parcel-21374B?style=flat&logo=parcel&logoColor=white" alt="Parcel">
+    </a>
+</div>
 
 ## Main Features
 
