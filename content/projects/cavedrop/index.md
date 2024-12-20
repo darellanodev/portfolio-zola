@@ -11,9 +11,9 @@ local_image = "projects/cavedrop/logo.png"
 
 ![Cave drop screenshots](./screenshots.png)
 
-#### Technologies
+## Technologies
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: .8em">
     <a href="https://processing.org">
         <img src="https://img.shields.io/badge/Processing-00698F?style=flat&logo=processing&logoColor=white" alt="Processing">
     </a>

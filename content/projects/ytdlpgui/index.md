@@ -13,9 +13,9 @@ local_image = "projects/ytdlpgui/logo.png"
 
 #### [GitHub](https://github.com/darellanodev/yt-dlp-gui)
 
-#### Technologies
+## Technologies
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: .8em">
     <a href="https://www.electronjs.org">
         <img src="https://img.shields.io/badge/Electron-191970?style=flat&logo=Electron&logoColor=white" alt="Electron">
     </a>
