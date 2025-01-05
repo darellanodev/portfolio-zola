@@ -24,8 +24,9 @@ If you make changes to the files in `D:\xampp\htdocs\proyectos\portfolio-zola\ut
 ### How to use the playable demos updater
 
 - First generate the build versions of each demo:
-  - Use the `./run_build_web.sh` script to regenerate the `jetpackgame.wasm` file
-  - For giftowerdefense, delete all inside the `dist` folder and then use the `./run.sh` script to regenerate the files in the `dist` folder
+  - For jetpackgame: use the `./run_build_web.sh` script to regenerate the `jetpackgame.wasm` file
+  - For giftowerdefense: delete all inside the `dist` folder and then use the `./run.sh` script to regenerate the files in the `dist` folder
+  - For dailyboostcalendar: run the `./run_build.sh`
 - Finally use the `./run_utils_update_demos.sh` script
 - Enter to the `darellanodev.github.io` project, make a commit and it push to GitHub.
 - Clear the cache of the web browser and reload the demos to see the changes.
