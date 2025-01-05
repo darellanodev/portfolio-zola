@@ -3,7 +3,7 @@ const {
   updateInDarellanodevGithubIoProject,
 } = require('./update_dailyboostcalendar_demo/darellanodev_github_io')
 
-export const updateJSConceptsDemo = (debugMode: boolean) => {
+export const updateDailyBoostCalendar = (debugMode: boolean) => {
   console.log('starting updating dailyboostcalendar playable demo')
   console.log('------------------------------------------')
   // The order is important. First update in zola

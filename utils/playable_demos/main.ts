@@ -2,7 +2,7 @@
 const { updateGifTowerDefenseDemo } = require('./update_giftowerdefense_demo')
 const { updateJSConceptsDemo } = require('./update_jsconcepts_demo')
 const { updateJetpackDemo } = require('./update_jetpack_demo')
-const { updateDailyBoostCalendar } = require('./daily_boost_calendar')
+const { updateDailyBoostCalendar } = require('./update_dailyboostcalendar_demo')
 
 const main = (debugMode: boolean) => {
   console.log('start updating demos')

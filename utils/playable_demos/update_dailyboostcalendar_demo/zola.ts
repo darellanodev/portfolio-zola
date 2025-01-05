@@ -8,9 +8,9 @@ const { copyIndexToDestiny } = require('../lib/files')
 export const updateInZola = (debugMode: boolean) => {
   console.log('start updating dailyboostcalendar playable demo')
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
-  const originPath = rootPath + '\\daily-boost-calendar'
+  const originPath = rootPath + '\\daily-boost-calendar\\dist'
   const destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\daily-boost-calendar'
+    rootPath + '\\portfolio-zola\\static\\playablegames\\dailyboostcalendar'
   const indexPath = originPath + '\\index.html'
   deleteDestinyDir(debugMode, destinyPath)
   recreateDestinyDir(debugMode, destinyPath)
