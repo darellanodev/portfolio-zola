@@ -12,7 +12,7 @@ local_image = "projects/dailyboostcalendar/logo.png"
 ![Daily Boost Calendar screenshot 1](./screenshot1.png)
 ![Daily Boost Calendar screenshot 2](./screenshot2.png)
 
-#### [GitHub](https://github.com/darellanodev/daily-boost-calendar) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/daily-boost-calendar) • [Play online](../../playablegames/dailyboostcalendar/index.html) {.centered-text}
 
 ## Technologies
 
