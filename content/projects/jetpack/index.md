@@ -11,7 +11,7 @@ local_image = "projects/jetpack/logo.png"
 
 ![Jetpack screenshots](./screenshots.png)
 
-#### [GitHub](https://github.com/darellanodev/jetpack-game) • [Play online](../../playablegames/jetpack/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/jetpack-game) • [Try it online](../../playablegames/jetpack/index.html) {.centered-text}
 
 ## Technologies
 

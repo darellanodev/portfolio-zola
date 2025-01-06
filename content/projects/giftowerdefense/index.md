@@ -11,7 +11,7 @@ local_image = "projects/giftowerdefense/logo.png"
 
 ![Gif Tower Defense screenshots](./screenshots.png)
 
-#### [GitHub](https://github.com/darellanodev/gif-tower-defense) • [Play online](../../playablegames/giftowerdefense/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/gif-tower-defense) • [Try it online](../../playablegames/giftowerdefense/index.html) {.centered-text}
 
 ## Technologies
 
