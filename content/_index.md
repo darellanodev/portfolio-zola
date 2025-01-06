@@ -1,6 +1,6 @@
 +++
 path = "/"
-title = "Last projects"
+title = "Latest projects"
 sort_by = "date"
 template = "main-page.html"
 
