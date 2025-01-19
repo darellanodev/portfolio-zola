@@ -47,10 +47,10 @@ export const transferFolderFromZolaToDarellanodevGithubIoProject = (
 ) => {
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   let destinyPath =
-    rootPath + '\\darellanodev.github.io\\playablegames\\' + folder
+    rootPath + '\\darellanodev.github.io\\tryitonline\\' + folder
   deleteDestinyDir(debugMode, destinyPath)
 
-  destinyPath = rootPath + '\\darellanodev.github.io\\playablegames'
-  const originPath = rootPath + '\\portfolio-zola\\static\\playablegames'
+  destinyPath = rootPath + '\\darellanodev.github.io\\tryitonline'
+  const originPath = rootPath + '\\portfolio-zola\\static\\tryitonline'
   copyFolderFromOriginToDestiny(debugMode, originPath, folder, destinyPath)
 }

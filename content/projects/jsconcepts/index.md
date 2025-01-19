@@ -12,7 +12,7 @@ local_image = "projects/jsconcepts/logo.png"
 ![JS Concepts screenshot 1](./screenshot1.png)
 ![JS Concepts screenshot 2](./screenshot2.png)
 
-#### [GitHub](https://github.com/darellanodev/js-concepts) • [Try it online](../../playablegames/jsconcepts/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/js-concepts) • [Try it online](../../tryitonline/jsconcepts/index.html) {.centered-text}
 
 ## Technologies
 

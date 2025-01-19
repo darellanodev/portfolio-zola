@@ -7,7 +7,7 @@ const updateInZola = (debugMode) => {
     console.log('start updating facetoonmaker playable demo');
     const rootPath = 'D:\\xampp\\htdocs\\proyectos';
     const originPath = rootPath + '\\face-toon-maker\\dist';
-    const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\facetoonmaker';
+    const destinyPath = rootPath + '\\portfolio-zola\\static\\tryitonline\\facetoonmaker';
     const indexPath = originPath + '\\index.html';
     deleteDestinyDir(debugMode, destinyPath);
     recreateDestinyDir(debugMode, destinyPath);

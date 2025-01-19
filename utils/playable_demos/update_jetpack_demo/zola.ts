@@ -6,7 +6,7 @@ export const updateInZola = (debugMode: boolean) => {
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   const originPath = rootPath + '\\go-jetpack-game'
   const destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\jetpack'
+    rootPath + '\\portfolio-zola\\static\\tryitonline\\jetpack'
 
   deleteDestinyDir(debugMode, destinyPath)
   recreateDestinyDir(debugMode, destinyPath)

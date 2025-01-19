@@ -35,7 +35,7 @@ If you make changes to the files in `D:\xampp\htdocs\proyectos\portfolio-zola\ut
 
 - For updating the darellanodev.github.io:
   - Execute `./run_build.sh`
-  - Execute `./run_copy_build_except_demos.sh` to copy public directory into darellanodev.github.io without the `playablegames` directory
+  - Execute `./run_copy_build_except_demos.sh` to copy public directory into darellanodev.github.io without the `tryitonline` directory
 
 ## Customize keybindings.json in VSCode
 

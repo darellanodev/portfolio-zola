@@ -7,7 +7,7 @@ const updateInZola = (debugMode) => {
     console.log('starting updating jetpack playable demo');
     const rootPath = 'D:\\xampp\\htdocs\\proyectos';
     const originPath = rootPath + '\\go-jetpack-game';
-    const destinyPath = rootPath + '\\portfolio-zola\\static\\playablegames\\jetpack';
+    const destinyPath = rootPath + '\\portfolio-zola\\static\\tryitonline\\jetpack';
     deleteDestinyDir(debugMode, destinyPath);
     recreateDestinyDir(debugMode, destinyPath);
     const filesToCopy = [

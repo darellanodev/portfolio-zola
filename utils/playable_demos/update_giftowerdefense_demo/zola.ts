@@ -66,7 +66,7 @@ export const updateInZola = (debugMode: boolean) => {
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   let originPath = rootPath + '\\gif-tower-defense-p5js'
   let destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\giftowerdefense'
+    rootPath + '\\portfolio-zola\\static\\tryitonline\\giftowerdefense'
   const destinyDistPath = destinyPath + '\\dist'
   const templateIndex =
     rootPath +

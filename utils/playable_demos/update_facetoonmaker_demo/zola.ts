@@ -10,7 +10,7 @@ export const updateInZola = (debugMode: boolean) => {
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   const originPath = rootPath + '\\face-toon-maker\\dist'
   const destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\facetoonmaker'
+    rootPath + '\\portfolio-zola\\static\\tryitonline\\facetoonmaker'
   const indexPath = originPath + '\\index.html'
   deleteDestinyDir(debugMode, destinyPath)
   recreateDestinyDir(debugMode, destinyPath)

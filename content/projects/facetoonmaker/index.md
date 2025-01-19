@@ -12,7 +12,7 @@ local_image = "projects/facetoonmaker/logo.png"
 ![Face Toon Maker screenshot 1](./screenshot1.png)
 ![Face Toon Maker screenshot 2](./screenshot2.png)
 
-#### [GitHub](https://github.com/darellanodev/face-toon-maker) • [Try it online](../../playablegames/facetoonmaker/index.html) {.centered-text}
+#### [GitHub](https://github.com/darellanodev/face-toon-maker) • [Try it online](../../tryitonline/facetoonmaker/index.html) {.centered-text}
 
 ## Technologies
 

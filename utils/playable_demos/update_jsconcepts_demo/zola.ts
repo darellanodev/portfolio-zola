@@ -10,7 +10,7 @@ export const updateInZola = (debugMode: boolean) => {
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   const originPath = rootPath + '\\js-concepts'
   const destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\jsconcepts'
+    rootPath + '\\portfolio-zola\\static\\tryitonline\\jsconcepts'
   const indexPath = originPath + '\\index.html'
   deleteDestinyDir(debugMode, destinyPath)
   recreateDestinyDir(debugMode, destinyPath)

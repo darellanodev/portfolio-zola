@@ -10,7 +10,7 @@ export const updateInZola = (debugMode: boolean) => {
   const rootPath = 'D:\\xampp\\htdocs\\proyectos'
   const originPath = rootPath + '\\daily-boost-calendar\\dist'
   const destinyPath =
-    rootPath + '\\portfolio-zola\\static\\playablegames\\dailyboostcalendar'
+    rootPath + '\\portfolio-zola\\static\\tryitonline\\dailyboostcalendar'
   const indexPath = originPath + '\\index.html'
   deleteDestinyDir(debugMode, destinyPath)
   recreateDestinyDir(debugMode, destinyPath)
