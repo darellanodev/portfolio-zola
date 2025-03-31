@@ -6,6 +6,7 @@ const { updateDailyBoostCalendar } = require('./update_dailyboostcalendar_demo')
 const { updateFaceToonMaker } = require('./update_facetoonmaker_demo');
 const main = (debugMode) => {
     console.log('start updating demos');
+    updateDailyBoostCalendar(debugMode);
     updateGifTowerDefenseDemo(debugMode);
     updateJSConceptsDemo(debugMode);
     updateJetpackDemo(debugMode);

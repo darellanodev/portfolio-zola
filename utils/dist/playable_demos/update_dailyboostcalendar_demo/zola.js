@@ -12,6 +12,7 @@ const updateInZola = (debugMode) => {
     deleteDestinyDir(debugMode, destinyPath);
     recreateDestinyDir(debugMode, destinyPath);
     copyFolderFromOriginToDestiny(debugMode, originPath, 'assets', destinyPath);
+    copyFolderFromOriginToDestiny(debugMode, originPath, 'img', destinyPath);
     copyIndexToDestiny(debugMode, indexPath, destinyPath, 'index.html');
 };
 exports.updateInZola = updateInZola;

@@ -7,6 +7,7 @@ const { updateFaceToonMaker } = require('./update_facetoonmaker_demo')
 
 const main = (debugMode: boolean) => {
   console.log('start updating demos')
+  updateDailyBoostCalendar(debugMode)
   updateGifTowerDefenseDemo(debugMode)
   updateJSConceptsDemo(debugMode)
   updateJetpackDemo(debugMode)
