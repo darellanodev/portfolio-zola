@@ -26,8 +26,8 @@ local_image = "projects/dailyboostcalendar/logo.png"
     <a href="https://www.typescriptlang.org">
         <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
     </a>
-    <a href="https://jestjs.io">
-        <img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" alt="Jest">
+    <a href="https://vitest.dev">
+        <img src="https://img.shields.io/badge/Vitest-6E78FB?style=flat&logo=vitest&logoColor=white" alt="Vitest">
     </a>
     <a href="https://playwright.dev">
         <img src="https://img.shields.io/badge/Playwright-333333?style=flat&logo=playwright&logoColor=white" alt="Playwright">
