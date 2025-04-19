@@ -13,6 +13,8 @@ footnote_backlinks = true
 
 Last week, I discussed with a friend how we can use the Git Bash console to create simple aliases that make executing Git commands more convenient and efficient. I use Visual Studio Code on my Windows machine, and the default terminal in it is Git Bash.
 
+![alias_bash](./alias_bash.png)
+
 To start, I opened my user directory by pressing `Win+R` and typing `%USERPROFILE%`.
 
 Next, I created a `.bashrc` file and added the following lines:
