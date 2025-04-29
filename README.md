@@ -13,9 +13,9 @@ This is my personal porfolio made with zola and tabi.
 [![pnpm](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=flat&logo=pnpm&logoColor=f69220)](https://pnpm.io)
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black)](https://prettier.io)
 
-## Requires
+## Installation
 
-You need to download `zola.exe` in the root
+Run the command `pnpm install`
 
 ## Utility for update the playable demos
 
