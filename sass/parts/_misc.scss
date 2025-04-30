@@ -108,12 +108,15 @@ a.withoutbg:not(.no-hover-padding):hover::after {
   max-width: 105%; // This fixes multi-line links (see #225)
   content: '';
 }
-
 a.effectimg:hover > img {
   filter: brightness(1.2);
-  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   transform: scale(1.1);
   box-shadow: 0 0 10px 2px var(--primary-color);
+  border-radius: 50%;
+}
+
+a.effectimg > img {
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   border-radius: 50%;
 }
 
