@@ -12,13 +12,15 @@
         background: var(--bg-2);
         min-height: 100px;
         overflow: hidden;
-
+        transition: all 0.2s ease-in-out;
+        
         &:hover {
-            background-color: var(--primary-color);
-        }
-
-        &:hover .card-description {
-            color: var(--hover-color);
+            transform: scale(1.05);
+            filter: brightness(1.3);
+            box-shadow: 0 0 10px 2px var(--primary-color);
+            .card-title {
+                color:white;
+            }
         }
 
         .card-info {
@@ -27,11 +29,13 @@
         }
 
         .card-title {
+            color:white;
             margin-top: 0.7em;
         }
 
         .card-image {
-            width: 100%;
+            margin-top:20px;
+            width: 90%;
         }
 
         .card-image-placeholder {

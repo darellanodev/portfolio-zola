@@ -92,6 +92,10 @@ a:not(.no-hover-padding):hover::after {
 }
 
 a.withoutbg:hover {
+  background-color: transparent;
+}
+
+a.withoutbg:hover {
   color: var(--hover-color);
   background-color: transparent;
 }
