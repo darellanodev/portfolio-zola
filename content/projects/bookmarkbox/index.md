@@ -9,6 +9,8 @@ local_image = "projects/bookmarkbox/logo.png"
 
 **Bookmark box** is a simple application to store your web bookmarks, developed for learning Astro.
 
+![Bookmark Box Screenshot](./screenshot.png)
+
 #### [GitHub](https://github.com/darellanodev/bookmark-box) • [Try it online](https://darellanodev.github.io/bookmark-box/) {.centered-text}
 
 ## Technologies

@@ -9,6 +9,8 @@ local_image = "projects/stellartask/logo.png"
 
 **Stellar Task** is a simple application to manage projects, to learn Angular and TDD.
 
+![Stellar Task Screenshot](./screenshot.png)
+
 #### [GitHub](https://github.com/darellanodev/stellar-task) • [Try it online](https://darellanodev.github.io/stellar-task/) {.centered-text}
 
 ## Technologies
