@@ -15,13 +15,13 @@
                     {% set trailing_slash = menu.trailing_slash | default(value=true) %}
                     {% if menu.external %}
 
-                    <a class="nav-links no-hover-padding" href="{{ menu.url }}">
+                    <a class="nav-links no-hover-padding hvr-grow" href="{{ menu.url }}">
                         {{ macros_translate::translate(key=menu.name, default=menu.name,
                         language_strings=language_strings) }}
                     </a>
                     {% else %}
 
-                    <a class="nav-links no-hover-padding"
+                    <a class="nav-links no-hover-padding hvr-grow"
                         href="{{ get_url(path=menu.url, lang=lang, trailing_slash=trailing_slash) }}">
                         {{ macros_translate::translate(key=menu.name, default=menu.name,
                         language_strings=language_strings) }}
