@@ -76,6 +76,7 @@ a {
 a:hover {
   background-color: var(--primary-color);
   color: var(--hover-color);
+  border-radius: 5px;
 }
 
 a:not(.no-hover-padding):hover::after {
@@ -89,6 +90,7 @@ a:not(.no-hover-padding):hover::after {
   background-color: var(--primary-color);
   max-width: 105%; // This fixes multi-line links (see #225)
   content: '';
+  border-radius: 5px;
 }
 
 a.withoutbg:hover {
