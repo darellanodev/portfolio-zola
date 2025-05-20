@@ -281,6 +281,8 @@ details summary {
 }
 
 .gradient-color{
+  font-family: sans-serif;
+  font-weight: bold;
   background: linear-gradient(90deg, #7eb871 0%, #91cfff 50%, #ffaacc 100%);
   color: transparent;
   -webkit-background-clip: text;
