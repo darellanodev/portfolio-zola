@@ -13,14 +13,18 @@ footnote_backlinks = true
 
 Last week, while working on a project on Frontend Mentor, I learned about the benefits of using `min-width` instead of `max-width` for a mobile-first approach.
 
-<div style="position: relative; padding-bottom: 74.44%; /* 431 / 579 */ height: 0; overflow: hidden; max-width: 100%; height: auto; margin: 1.5em 0; border-radius: 6px;">
-    <iframe
-        src="./min-width-animation.html"
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-        allowfullscreen
-        allowtransparency="true"
-        title="Lottie animation illustrating min-width media query">
-    </iframe>
+<!-- Lottie animation (no iframe, local script, background transparent) -->
+<script src="/lottie-player.js"></script>
+<div style="display: flex; justify-content: center; margin: 1.5em 0;">
+  <lottie-player
+    src="min-width-animation.json"
+    background="transparent"
+    speed="1"
+    style="width: 320px; max-width: 100%; height: auto; border-radius: 6px;"
+    loop
+    autoplay
+    title="Lottie animation illustrating min-width media query">
+  </lottie-player>
 </div>
 
 The advantages of using `min-width` over `max-width` are:
