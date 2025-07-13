@@ -12,10 +12,18 @@ This is my personal porfolio made with zola and tabi.
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![pnpm](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=flat&logo=pnpm&logoColor=f69220)](https://pnpm.io)
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black)](https://prettier.io)
+[![Lottie](https://img.shields.io/badge/Lottie-FF5733?style=flat&logo=lottie&logoColor=white)](https://lottiefiles.com)
+[![Synfig Studio](https://img.shields.io/badge/Synfig_Studio-FFC107?style=flat&logo=synfig&logoColor=black)](https://www.synfig.org)
 
 ## Installation
 
 Run the command `pnpm install`
+
+After installation I copied lottie-player.js into the static folder: `cp node_modules/@lottiefiles/lottie-player/dist/lottie-player.js static/`
+
+## Lottie animations
+
+Lottie animations (in JSON format) are placed in the `static` folder
 
 ## Utility for update the playable demos
 
