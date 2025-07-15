@@ -17,7 +17,7 @@ Last week, while working on a project on Frontend Mentor, I learned about the be
 <script src="/lottie-player.js"></script>
 <div style="display: flex; justify-content: center; margin: 1.5em 0;">
   <lottie-player
-    src="english_hypothetical.json"
+    src="min-width.json"
     background="transparent"
     speed="1"
     style="width: 320px; max-width: 100%; height: auto; border-radius: 6px;"

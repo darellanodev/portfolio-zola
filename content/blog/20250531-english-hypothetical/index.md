@@ -13,7 +13,19 @@ footnote_backlinks = true
 
 In my course of improving my English, I study unreal or hypothetical phrases and how to use the "were" instead of the "was".
 
-![english-hypothetical](./english-hypothetical.png)
+<!-- Lottie animation (no iframe, local script, background transparent) -->
+<script src="/lottie-player.js"></script>
+<div style="display: flex; justify-content: center; margin: 1.5em 0;">
+  <lottie-player
+    src="english-hypothetical.json"
+    background="transparent"
+    speed="1"
+    style="width: 320px; max-width: 100%; height: auto; border-radius: 6px;"
+    loop
+    autoplay
+    title="Lottie animation illustrating min-width media query">
+  </lottie-player>
+</div>
 
 Here are some hypothetical or unreal phrases where you must use the "were" instead of the "was":
 
