@@ -6,9 +6,8 @@
             {{ section.content | safe }}
         </section>
     </div>
-
     {% if header.lottie %}
-    <div id="image-container-home" style="width: 200px; height: 200px; padding:1rem;">
+    <div id="image-container-home">
         <script src="/lottie-player.js"></script>
         <lottie-player src="{{ get_url(path=header.lottie, trailing_slash=false) }}" background="transparent" speed="1"
             style="width: 200px; height: 200px;" loop autoplay>
@@ -16,7 +15,6 @@
     </div>
     {% elif header.img %}
     {%- if header.img is containing("$BASE_URL") -%}
-    {# Conversion no longer supported in favour of proper path. #}
     {{ throw(message="ERROR: The image path for the header should not contain '$BASE_URL'. Please remove it and use the
     proper image path.") }}
     {%- else -%}
