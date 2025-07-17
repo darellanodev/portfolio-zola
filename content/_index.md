@@ -5,7 +5,7 @@ template = "main-page.html"
 
 [extra]
 path = "/"
-header = {title = "Hello! I'm Darellanodev", img = "img/main.webp", img_alt = "Darellanodev" }
+header = { title = "Hello! I'm Darellanodev", lottie = "img/avatar/avatar.json", img_alt = "Darellanodev" }
 section_path = "projects/_index.md"
 max_posts = 4
 +++

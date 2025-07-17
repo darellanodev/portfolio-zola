@@ -1,4 +1,4 @@
-{%- set header = section.extra.header-%}
+{%- set header = section.extra.header -%}
 <div id="banner-container-home">
     <div id="home-banner-text">
         <h1 id="home-banner-header" class="gradient-color">{{ header.title }}</h1>
@@ -6,15 +6,24 @@
             {{ section.content | safe }}
         </section>
     </div>
-    {%- if header.img -%}
-        {%- if header.img is containing("$BASE_URL") -%}
-            {# Conversion no longer supported in favour of proper path. #}
-            {{ throw(message="ERROR: The image path for the header should not contain '$BASE_URL'. Please remove it and use the proper image path.") }}
-        {%- else -%}
-            {%- set image_path = get_url(path=header.img, trailing_slash=false) | safe -%}
-        {%- endif -%}
-        <div id="image-container-home">
-            <img alt="{{ header.img_alt | default(value="the owner") }}" id="banner-home-img" src="{{ image_path }}" />
-        </div>
+
+    {% if header.lottie %}
+    <div id="image-container-home" style="width: 200px; height: 200px; padding:1rem;">
+        <script src="/lottie-player.js"></script>
+        <lottie-player src="{{ get_url(path=header.lottie, trailing_slash=false) }}" background="transparent" speed="1"
+            style="width: 200px; height: 200px;" loop autoplay>
+        </lottie-player>
+    </div>
+    {% elif header.img %}
+    {%- if header.img is containing("$BASE_URL") -%}
+    {# Conversion no longer supported in favour of proper path. #}
+    {{ throw(message="ERROR: The image path for the header should not contain '$BASE_URL'. Please remove it and use the
+    proper image path.") }}
+    {%- else -%}
+    {%- set image_path = get_url(path=header.img, trailing_slash=false) | safe -%}
     {%- endif -%}
+    <div id="image-container-home">
+        <img alt="{{ header.img_alt | default(value=" the owner") }}" id="banner-home-img" src="{{ image_path }}" />
+    </div>
+    {% endif %}
 </div>
