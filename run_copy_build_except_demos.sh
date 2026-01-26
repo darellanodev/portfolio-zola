@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define source and destination paths
-source_path="D:\xampp\htdocs\proyectos\portfolio-zola\public"
-destination_path="D:\xampp\htdocs\proyectos\darellanodev.github.io"
+source_path="D:\projects\portfolio\portfolio-zola\public"
+destination_path="D:\projects\portfolio\darellanodev.github.io"
 subdirectory_to_exclude="tryitonline"
 
 # Copy directories excluding the specified subdirectory
