@@ -60,7 +60,7 @@ Use this when you need to create a new blog post. The user will provide:
 ## Important notes
 
 - All post titles and the content should be in English
-- **No capital letters in headings**: Use sentence case (e.g., "## What happens to the remote repository" not "## What Happens to the Remote Repository")
+- **Capitalize only the first word in headings**: Use sentence case (e.g., "## The problem", "## What happens to the remote repository", "## Conclusion")
 - The title in the directory name should be short (5-6 words maximum)
 - The directory name must be kebab-case (lowercase with hyphens)
 - The date in frontmatter must match the directory date

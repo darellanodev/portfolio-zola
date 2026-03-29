@@ -1,5 +1,5 @@
 +++
-title = "Remove File from Git History"
+title = "Remove file from Git history"
 date = 2026-03-14
 updated = 2026-03-14
 description = "I share my experience removing a file from Git history using git-filter-repo while keeping the file in the project as untracked"
@@ -11,7 +11,7 @@ tags = ["Git"]
 footnote_backlinks = true
 +++
 
-## The Problem
+## The problem
 
 Imagine you have a file in your project that you never wanted to be part of the Git history. Maybe you added it by mistake in the very first commits, or maybe it was a config file with sensitive info that should never have been tracked.
 
@@ -21,17 +21,17 @@ That happened to me with a file called `prompt.txt`. I added it to the project f
 
 Every time someone did a `git clone` or checked the project history, they would see that file in the old commits. And that was exactly what I wanted to avoid.
 
-## Why .gitignore Alone Doesn't Work
+## Why .gitignore alone doesn't work
 
 The `.gitignore` file only tells Git what _new_ files to ignore. If a file was already added in a previous commit, Git will keep tracking it forever, even if it's in `.gitignore`.
 
 To fix this, we need to **rewrite the Git history**. This means changing all existing commits so the file never existed in them.
 
-## The Solution: git filter-repo
+## The solution: git filter-repo
 
 Git doesn't have a built-in tool for this, but there's an external utility called `git-filter-repo` that is the recommended way to do this today (it's newer than the old `git filter-branch`).
 
-### Step 1: Install git-filter-repo
+### Step 1: install git filter-repo
 
 The first thing we need is to install this tool. Since it's written in Python, we can use pip:
 
@@ -41,7 +41,7 @@ pip install git-filter-repo
 
 This will download and install the tool so we can use it on our system.
 
-### Step 2: Run the cleanup
+### Step 2: run the cleanup
 
 Once it's installed, we go to our project folder and run:
 
@@ -67,7 +67,7 @@ git push --force origin main
 
 ⚠️ **Important warning**: The `git push --force` will rewrite the remote repository's history. This can affect other people working on the project. If there are other collaborators, we should coordinate with them so they clone again after the update.
 
-## When NOT to Do This
+## When not to do this
 
 - If the project has many active collaborators
 - If the repository has a very long history (the process can take a while)
