@@ -41,21 +41,11 @@ Also create a `dcp.jsonc` file and paste the "Default Configuration" from the Gi
 
 Modify some of these values in `dcp.jsonc` since by default it has high values that might not have any effect on some low-context models:
 
-```jsonc
-{
-  "compress": {
-    "mode": "range",
-    "permission": "allow",
-    "summaryBuffer": true,
-    "maxContextLimit": 20000,
-    "maxTokenLimit": 10000,
-    "minContextLimit": 10000,
-    "nudgeFrequency": 1,
-    "nudgeForce": "strong",
-    "iterationNudgeThreshold": 5,
-  },
-}
-```
+- "maxContextLimit": 100000, ➡️ ”maxContextLimit": 50000,
+- "minContextLimit": 50000, ➡️ ”maxContextLimit": 20000,
+- "nudgeFrequency": 5, ➡️ "nudgeFrequency": 1,
+- "nudgeForce": "soft", ➡️ "nudgeForce": "strong",
+- "iterationNudgeThreshold": 15, ➡️ "iterationNudgeThreshold": 5,
 
 ## Installing Rust Token Killer (RTK)
 
