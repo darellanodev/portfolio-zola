@@ -31,9 +31,9 @@ To install DCP, follow the instructions from [Dynamic Context Pruning](https://g
 
 Edit `C:\Users\[MyUser]\.config\opencode\opencode.jsonc` and set:
 
-```jsonc
+```json
 {
-  "plugin": ["@tarquinen/opencode-dcp@latest"],
+  "plugin": ["@tarquinen/opencode-dcp@latest"]
 }
 ```
 
@@ -63,9 +63,9 @@ Run `rtk init -g --opencode`
 
 Finally add the RTK plugin to "opencode.jsonc", so the file would look like:
 
-```jsonc
+```json
 {
-  "plugin": ["@tarquinen/opencode-dcp@latest", "@rtk/opencode-plugin@latest"],
+  "plugin": ["@tarquinen/opencode-dcp@latest", "@rtk/opencode-plugin@latest"]
 }
 ```
 
