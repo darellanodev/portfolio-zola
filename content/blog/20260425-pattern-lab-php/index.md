@@ -5,7 +5,7 @@ updated = 2026-04-25
 description = "I share how I built a PHP app to practice design patterns using AI"
 
 [taxonomies]
-tags = ["PHP", "OOP", "Design Patterns"]
+tags = ["PHP", "OOP", "Design Patterns", "YouTube"]
 
 [extra]
 footnote_backlinks = true

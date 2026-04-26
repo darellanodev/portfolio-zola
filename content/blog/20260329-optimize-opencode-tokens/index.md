@@ -5,7 +5,7 @@ updated = 2026-03-29
 description = "How to save tokens in OpenCode using Dynamic Context Pruning (DCP) and Rust Token Killer (RTK) - achieve 60-90% reductions in common operations"
 
 [taxonomies]
-tags = ["OpenCode", "Tools", "AI"]
+tags = ["OpenCode", "Tools", "AI", "YouTube"]
 
 [extra]
 footnote_backlinks = true
