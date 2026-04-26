@@ -78,3 +78,5 @@ From now on, you can use them and as you have interactions with the agents, thes
 To check token savings in OpenCode, you can run the `/dcp stats` command, and to see savings with rtk, run `rtk gain` in a command prompt.
 
 YouTube video of the process (Spanish audio): [YouTube video](https://youtu.be/68Bs81B4rJg)
+
+{{ youtube_embed(video_id="68Bs81B4rJg") }}

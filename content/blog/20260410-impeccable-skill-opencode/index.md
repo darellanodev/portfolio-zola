@@ -42,3 +42,5 @@ Finally, we run `/audit index.html` to see if the score has improved after the c
 ![screenshot3](./screenshot3.png)
 
 Video on YouTube explaining the process (audio in Spanish): [https://youtu.be/n8jSHo_PQbM](https://youtu.be/n8jSHo_PQbM)
+
+{{ youtube_embed(video_id="n8jSHo_PQbM") }}

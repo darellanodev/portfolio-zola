@@ -70,3 +70,5 @@ The AI proposes commit messages for me. This keeps my history clean.
 This setup gives me a good base to practice design patterns in PHP. Simple code, clear structure, and easy to maintain.
 
 You can see the process I followed in [this video](https://youtu.be/gSCB-Q1-cVg) (Spanish audio).
+
+{{ youtube_embed(video_id="gSCB-Q1-cVg") }}

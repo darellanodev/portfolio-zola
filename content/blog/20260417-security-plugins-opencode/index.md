@@ -79,3 +79,5 @@ To test it, we can ask OpenCode to read a .env file.
 ![screenshot2](./screenshot2.png)
 
 You can see the process I followed in [this video](https://youtu.be/dsU2_kJXaLE) (Spanish audio).
+
+{{ youtube_embed(video_id="dsU2_kJXaLE") }}
