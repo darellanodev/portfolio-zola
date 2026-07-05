@@ -43,7 +43,7 @@ Do not select any extra agents. If OpenCode does not show up, try installing thi
 
 ## Prompt in OpenCode
 
-```text
+```
 /react-doctor In the tmp-react-doctor directory I left some audit files from the react-doctor tool. Use the react-doctor skills to fix issues. For now, do not do dangerous things like deleting files. Do not run the react-doctor analyzer, I will do that myself. Just fix what I indicated based on the audit files.
 ```
 

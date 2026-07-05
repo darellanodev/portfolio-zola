@@ -29,7 +29,7 @@ Select all the skills it offers. Caveman is simply an instruction to the LLM tha
 
 Test file compression with:
 
-```text
+```
 /caveman-compress AGENTS.md
 ```
 
@@ -39,7 +39,7 @@ It creates a backup `AGENTS.original.md` and compresses natural text without tou
 
 There are 4 modes available. Activate the lite mode:
 
-```text
+```
 /caveman lite
 ```
 
@@ -49,7 +49,7 @@ It activates for the session. You can also modify `AGENTS.md` to auto-start cave
 
 In Plan mode, ask for a code review:
 
-```text
+```
 In src/DoorManager.ts the use of player.isLocked is confusing since locked sounds like blocked. Could we use a term like isMouseCaptured?
 ```
 
@@ -59,7 +59,7 @@ The output should be more concise. Switch to Build mode and ask to implement the
 
 Run a full review of the project:
 
-```text
+```
 /caveman-review review the project code
 ```
 
@@ -69,7 +69,7 @@ The feedback includes nits — comments of little importance that don't affect f
 
 Correct an issue from the review and commit with:
 
-```text
+```
 /caveman-commit
 ```
 

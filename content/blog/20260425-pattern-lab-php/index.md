@@ -35,7 +35,7 @@ I wanted a clean structure. I made two main folders:
 - `src` - for my PHP classes
 - `examples` - for code that uses my classes
 
-```text
+```
 examples
     - structural
         - adapter
