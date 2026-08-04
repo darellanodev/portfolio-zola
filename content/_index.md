@@ -10,4 +10,4 @@ section_path = "projects/_index.md"
 max_posts = 4
 +++
 
-My name is Daniel Arellano, and I work as a **web developer** and **graphic designer**. Below, you can see some of **_my personal projects_**. Currently, I am working on multiple projects to enhance my programming skills and knowledge of good practices, as well as to improve my graphic design abilities. I possess over 15 years of professional experience in the e-learning industry.
+Hi, I'm Daniel, a developer who just loves **building things**. This space is where I share my **_personal projects_**. I create them to keep learning, try new tools, and get better at what I do. I also like to share what I learn, in case it helps someone else too. Thanks to everyone who has supported me along the way.
