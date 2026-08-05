@@ -7,7 +7,7 @@ weight = 10
 local_image = "projects/giftowerdefense/logo.png"
 +++
 
-**Gif Tower Defense** is an attempt to rewrite my old game with the same name created in 2012 with processingjs now using p5.js and Typescript, for fun and learning purposes.
+**Gif Tower Defense** is a remake of my old game with the same name, originally made in 2012 with Processing.js. Now I’m rebuilding it with p5.js and TypeScript for fun and learning.
 
 ![Gif Tower Defense screenshots](./screenshots.png)
 
@@ -35,15 +35,3 @@ local_image = "projects/giftowerdefense/logo.png"
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite">
     </a>
 </div>
-
-## Main Features
-
-- **Play in web**: This is a game that can be played in a modern web browser.
-- **Level editor**: The player can make their own levels.
-
-## Development Best Practices
-
-- **Unit testing**: Uses Jest to make unit testing.
-- **TDD**: Made with TDD when its possible.
-- **OOP**: Using Oriented Object paradigm style.
-- **Documentation**: Documenting tasks.
