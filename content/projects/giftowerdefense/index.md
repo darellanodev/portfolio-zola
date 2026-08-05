@@ -1,6 +1,6 @@
 +++
 title = "Gif Tower Defense"
-description = "Rewriting my old 2012 game with the same name, now using p5js and Typescript."
+description = "A rewrite of my old 2012 game, now using p5.js and TypeScript."
 weight = 10
 
 [extra]
