@@ -1,13 +1,13 @@
 +++
 title = "Daily Boost Calendar"
-description = "An easy calendar like the github's contributions calendar for learning purposes."
+description = "A simple calendar like GitHub’s, built with React."
 weight = 30
 
 [extra]
 local_image = "projects/dailyboostcalendar/logo.png"
 +++
 
-**Daily Boost Calendar** is an easy calendar like the github's contributions calendar made in React.
+**Daily Boost Calendar** Daily Boost Calendar is a simple calendar inspired by GitHub’s contributions calendar, built with React.
 
 ![Daily Boost Calendar screenshot 1](./screenshot1.png)
 ![Daily Boost Calendar screenshot 2](./screenshot2.png)
@@ -42,14 +42,3 @@ local_image = "projects/dailyboostcalendar/logo.png"
         <img src="https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white" alt="Storybook">
     </a>
 </div>
-
-## Main Features
-
-- **Use in web**: This is an application that can be used in a modern web browser.
-
-## Development Best Practices
-
-- **Unit testing**: Uses Jest for unit testing.
-- **TDD**: Made with TDD when its possible.
-- **OOP**: Using Oriented Object paradigm style.
-- **Documentation**: Documenting tasks.
