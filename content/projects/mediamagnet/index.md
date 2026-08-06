@@ -1,13 +1,13 @@
 +++
 title = "Media Magnet"
-description = "A multi-tool GUI for video and audio downloads"
+description = "A simple web GUI for yt-dlp and other tools."
 weight = 40
 
 [extra]
 local_image = "projects/mediamagnet/logo.png"
 +++
 
-**Media Magnet** is a simple graphical user interface (GUI) for the yt-dlp application and other tools for learning purposes.
+**Media Magnet** is a simple web app that provides a GUI for yt-dlp and other tools, built for learning purposes.
 
 ![Media Magnet screenshot 1](./screenshot1.png)
 
