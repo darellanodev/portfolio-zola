@@ -38,7 +38,3 @@ local_image = "projects/breadbaron/logo.png"
         <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black" alt="Prettier">
     </a>
 </div>
-
-## Main Features
-
-- **Run in web**: This game can be played in a modern web browser.
