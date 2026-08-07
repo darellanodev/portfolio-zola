@@ -1,13 +1,13 @@
 +++
 title = "Bread Baron"
-description = "Bread Baron is a clicker-style game that lets you build your bread empire and become a tycoon of the baking world."
+description = "A clicker game about building a bread empire."
 weight = 50
 
 [extra]
 local_image = "projects/breadbaron/logo.png"
 +++
 
-**Bread Baron** is a clicker-style game that lets you build your bread empire and become a tycoon of the baking world.
+**Bread Baron** is a clicker game where you build your bread empire and become a baking tycoon.
 
 ![Bread Baron screenshot 1](./screenshot1.png)
 
