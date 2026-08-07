@@ -1,13 +1,13 @@
 +++
 title = "Croac Vim"
-description = "A game for learning VIM made in Python and Pygame CE"
+description = "A game for learning Vim, made with Python and Pygame CE."
 weight = 50
 
 [extra]
 local_image = "projects/croacvim/logo.png"
 +++
 
-**Croac Vim** is a game for learning VIM made in Python and Pygame CE.
+**Croac Vim** is a game designed to help you learn Vim, built with Python and Pygame CE.
 
 ![Croac Vim Banner](https://github.com/darellanodev/croac-vim/blob/main/github_readme/banner.png?raw=true)
 
