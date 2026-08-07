@@ -32,7 +32,3 @@ local_image = "projects/mediamagnet/logo.png"
         <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black" alt="Prettier">
     </a>
 </div>
-
-## Main Features
-
-- **Web application**: This is a web application that can be used in web browsers.
