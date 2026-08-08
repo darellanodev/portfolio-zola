@@ -45,11 +45,3 @@ local_image = "projects/monkeybananarun/logo.png"
         <img src="https://img.shields.io/badge/Autotracker-000000?style=flat&logo=github&logoColor=white" alt="Autotracker">
     </a>
 </div>
-
-## Installation
-
-Open with the IDE IntelliJ IDEA Community Edition
-
-## Execute the unit tests
-
-- Execute the tests in the IDE
