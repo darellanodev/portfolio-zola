@@ -1,13 +1,13 @@
 +++
 title = "Monkey banana run"
-description = "A simple Java game built with LibGDX"
+description = "A simple side-scrolling arcade game built with Java and LibGDX."
 weight = 50
 
 [extra]
 local_image = "projects/monkeybananarun/logo.png"
 +++
 
-**Monkey banana run** is a simple Java game built with LibGDX.
+**Monkey Banana Run** is a simple arcade game with side-scrolling gameplay, built with Java and LibGDX.
 
 ![Monkey banana run screenshot](https://github.com/darellanodev/monkey-banana-run/blob/main/github_readme/screenshot.png?raw=true)
 
