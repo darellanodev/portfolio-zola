@@ -1,13 +1,13 @@
 +++
 title = "JavaScript concepts"
-description = "A simple app to summarize concepts of the JavaScript language in the context of a game"
+description = "A JavaScript reference app with game-related examples."
 weight = 60
 
 [extra]
 local_image = "projects/jsconcepts/logo.png"
 +++
 
-**JS Concepts** A simple app to summarize concepts of the JavaScript language in the context of a game.
+**JS Concepts** is a simple app that summarizes JavaScript concepts with examples, sometimes related to games.
 
 ![JS Concepts screenshot 1](./screenshot1.png)
 ![JS Concepts screenshot 2](./screenshot2.png)
