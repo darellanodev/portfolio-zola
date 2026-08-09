@@ -32,11 +32,3 @@ local_image = "projects/facetoonmaker/logo.png"
         <img src="https://img.shields.io/badge/Vitest-646CFF?style=flat&logo=vitest&logoColor=white" alt="Vitest">
     </a>
 </div>
-
-## Main Features
-
-- **Run in web**: This app can be open in a modern web browser.
-
-## Development Best Practices
-
-- **TDD**: Made with TDD.
