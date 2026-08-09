@@ -1,13 +1,13 @@
 +++
 title = "Face Toon Maker"
-description = "This is a web app to customize a toon face, for learning purposes and practice TDD with React."
+description = "A React app for customizing cartoon faces."
 weight = 54
 
 [extra]
 local_image = "projects/facetoonmaker/logo.png"
 +++
 
-**Face Toon Maker** is a web app to customize a toon face, for learning purposes and practice TDD with React.
+**Face Toon Maker** is a web app for customizing a cartoon face, created for learning and practicing TDD with React.
 
 ![Face Toon Maker screenshot](./screenshot.png)
 
