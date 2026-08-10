@@ -1,13 +1,13 @@
 +++
 title = "Stellar Task Box"
-description = "A simple application to manage projects, to learn Angular and TDD."
+description = "A simple project management app built with Angular."
 weight = 63
 
 [extra]
 local_image = "projects/stellartask/logo.png"
 +++
 
-**Stellar Task** is a simple application to manage projects, to learn Angular and TDD.
+**Stellar Task** is a simple application for managing projects, built to learn Angular and practice TDD.
 
 ![Stellar Task Screenshot](./screenshot.png)
 
@@ -29,5 +29,3 @@ local_image = "projects/stellartask/logo.png"
         <img src="https://img.shields.io/badge/Karma-6A1B4D?style=flat&logo=karma&logoColor=white" alt="Karma">
     </a>
 </div>
-
-**THIS APPLICATION IS IN AN EARLY STAGE OF DEVELOPMENT**
