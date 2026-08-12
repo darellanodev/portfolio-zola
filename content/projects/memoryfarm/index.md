@@ -1,13 +1,14 @@
 +++
 title = "Memory farm"
-description = "This is a game I developed for mobile android devices using augmented reallity using Unity3d and a library for markers recognition."
+description = "An AR game for Android built with Unity3D."
 weight = 70
 
 [extra]
 local_image = "projects/memoryfarm/logo.png"
 +++
 
-**Memory farm** is a game I developed for mobile android devices using augmented reallity using Unity3d and a library for markers recognition.
+**Memory Farm** is a game I developed for Android mobile devices using augmented reality, built with Unity3D and a library for marker recognition.
+
 ![Memory farm 1](./screenshot1.jpg)
 ![Memory farm 2](./screenshot2.jpg)
 ![Memory farm 3](./screenshot3.jpg)
@@ -26,13 +27,3 @@ local_image = "projects/memoryfarm/logo.png"
         <img src="https://img.shields.io/badge/Gimp-657D8B?style=flat&logo=Gimp&logoColor=white" alt="Gimp">
     </a>
 </div>
-
-## Main Features
-
-- **Play in android mobile**: This is a game that can be played in an android mobile device.
-- **Augmented reality**: Uses augmented reality with 3d models.
-
-## Development Best Practices
-
-- **OOP**: Using Oriented Object paradigm style.
-- **Documentation**: Documenting tasks.
