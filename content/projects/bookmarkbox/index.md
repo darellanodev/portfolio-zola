@@ -1,13 +1,13 @@
 +++
 title = "Bookmark Box"
-description = "A simple application to store your web bookmarks, developed for learning Astro."
+description = "A simple web bookmark manager built with Astro."
 weight = 66
 
 [extra]
 local_image = "projects/bookmarkbox/logo.png"
 +++
 
-**Bookmark box** is a simple application to store your web bookmarks, developed for learning Astro.
+**Bookmark Box** is a simple application for storing your web bookmarks, built to learn Astro.
 
 ![Bookmark Box Screenshot](./screenshot.png)
 
@@ -35,5 +35,3 @@ local_image = "projects/bookmarkbox/logo.png"
         <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=%2361DAFB" alt="React">
     </a>
 </div>
-
-**THIS APPLICATION IS IN AN EARLY STAGE OF DEVELOPMENT**
