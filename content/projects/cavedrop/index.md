@@ -1,13 +1,13 @@
 +++
 title = "Cave drop"
-description = "This is a game I developed for desktop and mobile android devices using Processing. "
+description = "A 2D physics-based game built with Processing."
 weight = 90
 
 [extra]
 local_image = "projects/cavedrop/logo.png"
 +++
 
-**Cave drop** is a game I developed for desktop and mobile android devices using Processing.
+**Cave Drop** is a 2D physics-based game I developed for desktop and Android mobile devices using Processing.
 
 ![Cave drop screenshots](./screenshots.png)
 
@@ -21,13 +21,3 @@ local_image = "projects/cavedrop/logo.png"
         <img src="https://img.shields.io/badge/InkScape-000000?style=flat&logo=inkscape&logoColor=white" alt="InkScape">
     </a>
 </div>
-
-## Main Features
-
-- **Play in android mobile**: This is a game that can be played in an android mobile device.
-- **Phisics**: Uses phisics.
-
-## Development Best Practices
-
-- **OOP**: Using Oriented Object paradigm style.
-- **Documentation**: Documenting tasks.
