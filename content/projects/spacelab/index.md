@@ -1,13 +1,14 @@
 +++
 title = "Space lab"
-description = "This is a game I developed for desktop and mobile android devices using Unity3d."
+description = "A top-down arcade game built with Unity3D."
 weight = 80
 
 [extra]
 local_image = "projects/spacelab/logo.png"
 +++
 
-**Space lab** is a game I developed for desktop and mobile android devices using Unity3d.
+**Space Lab** is an arcade game with a top-down view that I developed for desktop and Android mobile devices using Unity3D.
+
 ![Space lab 1](./screenshot1.jpg)
 ![Space lab 2](./screenshot2.jpg)
 ![Space lab 3](./screenshot3.jpg)
@@ -26,14 +27,3 @@ local_image = "projects/spacelab/logo.png"
         <img src="https://img.shields.io/badge/Gimp-657D8B?style=flat&logo=Gimp&logoColor=white" alt="Gimp">
     </a>
 </div>
-
-## Main Features
-
-- **Play in android mobile**: This is a game is adapted to play in android mobile devices.
-- **Play in desktop (windows)**: This is a game that can be played in windows devices.
-- **Play in web**: using the unity web plugin
-
-## Development Best Practices
-
-- **OOP**: Using Oriented Object paradigm style.
-- **Documentation**: Documenting tasks.
