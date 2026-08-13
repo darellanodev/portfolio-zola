@@ -1,0 +1,14 @@
+{%- set videos_data = load_data(path="data/latest_videos.toml", required=false) -%}
+{%- if videos_data and videos_data.videos -%}
+<section class="latest-videos" aria-label="Latest videos">
+    <div>{{ macros_page_header::page_header(title="Latest videos (Spanish audio)") }}</div>
+    <div class="video-grid">
+        {%- for video in videos_data.videos -%}
+        <a class="video-card" href="https://www.youtube.com/watch?v={{ video.id }}" target="_blank" rel="noopener noreferrer">
+            <img class="video-thumbnail" src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg" alt="{{ video.title }}" loading="lazy">
+            <h3 class="video-card-title">{{ video.title }}</h3>
+        </a>
+        {%- endfor -%}
+    </div>
+</section>
+{%- endif -%}

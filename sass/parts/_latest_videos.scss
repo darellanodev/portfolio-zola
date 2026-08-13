@@ -1,0 +1,41 @@
+.latest-videos {
+    margin-top: 4rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.video-card {
+    display: block;
+
+    &:hover .video-card-title {
+        color: var(--primary-color);
+    }
+}
+
+.video-thumbnail {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--divider-color);
+    background-color: var(--background-color);
+}
+
+.video-card-title {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--text-color-high-contrast);
+    transition: color 0.2s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
