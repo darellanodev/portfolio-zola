@@ -10,7 +10,6 @@ read -p "Option [1-2]: " PAIR
 # Main program
 case "$PAIR" in
   1)
-    node utils/fetch_latest_videos.mjs || true
     ./zola.exe serve
     ;;
   2)
