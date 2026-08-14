@@ -60,6 +60,10 @@
         </h1>
 
         <ul class="meta">
+            {% if page.extra.category %}
+                <li>{% include "partials/category_badge.html" %}</li>
+            {% endif %}
+
             {% if page.draft %}
                 <li class="draft-label">{{ macros_translate::translate(key="draft", default="DRAFT", language_strings=language_strings) }}</li>
             {% endif %}

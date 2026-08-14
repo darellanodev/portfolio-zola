@@ -23,6 +23,7 @@
 
                 <div class="card-info">
                     <h2 class="card-title">{{ page.title }}</h2>
+                    {% include "partials/category_badge.html" %}
                     <div class="card-description">
                         {% if page.description %}
                             {{ page.description }}

@@ -1,5 +1,5 @@
 +++
-title = "Latest projects"
+title = "Featured projects"
 sort_by = "date"
 template = "main-page.html"
 

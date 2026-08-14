@@ -34,6 +34,9 @@ allLinkKey="all_posts")
                         <a href="{{ post.permalink }}">{{ post.title }}</a>
                     </h2>
 
+                    {% set page = post %}
+                    {% include "partials/category_badge.html" %}
+
                     {% if post.taxonomies.tags %}
                     <div class="bloglist-tags">
                         {% for tag in post.taxonomies.tags %}

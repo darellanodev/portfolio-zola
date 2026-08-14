@@ -13,10 +13,12 @@
 
     {%- include "partials/latest_videos.html" -%}
 
-    <div class="list">
+    <div class="list featured-list">
         <div>
             {{ macros_page_header::page_header(title=section.title) }}
         </div>
+
+        <p class="section-subtitle">A mix of games, tools and experiments I've built</p>
 
         {%- if paginator %}
         {%- set pages = paginator.pages -%}
