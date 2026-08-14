@@ -5,6 +5,7 @@ weight = 30
 
 [extra]
 local_image = "projects/dailyboostcalendar/logo.png"
+category = "Management"
 +++
 
 **Daily Boost Calendar** Daily Boost Calendar is a simple calendar inspired by GitHub’s contributions calendar, built with React.

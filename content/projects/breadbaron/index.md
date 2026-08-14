@@ -5,6 +5,7 @@ weight = 50
 
 [extra]
 local_image = "projects/breadbaron/logo.png"
+category = "Games"
 +++
 
 **Bread Baron** is a clicker game where you build your bread empire and become a baking tycoon.

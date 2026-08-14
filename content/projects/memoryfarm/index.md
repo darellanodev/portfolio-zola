@@ -5,6 +5,7 @@ weight = 70
 
 [extra]
 local_image = "projects/memoryfarm/logo.png"
+category = "Games"
 +++
 
 **Memory Farm** is a game I developed for Android mobile devices using augmented reality, built with Unity3D and a library for marker recognition.

@@ -5,6 +5,7 @@ weight = 80
 
 [extra]
 local_image = "projects/spacelab/logo.png"
+category = "Games"
 +++
 
 **Space Lab** is an arcade game with a top-down view that I developed for desktop and Android mobile devices using Unity3D.

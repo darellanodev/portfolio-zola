@@ -5,6 +5,7 @@ weight = 40
 
 [extra]
 local_image = "projects/mediamagnet/logo.png"
+category = "Tools"
 +++
 
 **Media Magnet** is a simple web app that provides a GUI for yt-dlp and other tools, built for learning purposes.

@@ -5,6 +5,7 @@ weight = 50
 
 [extra]
 local_image = "projects/monkeybananarun/logo.png"
+category = "Games"
 +++
 
 **Monkey Banana Run** is a simple arcade game with side-scrolling gameplay, built with Java and LibGDX.

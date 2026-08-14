@@ -5,6 +5,7 @@ weight = 10
 
 [extra]
 local_image = "projects/giftowerdefense/logo.png"
+category = "Games"
 +++
 
 **Gif Tower Defense** is a remake of my old game with the same name, originally made in 2012 with Processing.js. Now I’m rebuilding it with p5.js and TypeScript for fun and learning.

@@ -5,6 +5,7 @@ weight = 60
 
 [extra]
 local_image = "projects/jsconcepts/logo.png"
+category = "Learning"
 +++
 
 **JS Concepts** is a simple app that summarizes JavaScript concepts with examples, sometimes related to games.

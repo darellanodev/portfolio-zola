@@ -5,6 +5,7 @@ weight = 50
 
 [extra]
 local_image = "projects/croacvim/logo.png"
+category = "Games"
 +++
 
 **Croac Vim** is a game designed to help you learn Vim, built with Python and Pygame CE.

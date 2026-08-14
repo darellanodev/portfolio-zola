@@ -5,6 +5,7 @@ weight = 54
 
 [extra]
 local_image = "projects/facetoonmaker/logo.png"
+category = "Games"
 +++
 
 **Face Toon Maker** is a web app for customizing a cartoon face, created for learning and practicing TDD with React.

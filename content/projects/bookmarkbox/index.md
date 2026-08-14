@@ -5,6 +5,7 @@ weight = 66
 
 [extra]
 local_image = "projects/bookmarkbox/logo.png"
+category = "Management"
 +++
 
 **Bookmark Box** is a simple application for storing your web bookmarks, built to learn Astro.

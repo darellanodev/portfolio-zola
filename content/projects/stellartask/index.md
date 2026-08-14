@@ -5,6 +5,7 @@ weight = 63
 
 [extra]
 local_image = "projects/stellartask/logo.png"
+category = "Management"
 +++
 
 **Stellar Task** is a simple application for managing projects, built to learn Angular and practice TDD.

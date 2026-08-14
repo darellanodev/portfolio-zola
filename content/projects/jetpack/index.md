@@ -5,6 +5,7 @@ weight = 20
 
 [extra]
 local_image = "projects/jetpack/logo.png"
+category = "Games"
 +++
 
 **Jetpack** is a simple game built to learn Go and Ebitengine, for desktop (Windows) and web.
