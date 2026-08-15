@@ -1,6 +1,6 @@
 +++
 title = "Memory farm"
-description = "An AR game for Android built with Unity3D."
+description = "Spot the missing object in rural 3d scenes."
 weight = 70
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/memoryfarm/logo.png"
 category = "Games"
 +++
 
-**Memory Farm** is a game I developed for Android mobile devices using augmented reality, built with Unity3D and a library for marker recognition.
+**Memory Farm** is a game I developed for Android using augmented reality, built with Unity3D and a library for marker recognition. Explore rural scenes, memorize every element, and then spot which object has disappeared.
 
 ![Memory farm 1](./screenshot1.jpg)
 ![Memory farm 2](./screenshot2.jpg)

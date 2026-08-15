@@ -1,6 +1,6 @@
 +++
 title = "Space lab"
-description = "A top-down arcade game built with Unity3D."
+description = "Boot up the lab computers while avoiding enemies, fire, and other hazards."
 weight = 80
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/spacelab/logo.png"
 category = "Games"
 +++
 
-**Space Lab** is an arcade game with a top-down view that I developed for desktop and Android mobile devices using Unity3D.
+**Space Lab** is a 3D top-down arcade game developed with Unity3D for desktop and mobile. Activate every computer in the level to advance, while dodging hazards like fire and enemies.
 
 ![Space lab 1](./screenshot1.jpg)
 ![Space lab 2](./screenshot2.jpg)

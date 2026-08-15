@@ -1,6 +1,6 @@
 +++
 title = "Daily Boost Calendar"
-description = "A simple calendar like GitHub’s, built with React."
+description = "Track your habits with GitHub-style calendars and stats."
 weight = 30
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/dailyboostcalendar/logo.png"
 category = "Management"
 +++
 
-**Daily Boost Calendar** Daily Boost Calendar is a simple calendar inspired by GitHub’s contributions calendar, built with React.
+**Daily Boost Calendar** is a simple calendar inspired by GitHub's contributions calendar, built with React. Create calendars for the habits you want to build, log your daily progress, and use the statistics to keep yourself motivated.
 
 ![Daily Boost Calendar screenshot 1](./screenshot1.png)
 ![Daily Boost Calendar screenshot 2](./screenshot2.png)

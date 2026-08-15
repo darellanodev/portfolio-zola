@@ -1,6 +1,6 @@
 +++
 title = "JavaScript concepts"
-description = "A JavaScript reference app with game-related examples."
+description = "JavaScript concepts explained with game-style examples."
 weight = 60
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/jsconcepts/logo.png"
 category = "Learning"
 +++
 
-**JS Concepts** is a simple app that summarizes JavaScript concepts with examples, sometimes related to games.
+**JS Concepts** is a simple app that summarizes JavaScript concepts with short code examples. Some examples are set in games, like my own Gif Tower Defense, to make learning more fun.
 
 ![JS Concepts screenshot 1](./screenshot1.png)
 ![JS Concepts screenshot 2](./screenshot2.png)

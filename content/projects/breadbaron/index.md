@@ -1,6 +1,6 @@
 +++
 title = "Bread Baron"
-description = "A clicker game about building a bread empire."
+description = "Build a bread empire, one click at a time."
 weight = 50
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/breadbaron/logo.png"
 category = "Games"
 +++
 
-**Bread Baron** is a clicker game where you build your bread empire and become a baking tycoon.
+**Bread Baron** is a clicker game where you become a baking tycoon. Grow your empire by hiring workers to keep up with market demand, and upgrade both your shop and your team along the way.
 
 ![Bread Baron screenshot 1](./screenshot1.png)
 

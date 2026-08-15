@@ -1,6 +1,6 @@
 +++
 title = "Jetpack"
-description = "A simple game built to learn Go and Ebitengine, for desktop (Windows) and web."
+description = "Fly between planets, collect fuel and dodge enemies."
 weight = 20
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/jetpack/logo.png"
 category = "Games"
 +++
 
-**Jetpack** is a simple game built to learn Go and Ebitengine, for desktop (Windows) and web.
+**Jetpack** is a simple game built to learn Go and Ebitengine, for desktop (Windows) and web. Pilot an astronaut across planets, gather fuel to get back to the ship, and dodge the enemies that appear in every level.
 
 ![Jetpack screenshots](./screenshots.png)
 

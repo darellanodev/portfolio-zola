@@ -1,6 +1,6 @@
 +++
 title = "Gif Tower Defense"
-description = "A rewrite of my old 2012 game, now using p5.js and TypeScript."
+description = "Place towers and cast spells to stop the enemy waves."
 weight = 10
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/giftowerdefense/logo.png"
 category = "Games"
 +++
 
-**Gif Tower Defense** is a remake of my old game with the same name, originally made in 2012 with Processing.js. Now I’m rebuilding it with p5.js and TypeScript for fun and learning.
+**Gif Tower Defense** is a remake of my old game with the same name, originally made in 2012 with Processing.js. Now I'm rebuilding it with p5.js and TypeScript for fun and learning. Place different towers strategically to defeat enemies that follow the maze, and use one of three magic spells when things get tough.
 
 ![Gif Tower Defense screenshots](./screenshots.png)
 

@@ -1,6 +1,6 @@
 +++
 title = "Croac Vim"
-description = "A game for learning Vim, made with Python and Pygame CE."
+description = "Learn Vim by moving a frog through tricky levels."
 weight = 50
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/croacvim/logo.png"
 category = "Games"
 +++
 
-**Croac Vim** is a game designed to help you learn Vim, built with Python and Pygame CE.
+**Croac Vim** is a game designed to help you learn Vim, built with Python and Pygame CE. Move a frog through top-down 2D scenes, collect items and dodge obstacles while you pick up key Vim commands.
 
 ![Croac Vim Banner](https://github.com/darellanodev/croac-vim/blob/main/github_readme/banner.png?raw=true)
 

@@ -1,6 +1,6 @@
 +++
 title = "Face Toon Maker"
-description = "A React app for customizing cartoon faces."
+description = "Mix and match pieces to build cartoon faces."
 weight = 54
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/facetoonmaker/logo.png"
 category = "Games"
 +++
 
-**Face Toon Maker** is a web app for customizing a cartoon face, created for learning and practicing TDD with React.
+**Face Toon Maker** is a web app for building cartoon faces from ready-made pieces like eyes, noses and mouths, created for learning and practicing TDD with React.
 
 ![Face Toon Maker screenshot](./screenshot.png)
 

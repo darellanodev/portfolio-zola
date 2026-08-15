@@ -1,6 +1,6 @@
 +++
 title = "Stellar Task Box"
-description = "A simple project management app built with Angular."
+description = "Organize projects and track the state of your tasks."
 weight = 63
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/stellartask/logo.png"
 category = "Management"
 +++
 
-**Stellar Task** is a simple application for managing projects, built to learn Angular and practice TDD.
+**Stellar Task** is a web app for managing projects and tasks, built with Angular to learn the framework and practice TDD. Mark every task as pending, in progress or completed.
 
 ![Stellar Task Screenshot](./screenshot.png)
 

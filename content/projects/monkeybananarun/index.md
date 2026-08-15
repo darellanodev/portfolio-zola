@@ -1,6 +1,6 @@
 +++
 title = "Monkey banana run"
-description = "A simple side-scrolling arcade game built with Java and LibGDX."
+description = "Grab bananas, dodge fire and find the monkey's family."
 weight = 50
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/monkeybananarun/logo.png"
 category = "Games"
 +++
 
-**Monkey Banana Run** is a simple arcade game with side-scrolling gameplay, built with Java and LibGDX.
+**Monkey Banana Run** is a side-scrolling arcade game built with Java and LibGDX. Grab bananas, jump over fires and make it through every screen until the monkey finds his family.
 
 ![Monkey banana run screenshot](https://github.com/darellanodev/monkey-banana-run/blob/main/github_readme/screenshot.png?raw=true)
 

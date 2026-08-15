@@ -1,6 +1,6 @@
 +++
 title = "Bookmark Box"
-description = "A simple web bookmark manager built with Astro."
+description = "Store and filter your web bookmarks in themed boxes."
 weight = 66
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/bookmarkbox/logo.png"
 category = "Management"
 +++
 
-**Bookmark Box** is a simple application for storing your web bookmarks, built to learn Astro.
+**Bookmark Box** is a simple application for storing your web bookmarks, built to learn Astro. Bookmarks live inside themed boxes, and a filter lets you see everything or only what matches an activity, like "Edit a video for YouTube".
 
 ![Bookmark Box Screenshot](./screenshot.png)
 

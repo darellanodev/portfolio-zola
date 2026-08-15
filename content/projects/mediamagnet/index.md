@@ -1,6 +1,6 @@
 +++
 title = "Media Magnet"
-description = "A simple web GUI for yt-dlp and other tools."
+description = "A visual builder for yt-dlp download commands and other tools."
 weight = 40
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/mediamagnet/logo.png"
 category = "Tools"
 +++
 
-**Media Magnet** is a simple web app that provides a GUI for yt-dlp and other tools, built for learning purposes.
+**Media Magnet** is a web app that provides a visual interface for generating download commands for yt-dlp and similar tools, whether you want a single video, an audio file or a whole playlist. Built for learning purposes.
 
 ![Media Magnet screenshot 1](./screenshot1.png)
 

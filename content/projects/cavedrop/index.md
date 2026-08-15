@@ -1,6 +1,6 @@
 +++
 title = "Cave drop"
-description = "A 2D physics-based game built with Processing."
+description = "Guide balls through caves using physics and well-placed bars."
 weight = 90
 
 [extra]
@@ -8,7 +8,7 @@ local_image = "projects/cavedrop/logo.png"
 category = "Games"
 +++
 
-**Cave Drop** is a 2D physics-based game I developed for desktop and Android mobile devices using Processing.
+**Cave Drop** is a 2D physics-based game with vector graphics, developed with Processing for desktop and Android. Place bars wisely to guide the balls to their final destination.
 
 ![Cave drop screenshots](./screenshots.png)
 
