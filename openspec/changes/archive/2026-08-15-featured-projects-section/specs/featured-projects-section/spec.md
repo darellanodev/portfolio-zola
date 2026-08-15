@@ -24,7 +24,12 @@ The home page SHALL present its project listing as a "Featured projects" section
 - **WHEN** the viewport width is 1100px or less
 - **THEN** the home project listing collapses to a single column
 
-#### Scenario: Other listings unaffected
+#### Scenario: Blog listing unaffected
 
-- **WHEN** the blog listing or the projects section cards render
-- **THEN** they keep their existing single-column (blog) and card grid (projects section) layouts unchanged
+- **WHEN** the blog listing renders
+- **THEN** it keeps its existing single-column layout unchanged
+
+#### Scenario: Projects section uses the shared featured-list format
+
+- **WHEN** the projects section (`/projects/`) renders
+- **THEN** it uses the same featured-list card format as the home page, per the `projects-cards-layout` capability

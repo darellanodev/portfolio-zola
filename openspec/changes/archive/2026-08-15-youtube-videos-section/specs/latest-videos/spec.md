@@ -27,8 +27,12 @@ The build process SHALL fetch the three most recent videos from the channel RSS 
 - **THEN** the script leaves the existing data file unchanged and exits successfully without failing the build
 
 #### Scenario: Fetch before build
-- **WHEN** `./run_build.sh` or the serve flow of `./run.sh` is executed
-- **THEN** the fetch script runs before the Zola build or serve command so the section reflects the latest videos
+- **WHEN** `./run_build.sh` is executed
+- **THEN** the fetch script runs before the Zola build command so the section reflects the latest videos
+
+#### Scenario: Serve flow does not fetch
+- **WHEN** the serve flow of `./run.sh` is executed
+- **THEN** the fetch script is not invoked, so local development does not perform network requests
 
 ### Requirement: Video cards link out to YouTube
 Each video card SHALL be a link to the video on YouTube (`https://www.youtube.com/watch?v=<video-id>`) that opens in a new tab. The card SHALL display the video thumbnail (loaded from `i.ytimg.com`) and the video title, and SHALL NOT embed a player.
