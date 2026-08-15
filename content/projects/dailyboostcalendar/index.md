@@ -1,7 +1,7 @@
 +++
 title = "Daily Boost Calendar"
 description = "Track your habits with GitHub-style calendars and stats."
-weight = 30
+weight = 20
 
 [extra]
 local_image = "projects/dailyboostcalendar/logo.png"

@@ -1,7 +1,7 @@
 +++
 title = "Media Magnet"
 description = "A visual builder for yt-dlp download commands and other tools."
-weight = 40
+weight = 30
 
 [extra]
 local_image = "projects/mediamagnet/logo.png"

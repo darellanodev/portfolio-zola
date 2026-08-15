@@ -1,7 +1,7 @@
 +++
 title = "Jetpack"
 description = "Fly between planets, collect fuel and dodge enemies."
-weight = 20
+weight = 45
 
 [extra]
 local_image = "projects/jetpack/logo.png"
