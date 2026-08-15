@@ -5,12 +5,14 @@ The home page (`content/_index.md`) uses `templates/main-page.html`, which exten
 ## Goals / Non-Goals
 
 **Goals:**
+
 - Rename the home section title to "Featured projects".
-- Show the subtitle "A mix of games, tools and experiments I've built" between the heading and the project listing.
+- Show the subtitle "Projects I'm building to learn, improve and enjoy the process" between the heading and the project listing.
 - Lay out the home project listing as two columns of stacked cards (image on top, content below) to use horizontal space better.
 - Keep the change isolated to the home page (blog listing and projects section cards unaffected).
 
 **Non-Goals:**
+
 - No changes to project frontmatter, categories, or badges.
 - No changes to blog listing or the projects section (`cards.html` / `cards_pages.html`).
 - No reordering/filtering of projects.
@@ -19,11 +21,15 @@ The home page (`content/_index.md`) uses `templates/main-page.html`, which exten
 ## Decisions
 
 ### 1. Subtitle placement as a dedicated element in main-page.html
-The `_index.md` body paragraph renders inside the home banner partial (`templates/partials/home_banner.html`, `{{ section.content | safe }}`), not in the list area. Therefore the subtitle is added as a static `<p class="section-subtitle">A mix of games, tools and experiments I've built</p>` in `templates/main-page.html` between the page_header `<div>` and the `list_posts` macro call.
+
+The `_index.md` body paragraph renders inside the home banner partial (`templates/partials/home_banner.html`, `{{ section.content | safe }}`), not in the list area. Therefore the subtitle is added as a static `<p class="section-subtitle">Projects I'm building to learn, improve and enjoy the process</p>` in `templates/main-page.html` between the page_header `<div>` and the `list_posts` macro call.
+
 - Alternative (append to `_index.md` body): rejected — it would render inside the banner, below the avatar, not under the "Featured projects" heading.
 
 ### 2. Two-column layout via a home-only modifier class
+
 Add a `featured-list` class to the home list wrapper (`<div class="list featured-list">`) and scope the two-column grid under `.featured-list` in `sass/parts/_posts_list.scss`:
+
 - `.featured-list .bloglist-container { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }`
 - `.featured-list .bloglist-row { flex-direction: column; padding: 0; background: none; }` (stacked card)
 - `.featured-list .bloglist-meta { width: 100%; }` with `.left-img-project` full-width and rounded corners
@@ -35,6 +41,7 @@ Add a `featured-list` class to the home list wrapper (`<div class="list featured
 - Alternative (macro param `columns`): rejected — more invasive, touches all `list_posts` call sites.
 
 ### 3. Subtitle styling
+
 New `.section-subtitle` rule in `sass/parts/_posts_list.scss`: `font-size ~1.1rem`, color `var(--meta-color)`, margin below the heading (e.g. `margin: -0.5rem 0 1.5rem`), so it reads as a subtitle for "Featured projects".
 
 ## Risks / Trade-offs

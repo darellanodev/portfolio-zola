@@ -1,27 +1,23 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block main_content %} {% if
+section.extra.section_path -%} {% set section =
+get_section(path=section.extra.section_path) %} {% endif -%} {{
+macros_page_header::page_header(title=section.title) }}
 
-{% block main_content %}
-    {% if section.extra.section_path -%}
-        {% set section = get_section(path=section.extra.section_path) %}
-    {% endif -%}
+<main>
+  {% if section.content -%}
+  <div id="page-content">{{ section.content | safe }}</div>
+  {% endif %} {%- if paginator %} {%- set show_pages = paginator.pages -%} {%
+  else %} {%- set show_pages = section.pages -%} {% endif -%}
 
-    {{ macros_page_header::page_header(title=section.title) }}
+  <div class="list featured-list">
+    <p class="section-subtitle">
+      Projects I'm building to learn, improve and enjoy the process
+    </p>
 
-    <main>
-        {% if section.content -%}
-            <div id="page-content">{{ section.content | safe }}</div>
-        {% endif %}
+    {{ macros_list_posts::list_posts(posts=show_pages, max=999999,
+    language_strings=language_strings) }}
+  </div>
+</main>
 
-        {%- if paginator %}
-            {%- set show_pages = paginator.pages -%}
-        {% else %}
-            {%- set show_pages = section.pages -%}
-        {% endif -%}
-
-    {%- include "partials/cards_pages.html" -%}
-    </main>
-
-    {% if paginator %}
-        {%- include "partials/paginate.html" -%}
-    {% endif %}
-{% endblock main_content %}
+{% if paginator %} {%- include "partials/paginate.html" -%} {% endif %} {%
+endblock main_content %}
