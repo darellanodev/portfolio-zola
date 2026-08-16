@@ -32,9 +32,14 @@
         .tag {
             display: inline-block;
             margin-right: 0.7rem;
-            font-weight: 400;
+            font-weight: 600;
             font-size: 0.75rem;
             text-transform: uppercase;
+            color: var(--meta-color);
+
+            &:hover {
+                color: var(--hover-green);
+            }
         }
     }
 
