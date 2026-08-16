@@ -15,7 +15,7 @@
     }
 
     a:hover {
-        color: #8fd9a8;
+        color: var(--hover-green);
 
         code {
             color: var(--text-color-high-contrast);

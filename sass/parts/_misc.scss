@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: #8fd9a8;
+  color: var(--hover-green);
 }
 
 a.effectimg:hover > img {

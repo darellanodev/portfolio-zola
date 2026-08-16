@@ -18,12 +18,12 @@
         transform: translateY(-4px);
 
         .video-thumbnail {
-            border-color: #8fd9a8;
+            border-color: var(--hover-green);
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
         }
 
         .video-card-title {
-            color: #8fd9a8;
+            color: var(--hover-green);
         }
     }
 }
