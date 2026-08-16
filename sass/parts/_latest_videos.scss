@@ -11,9 +11,20 @@
 
 .video-card {
     display: block;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
 
-    &:hover .video-card-title {
-        color: var(--hover-color);
+    &:hover {
+        transform: translateY(-4px);
+
+        .video-thumbnail {
+            border-color: #8fd9a8;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-card-title {
+            color: #8fd9a8;
+        }
     }
 }
 
@@ -25,6 +36,7 @@
     border-radius: 8px;
     border: 1px solid var(--divider-color);
     background-color: var(--background-color);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .video-card-title {
