@@ -71,49 +71,13 @@ a {
   color: var(--primary-color);
   font-weight: inherit;
   text-decoration: inherit;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  background-color: var(--primary-color);
-  color: var(--hover-color);
-  border-radius: 5px;
+  color: #8fd9a8;
 }
 
-a:not(.no-hover-padding):hover::after {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: -0.15em;
-  bottom: 0;
-  left: -0.15em;
-  z-index: -1;
-  background-color: var(--primary-color);
-  max-width: 105%; // This fixes multi-line links (see #225)
-  content: '';
-  border-radius: 5px;
-}
-
-a.withoutbg:hover {
-  background-color: transparent;
-}
-
-a.withoutbg:hover {
-  color: var(--hover-color);
-  background-color: transparent;
-}
-
-a.withoutbg:not(.no-hover-padding):hover::after {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: -0.15em;
-  bottom: 0;
-  left: -0.15em;
-  z-index: -1;
-  background-color: transparent;
-  max-width: 105%; // This fixes multi-line links (see #225)
-  content: '';
-}
 a.effectimg:hover > img {
   filter: brightness(1.2);
   transform: scale(1.1);
