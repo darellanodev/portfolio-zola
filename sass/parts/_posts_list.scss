@@ -70,6 +70,22 @@
 .all-posts {
     font-weight: 350;
     font-size: 1.3rem;
+
+    a {
+        color: var(--link-blue);
+
+        &:hover {
+            color: var(--hover-green);
+        }
+    }
+}
+
+.readmore {
+    color: var(--link-blue);
+
+    &:hover {
+        color: var(--hover-green);
+    }
 }
 
 .section-subtitle {

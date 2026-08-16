@@ -6,8 +6,12 @@ footer {
     font-family: var(--post-font-family);
     text-align: center;
 
+    a {
+        color: var(--meta-color);
+    }
+
     .nav-links {
-        color: var(--primary-color);
+        color: var(--meta-color);
     }
 
     p {
