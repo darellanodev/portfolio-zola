@@ -82,6 +82,7 @@ a.effectimg {
   display: block;
   border-radius: 50%;
   overflow: hidden;
+  will-change: transform;
   transition: transform 0.2s ease;
 
   &:hover {
