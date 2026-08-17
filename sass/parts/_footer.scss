@@ -83,3 +83,28 @@ footer nav {
         }
     }
 }
+
+.social-links-row {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+
+    .social-link {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        color: var(--meta-color);
+        transition: color 0.2s ease;
+
+        svg {
+            width: 1rem;
+            height: 1rem;
+            flex-shrink: 0;
+        }
+
+        &:hover {
+            color: var(--hover-green);
+        }
+    }
+}
