@@ -84,11 +84,13 @@ footer nav {
     }
 }
 
-.social-links-row {
+.footer-social-row {
     display: flex;
-    gap: 1.5rem;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 0.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
 
     .social-link {
         display: flex;
@@ -98,13 +100,35 @@ footer nav {
         transition: color 0.2s ease;
 
         svg {
-            width: 1rem;
-            height: 1rem;
+            width: 1.25rem;
+            height: 1.25rem;
             flex-shrink: 0;
         }
 
         &:hover {
             color: var(--hover-green);
         }
+    }
+}
+
+.footer-bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.65rem;
+    opacity: 0.8;
+    margin-top: 0.25rem;
+
+    .footer-separator {
+        color: var(--meta-color);
+        opacity: 0.5;
+    }
+
+    .credits-inline {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
     }
 }

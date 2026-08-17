@@ -202,9 +202,7 @@ email = ""
 encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 
 # The icons available can be found in "social_icons" in the "static" folder.
-socials = [
-    { name = "github", url = "https://github.com/darellanodev", icon = "github" },
-]
+socials = []
 
 # Extra menu to show on the footer, below socials section.
 footer_menu = [
