@@ -1,0 +1,42 @@
+.aura-bg {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+
+  .aura-layer {
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: screen;
+    transform: translateZ(0);
+    will-change: transform;
+    pointer-events: none;
+  }
+
+  .aura-layer-1 {
+    background: radial-gradient(ellipse 48% 58% at 28% 48%, rgba(217, 70, 239, 0.72) 0%, rgba(134, 25, 143, 0.16) 48%, transparent 72%);
+    filter: blur(126px);
+  }
+
+  .aura-layer-2 {
+    background: radial-gradient(ellipse 42% 55% at 68% 38%, rgba(34, 211, 238, 0.68) 0%, rgba(8, 145, 178, 0.15) 48%, transparent 72%);
+    filter: blur(144px);
+  }
+
+  .aura-layer-3 {
+    background: radial-gradient(ellipse 25% 32% at 50% 72%, rgba(244, 114, 182, 0.42) 0%, transparent 65%);
+    filter: blur(108px);
+  }
+}
+
+header, .content, footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .aura-bg {
+    display: none;
+  }
+}

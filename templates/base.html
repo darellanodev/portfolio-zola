@@ -24,6 +24,11 @@ This variable will hold all the text strings for the language #}
 {% include "partials/header.html" %}
 
 <body{% if lang in rtl_languages %} dir="rtl"{% endif %}>
+    <div class="aura-bg" aria-hidden="true">
+        <div class="aura-layer aura-layer-1"></div>
+        <div class="aura-layer aura-layer-2"></div>
+        <div class="aura-layer aura-layer-3"></div>
+    </div>
     {% include "partials/nav.html" %}
     <div class="content">
 
