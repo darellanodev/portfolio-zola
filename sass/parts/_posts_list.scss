@@ -108,8 +108,11 @@
     .bloglist-row {
         flex-direction: row;
         align-items: flex-start;
-        padding: 1rem 0;
+        padding: 1rem;
         gap: 1rem;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.55);
 
         &.bottom-divider {
             border-bottom: none;
@@ -137,6 +140,11 @@
     }
 }
 
+html[data-theme='dark'] {
+    .featured-list .bloglist-row {
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+}
 
 @media only screen and (max-width: 1100px) {
     .featured-list .bloglist-container {
