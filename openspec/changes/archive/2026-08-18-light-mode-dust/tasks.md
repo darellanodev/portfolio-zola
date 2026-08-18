@@ -11,6 +11,6 @@
 
 ## 3. Verification
 
-- [ ] 3.1 Build with `zola serve` and verify dark mode aura appears identical to before (Cosmic Dust)
-- [ ] 3.2 Switch to light mode and verify Cotton Candy aura is visible (pink/purple/orange pastels via normal + multiply)
-- [ ] 3.3 Resize to ≤768px and verify aura is hidden in both modes
+- [x] 3.1 Build with `zola serve` and verify dark mode aura appears identical to before (Cosmic Dust)
+- [x] 3.2 Switch to light mode and verify Cotton Candy aura is visible (pink/purple/orange pastels via normal + multiply)
+- [x] 3.3 Resize to ≤768px and verify aura is hidden in both modes

@@ -18,7 +18,7 @@
 
 ## 5. Verification
 
-- [ ] 5.1 Rebuild the site with Zola and confirm Sass compiles without errors
-- [ ] 5.2 Visually verify dark mode shows the 3-layer aura gradient behind all page content
-- [ ] 5.3 Visually verify light mode has no aura effect (only dark background color change)
-- [ ] 5.4 Verify mobile viewport (≤768px) has no aura effect
+- [x] 5.1 Rebuild the site with Zola and confirm Sass compiles without errors
+- [x] 5.2 Visually verify dark mode shows the 3-layer aura gradient behind all page content
+- [x] 5.3 Visually verify light mode has no aura effect (only dark background color change)
+- [x] 5.4 Verify mobile viewport (≤768px) has no aura effect
