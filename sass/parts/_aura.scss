@@ -8,49 +8,84 @@
   .aura-layer {
     position: absolute;
     inset: 0;
-    mix-blend-mode: screen;
     transform: translateZ(0);
     will-change: transform;
     pointer-events: none;
   }
 
+  // Light mode — Cotton Candy (default)
   .aura-layer-1 {
-    background: radial-gradient(ellipse 40% 50% at 25% 35%, rgba(139, 92, 246, 0.9) 0%, transparent 70%);
-    filter: blur(125px);
+    background: radial-gradient(circle at 20% 30%, rgba(244, 114, 182, 0.6) 0%, transparent 50%);
+    mix-blend-mode: normal;
+    filter: blur(200px);
   }
 
   .aura-layer-2 {
-    background: radial-gradient(ellipse 35% 45% at 70% 60%, rgba(6, 182, 212, 0.8) 0%, transparent 70%);
-    filter: blur(138px);
+    background: radial-gradient(circle at 75% 25%, rgba(167, 139, 250, 0.5) 0%, transparent 45%);
+    mix-blend-mode: normal;
+    filter: blur(175px);
   }
 
   .aura-layer-3 {
-    background: radial-gradient(ellipse 25% 30% at 50% 20%, rgba(244, 114, 182, 0.5) 0%, transparent 70%);
-    filter: blur(100px);
+    background: radial-gradient(circle at 50% 80%, rgba(253, 186, 116, 0.4) 0%, transparent 55%);
+    mix-blend-mode: multiply;
+    filter: blur(200px);
   }
 
   .aura-layer-4 {
-    background: radial-gradient(ellipse 20% 25% at 80% 30%, rgba(232, 121, 249, 0.4) 0%, transparent 70%);
-    filter: blur(88px);
+    background: radial-gradient(circle at 85% 70%, rgba(192, 132, 252, 0.3) 0%, transparent 35%);
+    mix-blend-mode: multiply;
+    filter: blur(150px);
   }
 }
 
+// Desktop blur — Cotton Candy
 @media (min-width: 769px) {
   .aura-bg {
+    .aura-layer-1 { filter: blur(260px); }
+    .aura-layer-2 { filter: blur(252px); }
+    .aura-layer-3 { filter: blur(260px); }
+    .aura-layer-4 { filter: blur(216px); }
+  }
+}
+
+// Dark mode — Cosmic Dust (override all layer properties)
+html[data-theme='dark'] {
+  .aura-bg {
     .aura-layer-1 {
-      filter: blur(180px);
+      background: radial-gradient(ellipse 40% 50% at 25% 35%, rgba(139, 92, 246, 0.9) 0%, transparent 70%);
+      mix-blend-mode: screen;
+      filter: blur(125px);
     }
 
     .aura-layer-2 {
-      filter: blur(198px);
+      background: radial-gradient(ellipse 35% 45% at 70% 60%, rgba(6, 182, 212, 0.8) 0%, transparent 70%);
+      mix-blend-mode: screen;
+      filter: blur(138px);
     }
 
     .aura-layer-3 {
-      filter: blur(144px);
+      background: radial-gradient(ellipse 25% 30% at 50% 20%, rgba(244, 114, 182, 0.5) 0%, transparent 70%);
+      mix-blend-mode: screen;
+      filter: blur(100px);
     }
 
     .aura-layer-4 {
-      filter: blur(126px);
+      background: radial-gradient(ellipse 20% 25% at 80% 30%, rgba(232, 121, 249, 0.4) 0%, transparent 70%);
+      mix-blend-mode: screen;
+      filter: blur(88px);
+    }
+  }
+}
+
+// Desktop blur — Cosmic Dust
+@media (min-width: 769px) {
+  html[data-theme='dark'] {
+    .aura-bg {
+      .aura-layer-1 { filter: blur(180px); }
+      .aura-layer-2 { filter: blur(198px); }
+      .aura-layer-3 { filter: blur(144px); }
+      .aura-layer-4 { filter: blur(126px); }
     }
   }
 }
