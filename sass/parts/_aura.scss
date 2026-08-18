@@ -15,18 +15,43 @@
   }
 
   .aura-layer-1 {
-    background: radial-gradient(ellipse 48% 58% at 28% 48%, rgba(217, 70, 239, 0.72) 0%, rgba(134, 25, 143, 0.16) 48%, transparent 72%);
-    filter: blur(126px);
+    background: radial-gradient(ellipse 40% 50% at 25% 35%, rgba(139, 92, 246, 0.9) 0%, transparent 70%);
+    filter: blur(125px);
   }
 
   .aura-layer-2 {
-    background: radial-gradient(ellipse 42% 55% at 68% 38%, rgba(34, 211, 238, 0.68) 0%, rgba(8, 145, 178, 0.15) 48%, transparent 72%);
-    filter: blur(144px);
+    background: radial-gradient(ellipse 35% 45% at 70% 60%, rgba(6, 182, 212, 0.8) 0%, transparent 70%);
+    filter: blur(138px);
   }
 
   .aura-layer-3 {
-    background: radial-gradient(ellipse 25% 32% at 50% 72%, rgba(244, 114, 182, 0.42) 0%, transparent 65%);
-    filter: blur(108px);
+    background: radial-gradient(ellipse 25% 30% at 50% 20%, rgba(244, 114, 182, 0.5) 0%, transparent 70%);
+    filter: blur(100px);
+  }
+
+  .aura-layer-4 {
+    background: radial-gradient(ellipse 20% 25% at 80% 30%, rgba(232, 121, 249, 0.4) 0%, transparent 70%);
+    filter: blur(88px);
+  }
+}
+
+@media (min-width: 769px) {
+  .aura-bg {
+    .aura-layer-1 {
+      filter: blur(180px);
+    }
+
+    .aura-layer-2 {
+      filter: blur(198px);
+    }
+
+    .aura-layer-3 {
+      filter: blur(144px);
+    }
+
+    .aura-layer-4 {
+      filter: blur(126px);
+    }
   }
 }
 
