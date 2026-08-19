@@ -8,18 +8,17 @@ Design reference for the portfolio site. Captures visual/UX decisions and archit
 
 Two themed gradient backgrounds using layered CSS `mix-blend-mode`. Implemented in `sass/parts/_aura.scss`, rendered in `templates/base.html`.
 
-### Light Mode — "Cotton Candy"
+### Light Mode — "Milk Tea"
 
-- **Category:** mesh
+- **Category:** flux
 - **Base color:** `#faf8f2` (warm off-white)
-- **Blend modes:** `normal` (layers 1–2), `multiply` (layers 3–4)
+- **Blend modes:** `normal` (layers 1–2), `multiply` (layer 3)
 
 | Layer | Gradient | Blend | Blur (mobile) | Blur (desktop) |
 |-------|----------|-------|---------------|----------------|
-| 1 | `circle at 20% 30%` — `rgba(244,114,182,0.6)` pink | normal | 200px | 260px |
-| 2 | `circle at 75% 25%` — `rgba(167,139,250,0.5)` purple | normal | 175px | 252px |
-| 3 | `circle at 50% 80%` — `rgba(253,186,116,0.4)` orange | multiply | 200px | 260px |
-| 4 | `circle at 85% 70%` — `rgba(192,132,252,0.3)` violet | multiply | 150px | 216px |
+| 1 | `ellipse 55% 45% at 30% 50%` — `rgba(217,119,6,0.38)` amber | normal | 145px | 209px |
+| 2 | `ellipse 45% 52% at 68% 40%` — `rgba(180,83,9,0.28)` brown | normal | 155px | 223px |
+| 3 | `ellipse 30% 28% at 50% 72%` — `rgba(255,255,255,0.62)` white | multiply | 95px | 137px |
 
 ### Dark Mode — "Cosmic Dust"
 

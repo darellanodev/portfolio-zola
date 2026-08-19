@@ -1,4 +1,4 @@
-## Requirements
+## MODIFIED Requirements
 
 ### Requirement: Light mode uses Milk Tea aura
 The aura gradient in light mode SHALL use the "Milk Tea" design: 3 ellipse-gradient layers with per-layer blend modes (normal for layers 1–2, multiply for layer 3) over a `#faf8f2` backdrop.
