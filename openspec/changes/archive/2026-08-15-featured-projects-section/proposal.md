@@ -5,7 +5,7 @@ The home page presents a section titled "Latest projects" as a single-column lis
 ## What Changes
 
 - Rename the home section title from "Latest projects" to "Featured projects".
-- Add a subtitle phrase "Projects I'm building to learn, improve and enjoy the process" directly below the "Featured projects" heading, before the project listing.
+- Add a subtitle phrase "Projects I'm building to learn, contribute to the community and enjoy the process." directly below the "Featured projects" heading, before the project listing.
 - Render the home project listing as a two-column grid of stacked cards (image on top, content below), collapsing back to a single column on narrow screens.
 - Add a small subtitle style (`.section-subtitle`) to the SCSS.
 - Scope the two-column layout to the home page only; the blog listing and the projects section cards remain unaffected.

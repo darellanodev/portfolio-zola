@@ -1,15 +1,28 @@
-{%- set videos_data = load_data(path="data/latest_videos.toml", required=false) -%}
-{%- if videos_data and videos_data.videos -%}
+{%- set videos_data = load_data(path="data/latest_videos.toml", required=false)
+-%} {%- if videos_data and videos_data.videos -%}
 <section class="latest-videos" aria-label="Latest videos">
-    <div>{{ macros_page_header::page_header(title="Latest videos") }}</div>
-    <p class="section-subtitle">A few videos where I share what I'm learning (Spanish audio)</p>
-    <div class="video-grid">
-        {%- for video in videos_data.videos -%}
-        <a class="video-card withoutbg" href="https://www.youtube.com/watch?v={{ video.id }}" target="_blank" rel="noopener noreferrer">
-            <img class="video-thumbnail" src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg" alt="{{ video.title }}" loading="lazy">
-            <h3 class="video-card-title">{{ video.title }}</h3>
-        </a>
-        {%- endfor -%}
-    </div>
+  <div>{{ macros_page_header::page_header(title="Latest videos") }}</div>
+  <p class="section-subtitle">
+    A few videos where I share what I'm learning, hoping they're useful to the
+    community (Spanish audio).
+  </p>
+  <div class="video-grid">
+    {%- for video in videos_data.videos -%}
+    <a
+      class="video-card withoutbg"
+      href="https://www.youtube.com/watch?v={{ video.id }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        class="video-thumbnail"
+        src="https://i.ytimg.com/vi/{{ video.id }}/hqdefault.jpg"
+        alt="{{ video.title }}"
+        loading="lazy"
+      />
+      <h3 class="video-card-title">{{ video.title }}</h3>
+    </a>
+    {%- endfor -%}
+  </div>
 </section>
 {%- endif -%}

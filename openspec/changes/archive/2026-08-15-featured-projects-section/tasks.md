@@ -4,7 +4,7 @@
 
 ## 2. Subtitle phrase
 
-- [x] 2.1 Add `<p class="section-subtitle">Projects I'm building to learn, improve and enjoy the process</p>` in `templates/main-page.html` between the page_header `<div>` and the `list_posts` macro call
+- [x] 2.1 Add `<p class="section-subtitle">Projects I'm building to learn, contribute to the community and enjoy the process.</p>` in `templates/main-page.html` between the page_header `<div>` and the `list_posts` macro call
 
 ## 3. Two-column home listing
 

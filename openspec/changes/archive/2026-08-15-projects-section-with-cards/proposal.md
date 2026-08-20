@@ -5,7 +5,7 @@ The projects page (`/projects/`) renders each project as a vertical card (`.card
 ## What Changes
 
 - Replace the `cards_pages.html` include in `templates/cards.html` with the home page's featured-list block: `<div class="list featured-list">` + `<p class="section-subtitle">` + the `macros_list_posts::list_posts` macro.
-- Reuse the home page subtitle "Projects I'm building to learn, improve and enjoy the process" on the projects page.
+- Reuse the home page subtitle "Projects I'm building to learn, contribute to the community and enjoy the process." on the projects page.
 - Show all 15 projects in the 2-column grid (no "All projects" link, matching the home layout).
 - Keep the existing paginator handling (`paginator.pages` vs `section.pages`) and the `page_header(title=section.title)`.
 

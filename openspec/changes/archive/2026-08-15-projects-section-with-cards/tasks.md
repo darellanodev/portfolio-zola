@@ -1,6 +1,6 @@
 ## 1. Template Implementation
 
-- [x] 1.1 Replace `{%- include "partials/cards_pages.html" -%}` in `templates/cards.html` with the featured-list block: `<div class="list featured-list">` + `<p class="section-subtitle">Projects I'm building to learn, improve and enjoy the process</p>` + `macros_list_posts::list_posts(posts=show_pages, max=999999, language_strings=language_strings)`
+- [x] 1.1 Replace `{%- include "partials/cards_pages.html" -%}` in `templates/cards.html` with the featured-list block: `<div class="list featured-list">` + `<p class="section-subtitle">Projects I'm building to learn, contribute to the community and enjoy the process.</p>` + `macros_list_posts::list_posts(posts=show_pages, max=999999, language_strings=language_strings)`
 - [x] 1.2 Keep `page_header(title=section.title)` and the paginator branch (`show_pages = paginator.pages` vs `section.pages`); close the `</div>` correctly
 
 ## 2. Verification

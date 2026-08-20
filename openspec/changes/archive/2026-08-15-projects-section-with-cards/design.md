@@ -12,7 +12,7 @@
 **Goals:**
 
 - `/projects/` shows all projects (15) using the exact same card format as the home page featured list.
-- Reuse the home subtitle "Projects I'm building to learn, improve and enjoy the process".
+- Reuse the home subtitle "Projects I'm building to learn, contribute to the community and enjoy the process.".
 - Keep pagination behavior (`paginator.pages` vs `section.pages`) working.
 
 **Non-Goals:**

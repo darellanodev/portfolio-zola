@@ -18,7 +18,7 @@ The home page SHALL present its project listing as a "Featured projects" section
 #### Scenario: Subtitle phrase
 
 - **WHEN** the home page renders the featured projects section
-- **THEN** the phrase "Projects I'm building to learn, improve and enjoy the process" is displayed between the section heading and the project listing
+- **THEN** the phrase "Projects I'm building to learn, contribute to the community and enjoy the process." is displayed between the section heading and the project listing
 
 #### Scenario: Two-column listing on wide viewport
 
