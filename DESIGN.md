@@ -4,6 +4,37 @@ Design reference for the portfolio site. Captures visual/UX decisions and archit
 
 ---
 
+## Typography
+
+Two-font system loaded via Google Fonts `<link>` tags with preconnect hints. Fallbacks: `sans-serif` for both.
+
+### Heading Font — Quicksand
+
+- **Weights:** 500 (h5), 600 (h3, h4), 700 (h1, h2, `.section-title`, `.article-title`)
+- **CSS variable:** `--heading-font: 'Quicksand', sans-serif`
+- **Selectors:** `h1`–`h5`, `.section-title`, `.article-title`, `.gradient-color`
+
+### Body Font — Inter
+
+- **Weights:** 400 (body text), 600 (strong emphasis)
+- **CSS variable:** `--sans-serif-font: 'Inter', Helvetica, Arial, sans-serif`
+- **Selectors:** default `font-family` on `:root`; `article p`, `li`, `details`, `summary` use `--serif-font` (Source Serif)
+
+### Other Fonts
+
+| Font | Variable | Use |
+|------|----------|-----|
+| Source Serif | `--serif-font` | Article body text (`p`, `li`, `details`, `summary`) |
+| Cascadia Code | `--code-font` | Code blocks and inline code |
+
+### Files
+
+- `sass/main.scss` — `:root` variable definitions (lines 60–63), heading rules (lines 184–260)
+- `sass/parts/_misc.scss` — `.article-title`, `.gradient-color`
+- `templates/partials/header.html` — Google Fonts `<link>` tags (lines 22–26)
+
+---
+
 ## Background Gradient System (Aura)
 
 Two themed gradient backgrounds using layered CSS `mix-blend-mode`. Implemented in `sass/parts/_aura.scss`, rendered in `templates/base.html`.
