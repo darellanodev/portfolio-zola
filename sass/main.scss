@@ -151,7 +151,10 @@ article {
     li,
     details,
     summary {
-        font-family: var(--serif-font);
+        font-family: var(--sans-serif-font);
+        font-weight: 350;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
     }
 
     strong {
