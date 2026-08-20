@@ -229,11 +229,11 @@ footer_menu = [
 # Default config, allows for https remote images and embedding YouTube and Vimeo content.
 # This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
 allowed_domains = [
-    { directive = "font-src", domains = ["'self'", "data:"] },
+    { directive = "font-src", domains = ["'self'", "data:", "https://fonts.googleapis.com", "https://fonts.gstatic.com"] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
     { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/"] },
     { directive = "script-src", domains = ["'self'"] },
-    { directive = "style-src", domains = ["'self'"] },
+    { directive = "style-src", domains = ["'self'", "https://fonts.googleapis.com"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
 ]
 

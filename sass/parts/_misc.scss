@@ -9,7 +9,8 @@
   display: block;
   margin: 0;
   color: var(--text-color-high-contrast);
-  font-weight: 550;
+  font-family: var(--heading-font);
+  font-weight: 700;
   font-size: 2rem;
   line-height: 3rem;
 }
@@ -257,7 +258,7 @@ details summary {
 }
 
 .gradient-color{
-  font-family: sans-serif;
+  font-family: var(--heading-font);
   font-weight: bold;
   background: linear-gradient(90deg, #3f7a35 0%, #2e6e9e 50%, #a04a6e 100%);
   color: transparent;

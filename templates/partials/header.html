@@ -19,6 +19,12 @@
         trailing_slash=false) }}">
 
     {# CSS #}
+    {# Google Fonts preconnect #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    {# Google Fonts: Fredoka (headings) + Inter (body) #}
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
     {# Load subset of glyphs for header. Avoids flashing issue in Firefox #}
     {% if config.extra.custom_subset and config.extra.custom_subset == true %}
         <link rel="stylesheet" href="{{ get_url(path="custom_subset.css" , cachebust=true) }}">

@@ -60,6 +60,7 @@
     --sans-serif-font: 'Inter', Helvetica, Arial, sans-serif;
     --serif-font: 'Source Serif', 'Georgia', serif;
     --code-font: 'Cascadia Code';
+    --heading-font: 'Fredoka', sans-serif;
 
     --background-color: #faf8f2;
     --bg-0: #f0f0f0;
@@ -179,7 +180,8 @@ article {
     margin: 0;
     margin-top: -0.15em;
     color: var(--text-color-high-contrast);
-    font-weight: 550;
+    font-family: var(--heading-font);
+    font-weight: 700;
     font-size: 2.2em;
     line-height: 1.2em;
 }
@@ -203,7 +205,8 @@ h1 {
     margin-right: 0;
     margin-bottom: 0em;
     margin-left: 0;
-    font-weight: 550;
+    font-family: var(--heading-font);
+    font-weight: 700;
     font-size: 1.5em;
 }
 
@@ -213,7 +216,8 @@ h2 {
     margin-right: 0;
     margin-bottom: 0em;
     margin-left: 0;
-    font-weight: 550;
+    font-family: var(--heading-font);
+    font-weight: 700;
     font-size: 1.4em;
 }
 
@@ -223,7 +227,8 @@ h3 {
     margin-right: 0;
     margin-bottom: 0em;
     margin-left: 0;
-    font-weight: 550;
+    font-family: var(--heading-font);
+    font-weight: 600;
     font-size: 1.2em;
 }
 
@@ -233,7 +238,8 @@ h4 {
     margin-right: 0;
     margin-bottom: 0em;
     margin-left: 0;
-    font-weight: 550;
+    font-family: var(--heading-font);
+    font-weight: 600;
     font-size: 1em;
 }
 
@@ -243,7 +249,8 @@ h5 {
     margin-right: 0;
     margin-bottom: 0em;
     margin-left: 0;
-    font-weight: normal;
+    font-family: var(--heading-font);
+    font-weight: 500;
     font-size: 1em;
 }
 
