@@ -1,5 +1,5 @@
 +++
-title = "How to synchronize branches in Git"
+title = "How to synchronize branches in Git."
 date = 2025-03-08
 updated = 2025-03-08
 description = "I share my experience synchronizing branches in GitHub to keep my repository updated with the latest changes"

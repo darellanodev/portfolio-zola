@@ -1,5 +1,5 @@
 +++
-title = "Decorator pattern with pizzas"
+title = "Decorator pattern with pizzas."
 date = 2026-05-13
 updated = 2026-05-13
 description = "We practice the Decorator pattern in a pizzeria to add ingredients dynamically, without creating a class for each possible combination"

@@ -1,5 +1,5 @@
 +++
-title = "SVG Utilities"
+title = "SVG Utilities."
 date = 2024-07-22
 updated = 2024-07-22
 description = "I am experimenting with SVG and here I share some interesting utilities."

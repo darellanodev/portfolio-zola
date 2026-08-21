@@ -1,5 +1,5 @@
 +++
-title = "Creating videos with HyperFrames"
+title = "Creating videos with HyperFrames."
 date = 2026-07-05
 updated = 2026-07-05
 description = "How to create videos using HTML and GSAP with the HyperFrames CLI tool"

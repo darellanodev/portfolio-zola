@@ -1,5 +1,5 @@
 +++
-title = "Book to skill with OpenCode"
+title = "Book to skill with OpenCode."
 date = 2026-08-07
 updated = 2026-08-07
 description = "I try book-to-skill, an open source tool that turns a technical book into a skill your AI agent can consult on demand, using far fewer tokens than pasting the whole book"

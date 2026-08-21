@@ -1,5 +1,5 @@
 +++
-title = "Installing and starting to use Vim with gVim in Windows"
+title = "Installing and starting to use Vim with gVim in Windows."
 date = 2025-04-05
 updated = 2025-04-05
 description = "Last year, I started using the Vim extension for VSCode to speed up my coding workflow. Now, in parallel, I want to try gVim on Windows to practice Vim more effectively."

@@ -1,5 +1,5 @@
 +++
-title = "Installing LazyVim in Neovim"
+title = "Installing LazyVim in Neovim."
 date = 2025-04-27
 updated = 2025-04-27
 description = "This week, I wanted to try LazyVim, which is a configuration for Neovim."

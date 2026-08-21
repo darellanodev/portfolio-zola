@@ -1,5 +1,5 @@
 +++
-title = "OmniRoute with OpenCode"
+title = "OmniRoute with OpenCode."
 date = 2026-07-25
 updated = 2026-07-25
 description = "How to set up OmniRoute, a free and open source local gateway that connects your editor or CLI to more than 90 AI providers with free tiers"

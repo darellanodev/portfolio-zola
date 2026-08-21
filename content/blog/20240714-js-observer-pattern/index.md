@@ -1,5 +1,5 @@
 +++
-title = "JavaScript Observer Pattern"
+title = "JavaScript Observer Pattern."
 date = 2024-07-14
 updated = 2024-07-14
 description = "An example of the Observer Pattern in JavaScript."

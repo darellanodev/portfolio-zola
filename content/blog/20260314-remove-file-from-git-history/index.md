@@ -1,5 +1,5 @@
 +++
-title = "Remove file from Git history"
+title = "Remove file from Git history."
 date = 2026-03-14
 updated = 2026-03-14
 description = "I share my experience removing a file from Git history using git-filter-repo while keeping the file in the project as untracked"

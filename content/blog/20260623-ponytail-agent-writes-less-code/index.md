@@ -1,5 +1,5 @@
 +++
-title = "Ponytail in OpenCode: The Agent That Writes Less Code"
+title = "Ponytail in OpenCode: The Agent That Writes Less Code."
 date = 2026-06-23
 updated = 2026-06-23
 description = "How to avoid over-engineering with a personality plugin for your AI agent"

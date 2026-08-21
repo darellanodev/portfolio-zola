@@ -1,5 +1,5 @@
 +++
-title = "Facade pattern in PHP"
+title = "Facade pattern in PHP."
 date = 2026-07-11
 updated = 2026-07-11
 description = "We practice the Facade pattern in PHP using a home automation example to simplify complex subsystem interactions into a single, clean interface"

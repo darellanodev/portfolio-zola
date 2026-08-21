@@ -1,5 +1,5 @@
 +++
-title = "Installing the vim-plug in gVim"
+title = "Installing the vim-plug in gVim."
 date = 2025-04-19
 updated = 2025-04-19
 description = "Two days ago, I continued learning about gVim by practicing the installation of the vim-plug plugin."

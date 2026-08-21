@@ -1,5 +1,5 @@
 +++
-title = "A PHP app to practice design patterns"
+title = "A PHP app to practice design patterns."
 date = 2026-04-25
 updated = 2026-04-25
 description = "I share how I built a PHP app to practice design patterns using AI"

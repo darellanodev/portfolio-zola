@@ -1,5 +1,5 @@
 +++
-title = "Optimize OpenCode tokens with DCP and RTK"
+title = "Optimize OpenCode tokens with DCP and RTK."
 date = 2026-03-29
 updated = 2026-03-29
 description = "How to save tokens in OpenCode using Dynamic Context Pruning (DCP) and Rust Token Killer (RTK) - achieve 60-90% reductions in common operations"

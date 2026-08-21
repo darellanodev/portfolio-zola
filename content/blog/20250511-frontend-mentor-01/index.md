@@ -1,5 +1,5 @@
 +++
-title = "My first project on Frontend Mentor"
+title = "My first project on Frontend Mentor."
 date = 2025-05-11
 updated = 2025-05-11
 description = "Yesterday, I finished my first front-end project on the Frontend Mentor website, and it was a great starting experience."

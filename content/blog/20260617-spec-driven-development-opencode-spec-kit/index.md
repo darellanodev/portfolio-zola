@@ -1,5 +1,5 @@
 +++
-title = "Spec-Driven Development with OpenCode and Spec Kit"
+title = "Spec-Driven Development with OpenCode and Spec Kit."
 date = 2026-06-17
 updated = 2026-06-17
 description = "I explore Spec-Driven Development using GitHub Spec Kit and OpenCode AI agents to build a CLI flashcard app called study-cards-cli"

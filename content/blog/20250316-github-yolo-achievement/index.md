@@ -1,5 +1,5 @@
 +++
-title = "How to obtain the YOLO achievement on GitHub"
+title = "How to obtain the YOLO achievement on GitHub."
 date = 2025-03-16
 updated = 2025-03-16
 description = "The YOLO GitHub achievement is an ironic award that represents a bad practice that users should be aware of and avoid"

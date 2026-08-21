@@ -1,5 +1,5 @@
 +++
-title = "Installing Impeccable skill for OpenCode"
+title = "Installing Impeccable skill for OpenCode."
 date = 2026-04-10
 updated = 2026-04-10
 description = "A basic guide to install and use the Impeccable skill in OpenCode to audit and improve web pages"

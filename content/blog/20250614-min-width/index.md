@@ -1,5 +1,5 @@
 +++
-title = "Using min-width instead of max-width for a mobile-first approach"
+title = "Using min-width instead of max-width for a mobile-first approach."
 date = 2025-06-14
 updated = 2025-06-14
 description = "I learned that using min-width is better than max-width for a mobile-first approach"

@@ -1,5 +1,5 @@
 +++
-title = "Chrome DevTools MCP with OpenCode"
+title = "Chrome DevTools MCP with OpenCode."
 date = 2026-08-13
 updated = 2026-08-13
 description = "How to set up Chrome DevTools MCP in OpenCode and use it to debug a real page: the AI opens Chrome, clicks the button, reads the console and fixes the error itself"

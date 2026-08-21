@@ -1,5 +1,5 @@
 +++
-title = "VIM in VSCode"
+title = "VIM in VSCode."
 date = 2024-06-30
 updated = 2024-07-22
 description = "For a few weeks ago I returned to use VIM extension in VSCode to code more confortable."

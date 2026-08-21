@@ -1,5 +1,5 @@
 +++
-title = "How to delete a branch locally and remotely after it has been merged into main"
+title = "How to delete a branch locally and remotely after it has been merged into main."
 date = 2025-03-02
 updated = 2025-03-02
 description = "I submitted a pull request to my friend's GitHub repository, which they have now merged. As the branch is no longer needed, I would like to delete it."

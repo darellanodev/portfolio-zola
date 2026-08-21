@@ -1,5 +1,5 @@
 +++
-title = "Security plugins for OpenCode"
+title = "Security plugins for OpenCode."
 date = 2026-04-17
 updated = 2026-04-17
 description = "I share my experience testing security plugins for OpenCode: Claude Code Safety Net and Envsitter Guard"

@@ -1,5 +1,5 @@
 +++
-title = "Bookmarks"
+title = "Bookmarks."
 date = 2024-07-20
 updated = 2024-07-20
 description = "Bookmarks to my favorites websites."

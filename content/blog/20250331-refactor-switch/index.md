@@ -1,5 +1,5 @@
 +++
-title = "Changing a switch statement to an object-like structure"
+title = "Changing a switch statement to an object-like structure."
 date = 2025-03-31
 updated = 2025-03-31
 description = "A few days ago, I saw a post on LinkedIn about a cool JavaScript refactor, and I wondered if I could apply it to one of my TypeScript projects."

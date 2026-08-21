@@ -1,5 +1,5 @@
 +++
-title = "Prefixing Git commits"
+title = "Prefixing Git commits."
 date = 2025-03-23
 updated = 2025-03-23
 description = "Last week, I started adding prefixes to my Git commits to provide more context."

@@ -1,5 +1,5 @@
 +++
-title = "Git review"
+title = "Git review."
 date = 2024-07-26
 updated = 2024-07-28
 description = "A review of Git commands."
