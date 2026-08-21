@@ -5,7 +5,7 @@ updated = 2025-05-11
 description = "Yesterday, I finished my first front-end project on the Frontend Mentor website, and it was a great starting experience."
 
 [taxonomies]
-tags = ["Front-end", "Frontend Mentor"]
+tags = ["Front-end", "Challenges"]
 
 [extra]
 footnote_backlinks = true

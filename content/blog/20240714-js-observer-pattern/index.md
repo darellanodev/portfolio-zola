@@ -5,7 +5,7 @@ updated = 2024-07-14
 description = "An example of the Observer Pattern in JavaScript."
 
 [taxonomies]
-tags = ["JSPatterns"]
+tags = ["Design Patterns"]
 
 [extra]
 footnote_backlinks = true

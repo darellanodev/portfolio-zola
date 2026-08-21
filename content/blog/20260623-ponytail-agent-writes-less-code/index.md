@@ -5,7 +5,7 @@ updated = 2026-06-23
 description = "How to avoid over-engineering with a personality plugin for your AI agent."
 
 [taxonomies]
-tags = ["OpenCode", "AI", "plugins", "Tools"]
+tags = ["OpenCode", "AI", "Plugins", "Tools"]
 
 [extra]
 footnote_backlinks = true

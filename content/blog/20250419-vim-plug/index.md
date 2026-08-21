@@ -5,7 +5,7 @@ updated = 2025-04-19
 description = "Two days ago, I continued learning about gVim by practicing the installation of the vim-plug plugin."
 
 [taxonomies]
-tags = ["gVim", "plugins"]
+tags = ["gVim", "Plugins"]
 
 [extra]
 footnote_backlinks = true

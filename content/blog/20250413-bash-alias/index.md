@@ -5,7 +5,7 @@ updated = 2025-04-13
 description = "Last weekend, I reviewed with a friend how we could create aliases on our Windows machines to improve our daily workflow and be more efficient."
 
 [taxonomies]
-tags = ["gitbash", "bash", "bashrc"]
+tags = ["Git", "bash"]
 
 [extra]
 footnote_backlinks = true

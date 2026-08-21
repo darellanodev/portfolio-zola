@@ -5,7 +5,7 @@ updated = 2024-07-22
 description = "A few weeks ago, I started using the Vim extension in VSCode to code more comfortably."
 
 [taxonomies]
-tags = ["VIM", "VSCode"]
+tags = ["Vim", "VSCode"]
 
 [extra]
 footnote_backlinks = true
