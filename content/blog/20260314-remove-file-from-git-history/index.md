@@ -59,13 +59,13 @@ Let's see what each part does:
 
 Here's a crucial point: the remote repository (GitHub, GitLab, etc.) **still has the old history** with the file in it.
 
-If we do a `git push` now, Git will complain because the local and remote histories are different. To upload our changes, we need to force the push:
+If we do a `git push` now, Git will reject it because the local and remote histories have diverged. To upload our changes, we need to force the push:
 
 ```bash
 git push --force origin main
 ```
 
-⚠️ **Important warning**: The `git push --force` will rewrite the remote repository's history. This can affect other people working on the project. If there are other collaborators, we should coordinate with them so they clone again after the update.
+⚠️ **Important warning**: The `git push --force` will rewrite the remote repository's history. This can affect other people working on the project. If there are other collaborators, we should coordinate with them so they re-clone or reset their local copies after the update.
 
 ## When not to do this
 
@@ -75,6 +75,6 @@ git push --force origin main
 
 ## Conclusion
 
-The command `git filter-repo --invert-paths` is a powerful tool for cleaning up Git history. In my case, it let me remove a file from history while keeping the file in my project as an untracked file.
+The command `git filter-repo --invert-paths` is a powerful tool for cleaning up Git history. In my case, it allowed me to remove a file from history while keeping the file in my project as an untracked file.
 
 It's one of those tools you hope you never need, but when you need it, it's a lifesaver. I hope this guide helps if you ever find yourself in a similar situation.

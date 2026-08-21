@@ -2,7 +2,7 @@
 title = "VIM in VSCode."
 date = 2024-06-30
 updated = 2024-07-22
-description = "For a few weeks ago I returned to use VIM extension in VSCode to code more confortable."
+description = "A few weeks ago, I started using the Vim extension in VSCode to code more comfortably."
 
 [taxonomies]
 tags = ["VIM", "VSCode"]
@@ -11,13 +11,13 @@ tags = ["VIM", "VSCode"]
 footnote_backlinks = true
 +++
 
-## Using Vim in VSCODE
+## Using Vim in VSCode
 
-For a few weeks ago I returned to use vim extension in VSCode to code more confortable.
+A few weeks ago, I started using the Vim extension in VSCode to code more comfortably.
 
-## favorite actions
+## Favorite Actions
 
-The following are the actions that I use more frecuently:
+The following are the actions that I use most frequently:
 
 - Basic movement keys: `h`,`j`,`k`,`l`
 - Word movements: `w`,`b`,`e`
@@ -26,18 +26,18 @@ The following are the actions that I use more frecuently:
 - Insert: `i`
 - Appending: `a`
 - Inserting at the beginning of the line: `I`
-- Appending at the final of the line: `A`
+- Appending at the end of the line: `A`
 - Find in the current line: `f`
-- Yanking a linke: `yy`
+- Yanking a line: `yy`
 - Yanking inside word: `yiw`
 - Pasting: `p`
 - Searching: `/`
 - Changing a word: `ciw`
-- Changing inside doble quotes: `ci"`
+- Changing inside double quotes: `ci"`
 - Changing inside tag: `cit`
 - Repeat last action: `.`
 - Replace mode: `R`
-- Center de view: `zz`
+- Center the view: `zz`
 - Delete the line: `dd`
 - Delete from the cursor to the end of the line: `D`
 - Macros:

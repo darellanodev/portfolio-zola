@@ -11,7 +11,7 @@ tags = ["PHP", "OOP", "Design Patterns"]
 footnote_backlinks = true
 +++
 
-We look at the Adapter pattern with a PHP example that we created using AI in the previous video. The example shows a music player where we want to add support for more formats using an external library, but we cannot modify that library code.
+Let's look at the Adapter pattern with a PHP example that we created using AI in the previous video. The example shows a music player where we want to add support for more formats using an external library, but we cannot modify that library's code.
 
 ![adapter-design-pattern](./adapter-design-pattern-php.png)
 
@@ -40,7 +40,7 @@ echo $player->play('mp3', 'song.mp3'); // Output: Playing MP3 file: song.mp3
 
 ## Step 2: The new requirement
 
-Now we need to support MP4 and MKV formats. These come from an external library, and we cannot modify that library code:
+Now we need to support MP4 and MKV formats. These come from an external library, and we cannot modify that library's code:
 
 ```php
 // External library - we cannot modify it
@@ -88,7 +88,7 @@ class AudioPlayer implements MediaPlayer {
 
 ## Step 5: Create the adapter
 
-Now we create the adapter, which is a MediaAdapter class that follows the MediaPlayer interface:
+Now we create the adapter, a MediaAdapter class that implements the MediaPlayer interface:
 
 ```php
 class MediaAdapter implements MediaPlayer
@@ -138,7 +138,7 @@ class AudioPlayer implements MediaPlayer {
 
 ## Conclusion
 
-With this pattern, we can add new features without touching the external library code. The Adapter pattern helps us connect pieces that have different ways of working.
+With this pattern, we can add new features without touching the external library code. The Adapter pattern helps us connect components that have incompatible interfaces.
 
 You can see the process I followed in [this video](https://youtu.be/gSCB-Q1-cVg) (Spanish audio).
 

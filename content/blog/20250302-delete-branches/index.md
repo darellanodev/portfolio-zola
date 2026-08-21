@@ -38,7 +38,7 @@ git switch main
 git branch --merged | grep -v '\*' | xargs -n 1 git branch -d
 ```
 
-This command switches to the main branch, list all merged branches, excludes the current branch, and deletes each merged branch.
+This command switches to the main branch, lists all merged branches, excludes the current branch, and deletes each merged branch.
 
 To delete the branch remotely:
 

@@ -17,7 +17,7 @@ The Composite pattern lets you compose objects into uniform interface hierarchie
 
 ## Use cases
 
-A book structure with chapters (composite elements) and pages (leaf elements). You have a common method `countWords()` on both types. If you call it on a chapter, it counts words throughout its hierarchy.
+A book structure with chapters (composite elements) and pages (leaf elements). Both types share a common method `countWords()`. If you call it on a chapter, it counts words throughout its hierarchy.
 
 ![example-book](./example-book.png)
 

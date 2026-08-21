@@ -17,7 +17,7 @@ A few days ago, I saw a post on LinkedIn showcasing a cool JavaScript refactor t
 
 Before performing a refactor, I like to have a set of tests covering the code to ensure that I don't break anything after the changes.
 
-Here’s an example of the code before the refactor:
+Here's an example of the code before the refactor:
 
 ```TypeScript
     switch (direction) {
@@ -54,9 +54,9 @@ And this is the code after the refactor:
      )
 ```
 
-I also learned that you can use brackets in object keys to create expressions that evaluate to the returned values. For example:
+I also learned that you can use computed property names (brackets) in object keys to create dynamic keys that map to values. For example:
 
-Here’s the code before refactoring:
+Here's the code before refactoring:
 
 ```TypeScript
     let canBuy = false
@@ -79,7 +79,7 @@ Here’s the code before refactoring:
      return canBuy
 ```
 
-And here’s the equivalent code after the refactor (here you can view the brackets in object keys):
+And here's the equivalent code after the refactor (here you can see the computed property names):
 
 ```TypeScript
     const towerCosts = {

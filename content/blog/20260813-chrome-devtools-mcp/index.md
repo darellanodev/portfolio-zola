@@ -17,19 +17,19 @@ Hello developer 👋 Have you ever had a web page with a button that does not wo
 
 ## What is Chrome DevTools MCP
 
-Chrome DevTools MCP lets your AI agent drive a real Chrome browser. The key difference: the AI does not guess the code. It opens Chrome, clicks the button, reads the console and finds the error. And it does not stop there: it fixes the bug and tests the button again to confirm everything works.
+Chrome DevTools MCP lets your AI agent drive a real Chrome browser. The key difference: the AI does not guess the code. It opens Chrome, clicks the button, reads the console, and finds the error. And it does not stop there: it fixes the bug and tests the button again to confirm everything works.
 
 ## The example
 
 The example is a web page with a cart button that does not work. Instead of looking at the code blindly, we let the AI use a real Chrome browser to find the problem.
 
-Looking at `index.html` we see the bug: it is a typo. The call should be `updateCartTotal()`, not `updateCartTotall(cartTotal)`.
+Looking at `index.html`, we see the bug: it is a typo. The call should be `updateCartTotal()`, not `updateCartTotall(cartTotal)`.
 
 We open `index.html` with `pnpm dlx live-server` in the Zed terminal and click the "Add to cart" button on the page. It does not work.
 
 ## Configuring the MCP
 
-On the GitHub page we search for "OpenCode" with Ctrl+F and create the JSON file. The documentation suggests creating it globally, which makes sense to use it in multiple projects: `~/.config/opencode/opencode.json`. For this practice I created an `opencode.json` only for the project.
+On the GitHub page, we search for "OpenCode" with Ctrl+F and create the JSON file. The documentation suggests creating it globally, which makes sense to use it in multiple projects: `~/.config/opencode/opencode.json`. For this practice, I created an `opencode.json` only for the project.
 
 The documentation gives the code for npm, but in OpenCode I use it with pnpm:
 
@@ -87,7 +87,7 @@ And you can see how it checks the final results by testing the button again.
 
 ## Conclusion
 
-That is the key difference: it does not just tell you what is wrong, it really verifies it, opening the browser, clicking and reading the console. Chrome DevTools MCP turns your AI into someone who debugs the way you would, not someone who guesses the code.
+That is the key difference: it does not just tell you what is wrong, it really verifies it, opening the browser, clicking, and reading the console. Chrome DevTools MCP turns your AI into someone who debugs the way you would, not someone who guesses the code.
 
 ## Video
 

@@ -1,5 +1,5 @@
 +++
-title = "Installing the vim-plug in gVim."
+title = "Installing vim-plug in gVim."
 date = 2025-04-19
 updated = 2025-04-19
 description = "Two days ago, I continued learning about gVim by practicing the installation of the vim-plug plugin."
@@ -21,12 +21,12 @@ Then, I followed the instructions using the PowerShell command shown in the docu
 
 I opened gVim and executed the command `:e $MYVIMRC`, then added the following lines at the top of the file before the existing `set nocompatible` line.
 
-I should mention that I needed to use the line `set shell=cmd.exe` because the vim-plug for windows had problems with other shells, so I added this line to prevent the errors shown by vim-plug.
+I should mention that I needed to use the line `set shell=cmd.exe` because vim-plug for Windows had problems with other shells, so I added this line to prevent the errors.
 
 
 ```bash
 
-set nocompatible # this line was already there. It’s the first line on my _vimrc file
+set nocompatible # this line was already there. It's the first line on my _vimrc file
 
 set shell=cmd.exe 
 
@@ -48,7 +48,7 @@ vim-maximizer: to temporarily maximize a window while working with multiple wind
 
 I will talk about these plugins in future posts.
 
-Currently, my complete `_vimrc` file look like this (I’m using gVim 9.1.821 on my Windows 10 machine):
+Currently, my complete `_vimrc` file looks like this (I'm using gVim 9.1.821 on my Windows 10 machine):
 
 ```bash
 set nocompatible
@@ -104,5 +104,3 @@ nnoremap <Leader>gs :Git<CR>
 nnoremap <Leader>gc :Git commit<CR>
 
 ```
-
-

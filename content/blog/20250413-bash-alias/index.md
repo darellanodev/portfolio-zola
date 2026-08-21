@@ -11,7 +11,7 @@ tags = ["gitbash", "bash", "bashrc"]
 footnote_backlinks = true
 +++
 
-Last week, I discussed with a friend how we can use the Git Bash console to create simple aliases that make executing Git commands more convenient and efficient. I use Visual Studio Code on my Windows machine, and the default terminal in it is Git Bash.
+Last week, I discussed with a friend how we can create simple aliases in Git Bash to make executing Git commands faster and easier. I use Visual Studio Code on my Windows machine, and the default terminal in it is Git Bash.
 
 ![alias_bash](./alias_bash.png)
 
@@ -38,4 +38,4 @@ alias gsm='git switch main'
 
 After saving the file, I closed the Git Bash terminal in VSCode and reopened it. Now, when I run the `alias` command, I can see all the aliases listed. If I ever forget an alias, I can simply execute `alias` to view them.
 
-Finally, I can now execute an alias command like `gaa` in Git Bash, which results in running the command I wrote in my .bashrc file, `git add --all`, making it easy to stage all changes across the repository.
+Now I can execute an alias like `gaa` in Git Bash, which runs the command I defined in my `.bashrc` file (`git add --all`), making it easy to stage all changes in the repository.

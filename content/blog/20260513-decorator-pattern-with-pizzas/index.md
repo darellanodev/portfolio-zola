@@ -40,7 +40,7 @@ echo $pizza->getCost(); // 5.00
 
 💥 Act 2 — The problem grows
 
-The business grows and the owner wants to offer extra ingredients. Our first idea as developers is to create a subclass for each variant, but with just 2 ingredients, 3 classes already appear. Adding more ingredients escalates the combinations: the code becomes unmanageable.
+The business grows and the owner wants to offer extra ingredients. Our first idea as developers is to create a subclass for each variant, but with just 2 ingredients, we already need 3 classes. Adding more ingredients escalates the combinations: the code becomes unmanageable.
 
 ```php
 class PizzaWithCheese extends Pizza
@@ -85,9 +85,9 @@ class PizzaWithCheeseAndHam extends Pizza
 // ... and we keep creating classes 😰
 ```
 
-💡 Act 3 — The revelation
+💡 Act 3 — The solution
 
-Let's better apply the Decorator pattern, which allows us to wrap a pizza with ingredients dynamically, without creating new subclasses.
+Let's apply the Decorator pattern, which allows us to wrap a pizza with ingredients dynamically, without creating new subclasses.
 
 ```php
 
@@ -131,9 +131,9 @@ class HamDecorator extends PizzaDecorator
 `PizzaDecorator` is abstract for two reasons:
 
 1. It doesn't make sense to instantiate it alone; we always need a concrete decorator like `CheeseDecorator`.
-2. It centralizes the common logic: the constructor that receives the pizza and the delegation of `getDescription()` and `getCost()`. So each concrete decorator only writes what it adds, without repeating code.
+2. It centralizes the common logic: the constructor that receives the pizza and the delegation of `getDescription()` and `getCost()`. Each concrete decorator only writes what it adds, without repeating code.
 
-`PizzaInterface` is the contract that ensures that everything that goes into a decorator — whether it's the base pizza or another decorator — will always have the same methods. Without that contract, we couldn't nest decorators.
+`PizzaInterface` is the contract that ensures everything that goes into a decorator — whether it's the base pizza or another decorator — will always have the same methods. Without that contract, we couldn't nest decorators.
 
 ✅ Act 4 — The result
 
@@ -149,7 +149,7 @@ echo $pizza->getCost();        // 8.50
 
 🎯 Act 5 — Conclusion
 
-Thanks to the Decorator pattern, we've gone from needing a class for each possible combination, to needing only one class per ingredient. Adding a new ingredient is as simple as creating another decorator, without touching anything existing.
+Thanks to the Decorator pattern, we've gone from needing a class for each possible combination to needing only one class per ingredient. Adding a new ingredient is as simple as creating another decorator, without touching anything existing.
 
 ```php
 class PepperoniDecorator extends PizzaDecorator

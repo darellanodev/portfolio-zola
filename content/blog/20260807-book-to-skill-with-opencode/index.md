@@ -23,7 +23,7 @@ Today we are going to test it with OpenCode, the AI agent tool we have been usin
 
 ## Getting the book
 
-For the practice we are going to use [Think Python 2e](https://greenteapress.com/wp/think-python-2e/), a free book. It is available under the Creative Commons Attribution-NonCommercial 3.0 Unported license, which means you can copy, distribute and modify it freely, as long as you credit the work and do not use it for commercial purposes.
+For this practice, we are going to use [Think Python 2e](https://greenteapress.com/wp/think-python-2e/), a free book. It is available under the Creative Commons Attribution-NonCommercial 3.0 Unported license, which means you can copy, distribute and modify it freely, as long as you credit the work and do not use it for commercial purposes.
 
 Be careful: if you use a book you bought and it has a different license, do not share what you generate with this tool, because you would be distributing protected material. You can still use it locally and privately for yourself.
 
@@ -41,7 +41,7 @@ Then verify the extraction tools:
 python3 ~/.claude/skills/book-to-skill/scripts/extract.py --check
 ```
 
-Since the book is a PDF, the check confirms the tool can process it. There are sections for other formats like EPUB or DOCX, but we do not need them right now.
+Since the book is a PDF, the check confirms the tool can process it. The tool also supports other formats like EPUB or DOCX, but we do not need them right now.
 
 ## Analyzing the book
 
@@ -61,11 +61,11 @@ When it asks you for the book type, choose option 1 (Technical). It is a program
 
 Note: if you do not have docling installed, it uses the fallback method (pdftotext). It works the same, just with slightly lower quality in tables and complex code.
 
-The tool shows you an estimate for processing the book. I pressed "analyze only" to preview the result first.
+The tool shows you an estimate for processing the book. I chose "analyze only" to preview the result first.
 
 ## Generating the skill
 
-Since I was using a free model, I did not process the whole book at once and generated only a part. book-to-skill has a mode called "fold-in" that lets you add new chapters to an existing skill, session by session, without spending extra tokens or losing what you already generated. You can build your knowledge base at your own pace.
+Since I was using a free model, I did not process the whole book at once. I generated only a part. Book-to-skill has a mode called "fold-in" that lets you add new chapters to an existing skill, session by session, without spending extra tokens or losing what you already generated. You can build your knowledge base at your own pace.
 
 With the analysis done (19 chapters), I asked for the first 7 chapters plus SKILL.md and left the rest for future sessions.
 
@@ -95,7 +95,7 @@ It responds with real content from the chapter, citing the exact source, not a g
 
 ## Conclusion
 
-book-to-skill turns the books you read into a reusable knowledge base that your AI agent can consult cheaply and accurately. Combined with the fold-in mode, you can grow it chapter by chapter at your own pace and forget about hallucinated answers or huge token bills.
+Book-to-skill turns the books you read into a reusable knowledge base that your AI agent can consult cheaply and accurately. Combined with the fold-in mode, you can grow it chapter by chapter at your own pace and forget about hallucinated answers or huge token bills.
 
 ## Video
 

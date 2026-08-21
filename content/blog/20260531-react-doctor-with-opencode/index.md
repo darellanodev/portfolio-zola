@@ -11,7 +11,7 @@ tags = ["OpenCode", "React", "AI", "Tools", "YouTube"]
 footnote_backlinks = true
 +++
 
-Hi developer 👋 in the following video we use React Doctor to analyze a React project. Then we install the react-doctor skill in OpenCode to help us fix the problems with AI. Finally, we run the audit again to see if the score improved.
+Hi developer 👋 In this video, we use React Doctor to analyze a React project. Then we install the react-doctor skill in OpenCode to help us fix the problems with AI. Finally, we run the audit again to check if the score improved.
 
 ![react_doctor_with_opencode](./react_doctor_with_opencode.png)
 
@@ -39,7 +39,7 @@ npx react-doctor@latest --verbose --diff
 npx react-doctor@latest install
 ```
 
-Do not select any extra agents. If OpenCode does not show up, try installing this skill from: <https://www.skills.sh/posthog/posthog/react-doctor>
+Do not select any extra agents. If OpenCode is not listed as an option, try installing this skill from: <https://www.skills.sh/posthog/posthog/react-doctor>
 
 ## Prompt in OpenCode
 

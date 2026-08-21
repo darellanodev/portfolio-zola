@@ -29,7 +29,7 @@ Last week, while working on a project on Frontend Mentor, I learned about the be
 
 The advantages of using `min-width` over `max-width` are:
 
-- The base CSS is applied to mobile devices and then, as the viewport grows, you can overwrite the styles for larger screens.
+- The base CSS is applied to mobile devices and then, as the viewport grows, you can override the styles for larger screens.
 - Mobile devices only download the CSS they need, without unnecessary rules, which improves performance.
 - It's easier to add new breakpoints for larger screens.
 
@@ -43,7 +43,7 @@ For example, if you have this media query:
 }
 ```
 
-You can adapt by first defining the base size for mobiles (outside of the media query in the base CSS) and then use the min-width to increase the size in bigger screens:
+You can adapt by first defining the base size for mobile (outside the media query) and then using `min-width` to increase the size on larger screens:
 
 ```css
 :root {

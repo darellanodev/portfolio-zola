@@ -17,7 +17,7 @@ We build a mini application called `study-cards-cli`, designed to review theoret
 
 ## Installing Spec Kit
 
-First install [UV](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer), a Python package manager. On Windows, run this in PowerShell:
+First, install [UV](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer), a Python package manager. On Windows, run this in PowerShell:
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
@@ -37,7 +37,7 @@ Always check the [latest release](https://github.com/github/spec-kit/releases) f
 specify init study-cards-cli --integration opencode
 ```
 
-This creates the project with integration ready for OpenCode.
+This creates the project with OpenCode integration ready.
 
 ## The Spec Kit workflow
 

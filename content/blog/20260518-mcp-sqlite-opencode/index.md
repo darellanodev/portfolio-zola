@@ -1,5 +1,5 @@
 +++
-title = "Create MCP SQLite server for OpenCode."
+title = "Creating an MCP SQLite Server for OpenCode."
 date = 2026-05-18
 updated = 2026-05-18
 description = "Learn how to create a simple MCP server with TypeScript and SQLite, then connect it to OpenCode for natural language database queries."
@@ -11,9 +11,9 @@ tags = ["OpenCode", "TypeScript", "Tools", "AI", "YouTube"]
 footnote_backlinks = true
 +++
 
-In this post, I'll show you how to create a simple MCP server with TypeScript and SQLite, and then connect it to OpenCode to query your database using natural language.
+In this post, I'll show you how to create a simple MCP server with TypeScript and SQLite, and then connect it to OpenCode so you can query your database using natural language.
 
-![creating-mpc-opencode](./creating-mpc-opencode.png)
+![creating-mcp-opencode](./creating-mpc-opencode.png)
 
 ## What is MCP
 
@@ -29,7 +29,7 @@ The project structure includes:
 - src/db.ts - database connection
 - src/tools/queries.ts - pure functions for queries
 
-The database has three tables: productos (products), clientes (clients), and pedidos (orders).
+The database has three tables: products, clients, and orders.
 
 ## Available tools
 

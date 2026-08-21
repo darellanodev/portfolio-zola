@@ -11,7 +11,7 @@ tags = ["Git"]
 footnote_backlinks = true
 +++
 
-This is a review of Git commands
+This is a review of Git commands.
 
 ## Git commands review
 
@@ -20,10 +20,10 @@ This is a review of Git commands
 - Configuration:
 
   - View user name / email: `git config user.name` / `git config user.email`
-  - Set globally user / email: `git config --global user.name "My name"` / `git config --global user.email "myemail@providermail.com"`
+  - Set user / email globally: `git config --global user.name "My name"` / `git config --global user.email "myemail@providermail.com"`
 
 - View the current status: `git status`
-- Initialize repository: `git init`
+- Initialize a repository: `git init`
 - Basic workflow
 
   - 1: add
@@ -31,7 +31,7 @@ This is a review of Git commands
     - Or add all: `git add .`
   - 2: Commit:
     - Commit with a message: `git commit -m "start creating two sample files"`
-  - Also we can add everything and commit with message in one command: `git commit -am "first commit"`
+  - We can also add everything and commit with a message in one command: `git commit -am "first commit"`
 
 - View log:
 
@@ -70,8 +70,8 @@ This is a review of Git commands
 
 - See changes:
 
-  - In the working directory that are not staged: `git diff`
-  - Since the last commit (no matters if staged or not): `git diff HEAD`
+  - In the working directory, changes that are not staged: `git diff`
+  - Since the last commit (regardless of whether it is staged or not): `git diff HEAD`
   - For the staged: `git diff --staged`
   - We can add a filename to the previous commands to limit to a specific file:
     - `git diff HEAD colors.txt`
@@ -80,27 +80,27 @@ This is a review of Git commands
 
 - Stash:
 
-  - For save: `git stash`
+  - To save: `git stash`
   - Restore and remove from the stash: `git stash pop`
   - Other stash commands that are less used:
-    - Restore but keep a copy in the stash (for example to apply the stash to multiples branches) `git stash apply`
+    - Restore but keep a copy in the stash (for example, to apply the stash to multiple branches): `git stash apply`
     - If we keep more than one stashed thing: `git stash list`
     - Apply a specific stash: `git stash apply stash@{1}`
     - Delete a specific stash: `git stash drop stash@{1}`
     - Delete all the stash: `git stash clear`
 
-- Travel to make changes:
+- Navigating the commit history:
 
   - 1: move HEAD to a specific commit `git checkout <commit-hash>`
-  - 2: then make a branch that starts for this commit, and we can make changes in a new branch
-  - Other method to move the head:
+  - 2: then create a branch from this commit, and we can make changes in the new branch
+  - Another way to move HEAD:
 
-    - to move one time back the HEAD to the previous commit `git checkout HEAD~1`
-    - ... two times back `git checkout HEAD~2`
-    - ... three times back`git checkout HEAD~3`
+    - to move HEAD one commit back: `git checkout HEAD~1`
+    - ... two commits back: `git checkout HEAD~2`
+    - ... three commits back: `git checkout HEAD~3`
     - ...
 
-  - After move HEAD to a specific commit we can return to the last commit of the branch using: `git switch -`
+  - After moving HEAD to a specific commit, we can return to the last commit of the branch using: `git switch -`
   - Discarding modified changes:
     - `git checkout HEAD file1.txt`
     - other method: `git checkout -- file1.txt`
@@ -111,23 +111,23 @@ This is a review of Git commands
     - `git restore file1.txt`
   - To restore a file to what it was in a specific commit:
     - 1: we can do (we can put the commit hash instead of HEAD~1): `git restore --source HEAD~1 file1.txt`
-    - 2: then we can also go back to the last commit of the file`git restore file1.txt`
+    - 2: then we can restore the file to the latest version: `git restore file1.txt`
   - Unstaging files
     - `git restore --staged file1.txt`
   - Git reset
     - remove the commits but not the changes: `git reset <commit-hash>`
-      - this is useful when we had made changes in the incorrect branch. First we delete the commits without loosing the changes and then we create a new branch.
+      - This is useful when we have made changes on the wrong branch. First we delete the commits without losing the changes, and then we create a new branch.
     - remove the commits and the changes: `git reset --hard <commit-hash>`
   - Git revert
-    - Is similar to reset but it creates a new commit without removing any previous commits.
-    - It's good because it does not alter the git history specially when we are collaborating with other persons.
-    - It can produce conflicts and then you have to resolve to make the new commit
+    - It is similar to reset, but it creates a new commit without removing any previous commits.
+    - It is good because it does not alter the Git history, especially when we are collaborating with other people.
+    - It can produce conflicts, and then you have to resolve them to make the new commit.
     - `git revert <bad-commit-hash-that-we-want-to-revert>`
 
 - Working with the remote
 
   - Git remote:
-    - View the actual remotes: `git remote -v`
+    - View the current remotes: `git remote -v`
     - Add a remote with the name origin: `git remote add origin <repo-url>`
     - Rename the branch where we are to: `git branch -M main`
     - Push a branch: `git push origin main`
@@ -137,13 +137,13 @@ This is a review of Git commands
     - View remote branches: `git branch -r`
     - To get locally a branch that is in remote but not in local (if the branch name exists in remote it will get the branch): `git switch branchname`
   - Fetch:
-    - Download the last changes of a branch without messing up the working directory: `git fetch` or `git fetch origin`
+    - Download the latest changes of a branch without affecting the working directory: `git fetch` or `git fetch origin`
     - You can indicate a specific branch: `git fetch origin/responsivegui`
     - Then we can travel to it: `git checkout origin/responsivegui`
-  - Pull (is like a fetch and then a merge):
+  - Pull (it is like a fetch and then a merge):
     - `git pull origin responsivegui`
-    - A tipically workflow when doing a pull cause conflicts is: resolve conflicts, and then push the fixed conflicts
-    - Short syntax: `git pull` (by default is origin, and the current branch)
+    - A typical workflow when a pull causes conflicts is: resolve the conflicts, and then push the fixed conflicts.
+    - Short syntax: `git pull` (by default it uses origin and the current branch)
 
 ## GUIs
 
@@ -157,7 +157,7 @@ This is a review of Git commands
 
 ## Other common scenarios
 
-### When you put something to ignore but it is commited previously and now I want to ignore it
+### When you want to ignore a file that was already committed
 
     Source: <https://stackoverflow.com/questions/7527982/applying-gitignore-to-committed-files>
 

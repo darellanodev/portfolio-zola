@@ -41,7 +41,7 @@ omniroute
 
 ## First launch
 
-When you run OmniRoute for the first time it asks you to create a password. Then it starts a local server and opens a dashboard in the browser.
+When you run OmniRoute for the first time, it asks you to create a password. Then it starts a local server and opens a dashboard in the browser.
 
 If you see an "Internal Server Error" in the browser, stop the server, rename the `.omniroute` directory in your home folder (for example to `.omniroute-bkp`), and run `omniroute` again. This forces it to regenerate the SQLite database.
 

@@ -54,7 +54,7 @@ In your project, create or edit `opencode.json` to register the MCP:
 
 Open OpenCode and run `/mcps` to confirm the Excalidraw MCP is installed and enabled. Then you can ask it to create a diagram:
 
-> Make me a diagram of the structure or architecture of this repository with Excalidraw
+> Make me a diagram of the structure or architecture of this repository with Excalidraw.
 
 The result can be viewed and edited in real time at `http://127.0.0.1:3000`. From there you can download it as an `.excalidraw` file and open it with the [Excalidraw VSCode extension](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor).
 

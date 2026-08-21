@@ -13,13 +13,13 @@ footnote_backlinks = true
 
 ## JavaScript Observer Pattern
 
-This is an example on how to apply the observer pattern to a to-do list app.
+This is an example of how to apply the observer pattern to a to-do list app.
 
 ### Main components
 
-- **The subject**: It would represent the list of the tasks. When a task is added, modified or deleted it will notify to the observers suscribed to it.
+- **The subject**: It represents the list of tasks. When a task is added, modified, or deleted, it notifies the observers subscribed to it.
 
-- **The observers**: They are components of the user interface that can be suscribed to the subject (the to-do list) and then they will receibe a notification from the to-do list (the subject), and then for example they can update them.
+- **The observers**: These are components of the user interface that can subscribe to the subject (the to-do list). When they receive a notification from the to-do list, they can update themselves.
 
 ### Implementation
 
@@ -86,4 +86,4 @@ todoList.addTodo({ title: 'buy a bottle of milk' })
 todoList.removeTodo(0) // remove the task
 ```
 
-In this example when adding a new task to the to-do list, the to-do list will notify to their observers. In this example there is one observer but we can add more observers. The display observer will update when it receives the notification from the to-do list.
+In this example, when adding a new task to the to-do list, the to-do list notifies its observers. In this example there is one observer, but we can add more observers. The display observer updates when it receives the notification from the to-do list.

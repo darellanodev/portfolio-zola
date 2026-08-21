@@ -11,7 +11,7 @@ tags = ["OpenCode", "Tools", "YouTube"]
 footnote_backlinks = true
 +++
 
-HyperFrames is like Remotion, but uses plain HTML instead of React. Chrome captures each frame, FFmpeg joins them, and you get an MP4 file. You control timing with `data-*` attributes and animations with JavaScript (GSAP JavaScript library).
+HyperFrames is like Remotion, but uses plain HTML instead of React. Chrome captures each frame, FFmpeg joins them, and you get an MP4 file. You control timing with `data-*` attributes and animations with JavaScript (the GSAP library).
 
 ![hyperframes-opencode](./hyperframes-opencode.png)
 

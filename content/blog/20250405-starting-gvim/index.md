@@ -17,13 +17,13 @@ I've been using the Vim extension for VSCode for the past year and now I want to
 
 First I downloaded and installed gVim from the [official Vim website](https://www.vim.org).
 
-To enable opening gVim from the terminal (Git Bash), I added its path 'C:\Program Files\Vim\vim91\' to the Windows system Path. So then I can open a gitbash terminal in a folder and open the folder with gVim:
+To enable opening gVim from the terminal (Git Bash), I added its path 'C:\Program Files\Vim\vim91\' to the Windows system Path. Then I can open a Git Bash terminal in a folder and open it with gVim:
 
 ```bash
 gvim .
 ```
 
-Next I wanted to increase the font size and change the color scheme. To do this, I cloned the [dracula vim](https://github.com/dracula/vim.git) repository into 'C:\Users\MyUser\vimfiles\pack\themes\start'. (The 'pack' directory didn't exist prior to cloning the repository, so I created this directory and its subdirectories before cloning.)
+Next, I wanted to increase the font size and change the color scheme. To do this, I cloned the [dracula vim](https://github.com/dracula/vim.git) repository into 'C:\Users\MyUser\vimfiles\pack\themes\start'. (The 'pack' directory didn't exist before cloning, so I created the directory structure first.)
 
 ```bash
 mkdir pack

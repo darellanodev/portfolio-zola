@@ -17,11 +17,11 @@ I've been testing some plugins to improve OpenCode's security.
 
 ## Claude Code Safety Net
 
-The first one is called [Claude Code Safety Net](https://github.com/kenryu42/claude-code-safety-net) and intercepts dangerous git and filesystem commands before they execute.
+The first one is called [Claude Code Safety Net](https://github.com/kenryu42/claude-code-safety-net), and it intercepts dangerous git and filesystem commands before they execute.
 
 The GitHub documentation covers interesting topics like:
 
-- Why use it instead of denial permission rules
+- Why use it instead of permission denial rules
 - Permission rules have known ways to bypass them
 - Safety Net can handle things patterns can't
 
@@ -46,13 +46,13 @@ We can run a diagnostic using:
 npx cc-safety-net doctor
 ```
 
-We can also see why a specific command gets blocked (for example "git reset --hard") using:
+We can also see why a specific command gets blocked (for example "git reset --hard") by running:
 
 ```bash
 npx cc-safety-net explain "git reset --hard"
 ```
 
-We can test it inside OpenCode in a test project with a README.md that has changes, by asking the agent to execute the dangerous command:
+We can test it inside OpenCode in a test project with a README.md file that has changes, by asking the agent to execute the dangerous command:
 
 ```bash
 git checkout -- README.md

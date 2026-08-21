@@ -11,7 +11,7 @@ tags = ["Git", "GitHub"]
 footnote_backlinks = true
 +++
 
-This week, I set out to learn about GitHub's YOLO achievement and how to obtain it. This achievement represents a bad practice that occurs when a user merges a pull request that has been assigned to another reviewer without giving the reviewer time to actually review it.
+This week, I learned about GitHub's YOLO achievement and how to obtain it. This achievement represents a bad practice that occurs when a user merges a pull request that has been assigned to another reviewer without giving the reviewer time to actually review it.
 
 ![github_yolo_achievement](./github_yolo_achievement.png)
 

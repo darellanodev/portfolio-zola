@@ -11,7 +11,7 @@ tags = ["PHP", "OOP", "Design Patterns", "YouTube"]
 footnote_backlinks = true
 +++
 
-Hello developer 👋 In this post we practice the Bridge pattern in PHP through a notification application that sends messages across different channels. This pattern allows us to extend two dimensions separately: what type of notification we want to send and which channel sends it ✨
+Hello developer 👋 In this post we practice the Bridge pattern in PHP through a notification application that sends messages across different channels. This pattern lets us extend two dimensions separately: the type of notification and the delivery channel ✨
 
 ![bridge-design-pattern-in-php](./bridge-design-pattern-in-php.png)
 
@@ -19,7 +19,7 @@ Hello developer 👋 In this post we practice the Bridge pattern in PHP through 
 
 As developers, we need to create an application to send notifications. For now, the system only needs to send messages by email, so we start with a simple solution.
 
-To keep things simple, we use a return string to simulate all the code needed.
+To keep things simple, we return a string to simulate all the code needed.
 
 ```php
 class EmailNotification
@@ -37,7 +37,7 @@ echo $notification->send("Server is down");
 
 📬 Act 2 — A new need appears
 
-Soon after, we need the application to also send notifications by SMS. If we follow the previous approach, we create another class for this new channel.
+Soon after, we need the application to also send notifications by SMS. Following the same approach, we create another class for this new channel.
 
 ```php
 class EmailNotification
@@ -205,7 +205,7 @@ class WelcomeNotification extends Notification
 
 🎯 Act 6 — The client uses both parts
 
-Now we can combine any notification type with any channel without multiplying classes. The abstraction decides what message is sent, and the implementor decides how it is sent.
+Now we can combine any notification type with any channel without multiplying classes. The abstraction decides what message to send, and the implementor decides how to send it.
 
 ```php
 $alertByEmail = new AlertNotification(new EmailChannel());
@@ -222,4 +222,4 @@ You can see the process I followed in [this video](https://youtu.be/xzHdSNMW0y0)
 
 {{ youtube_embed(video_id="xzHdSNMW0y0") }}
 
-Bridge separates what is sent from how it is sent. This gives us a more flexible, cleaner structure that is much easier to extend.
+Bridge separates what is sent from how it is sent. This gives us a more flexible, cleaner structure that is easier to extend.

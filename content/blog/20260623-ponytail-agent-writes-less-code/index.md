@@ -34,7 +34,7 @@ The agent asks itself:
 - Can I do it in one line?
 - Do I really need this?
 
-It prefers simplicity: less packages, less functions, less files.
+It prefers simplicity: fewer packages, fewer functions, fewer files.
 
 ## Benchmark results
 

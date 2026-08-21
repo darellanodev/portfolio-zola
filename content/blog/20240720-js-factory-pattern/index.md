@@ -2,7 +2,7 @@
 title = "Bookmarks."
 date = 2024-07-20
 updated = 2024-07-20
-description = "Bookmarks to my favorites websites."
+description = "Bookmarks to my favorite websites."
 
 [taxonomies]
 tags = ["Bookmarks"]
@@ -13,14 +13,14 @@ footnote_backlinks = true
 
 ## My Bookmarks
 
-In this post I will be adding my favorite websites organized by categories
+In this post, I will be adding my favorite websites organized by categories.
 
 ### Design
 
 - <https://www.fffuel.co/>
 - <https://perfect-freehand-example.vercel.app/>
 
-### IA
+### AI
 
 - <https://www.perplexity.ai/>
 - <https://www.phind.com/>

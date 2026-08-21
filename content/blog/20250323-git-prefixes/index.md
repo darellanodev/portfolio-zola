@@ -29,7 +29,7 @@ When I prefix a Git commit, I use lowercase for the prefix, followed by a messag
 
 `feat: Show a message to the user indicating successful sign-in (#15)`
 
-I believe this is a good practice, and I've seen it used in other open-source project on GitHub, so I've added it to my workflow. I'll be incorporating more prefixes if I find others that could be useful to me.
+I believe this is a good practice, and I've seen it used in other open-source projects on GitHub, so I've added it to my workflow. I'll be adding more prefixes if I find others that are useful.
 
 <div style="font-family: Arial, sans-serif; background-color: #333; color: white; padding: 20px; border-radius: 10px; width: fit-content;">
   <h1 style="background: #556; color: white; padding: 10px; border-radius: 5px; font-size: 1.2em;">

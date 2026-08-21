@@ -11,7 +11,7 @@ tags = ["Front-end", "Frontend Mentor"]
 footnote_backlinks = true
 +++
 
-Yesterday, I completed my first front-end project proposed on the [Frontend Mentor](https://www.frontendmentor.io) website. I started a newbie path to review things about HTML and CSS, responsiveness, and learn about good practices.
+Yesterday, I completed my first front-end project from the [Frontend Mentor](https://www.frontendmentor.io) website. I started a beginner path to review HTML, CSS, responsiveness, and learn about good practices.
 
 ![QR card project](./qr-card-project.png)
 
@@ -26,12 +26,12 @@ The good practices I tried to apply were:
 - Follow BEM conventions to name classes
 - Define CSS variables
 - Use Prettier to autoformat the code with VSCode
-- Take a security precaution using the rel noopener
+- Use `rel="noopener"` for security
 - Apply Flexbox
 - Write media queries for small devices
 
 I also posted it on LinkedIn to share it with the community.
 
-In the next projects, I'll want to apply processes of mobile-first approaches.
+In future projects, I want to apply mobile-first approaches.
 
-I'll keep going with the next projects.
+I'll keep going with more projects.

@@ -41,8 +41,8 @@ Also create a `dcp.jsonc` file and paste the "Default Configuration" from the Gi
 
 Modify some of these values in `dcp.jsonc` since by default it has high values that might not have any effect on some low-context models:
 
-- "maxContextLimit": 100000, ➡️ ”maxContextLimit": 50000,
-- "minContextLimit": 50000, ➡️ ”maxContextLimit": 20000,
+- "maxContextLimit": 100000, ➡️ "maxContextLimit": 50000,
+- "minContextLimit": 50000, ➡️ "minContextLimit": 20000,
 - "nudgeFrequency": 5, ➡️ "nudgeFrequency": 1,
 - "nudgeForce": "soft", ➡️ "nudgeForce": "strong",
 - "iterationNudgeThreshold": 15, ➡️ "iterationNudgeThreshold": 5,
@@ -57,11 +57,11 @@ In the system environment variables, add the previous path to the "Path" (`C:\Pr
 
 Open another command prompt and verify with `rtk --version` and `rtk init --show`
 
-Also, with `rtk gain` you can see the saved tokens stats that initially are zero because it hasn't been used yet.
+Also, with `rtk gain` you can see the saved tokens stats, which are initially zero because RTK has not been used yet.
 
 Run `rtk init -g --opencode`
 
-Finally add the RTK plugin to "opencode.jsonc", so the file would look like:
+Next, add the RTK plugin to "opencode.jsonc", so the file looks like:
 
 ```json
 {
@@ -71,7 +71,7 @@ Finally add the RTK plugin to "opencode.jsonc", so the file would look like:
 
 Finally, open OpenCode and press Ctrl+P > View Status (in the System category) and verify that both plugins, dcp and rtk, are visible.
 
-From now on, you can use them and as you have interactions with the agents, these plugins will be used to save tokens.
+From now on, as you interact with agents, these plugins will save tokens automatically.
 
 ## Checking token savings
 
