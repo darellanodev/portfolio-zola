@@ -2,7 +2,7 @@
 title = "Creating diagrams with Excalidraw MCP."
 date = 2026-05-24
 updated = 2026-05-24
-description = "How to set up and use the Excalidraw MCP server with OpenCode to create architecture diagrams with AI"
+description = "How to set up and use the Excalidraw MCP server with OpenCode to create architecture diagrams with AI."
 
 [taxonomies]
 tags = ["OpenCode", "TypeScript", "Tools", "AI", "YouTube"]

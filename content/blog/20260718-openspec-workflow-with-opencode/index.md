@@ -2,7 +2,7 @@
 title = "OpenSpec workflow with OpenCode."
 date = 2026-07-18
 updated = 2026-07-18
-description = "I explore Spec-Driven Development with OpenSpec and OpenCode, a practical workflow to plan just enough before coding without falling into heavy documentation"
+description = "I explore Spec-Driven Development with OpenSpec and OpenCode, a practical workflow to plan just enough before coding without falling into heavy documentation."
 
 [taxonomies]
 tags = ["OpenCode", "AI", "YouTube", "OpenSpec"]

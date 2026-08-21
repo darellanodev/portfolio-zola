@@ -2,7 +2,7 @@
 title = "Using CSS logical properties."
 date = 2025-08-04
 updated = 2025-08-04
-description = "While practicing my front-end skills I learned a bit about CSS logical properties"
+description = "While practicing my front-end skills I learned a bit about CSS logical properties."
 
 [taxonomies]
 tags = ["Front-end", "CSS"]

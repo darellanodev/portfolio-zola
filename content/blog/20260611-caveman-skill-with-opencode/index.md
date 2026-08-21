@@ -2,7 +2,7 @@
 title = "Caveman skill with OpenCode."
 date = 2026-06-11
 updated = 2026-06-11
-description = "Testing the Caveman skill for OpenCode to make AI agents respond more concisely and reduce token output without losing technical precision"
+description = "Testing the Caveman skill for OpenCode to make AI agents respond more concisely and reduce token output without losing technical precision."
 
 [taxonomies]
 tags = ["OpenCode", "AI", "Tools", "YouTube"]

@@ -2,7 +2,7 @@
 title = "Composite pattern in PHP."
 date = 2026-06-29
 updated = 2026-06-29
-description = "We practice the Composite pattern in PHP using a file system structure with directories and files as components"
+description = "We practice the Composite pattern in PHP using a file system structure with directories and files as components."
 
 [taxonomies]
 tags = ["PHP", "OOP", "Design Patterns", "YouTube"]

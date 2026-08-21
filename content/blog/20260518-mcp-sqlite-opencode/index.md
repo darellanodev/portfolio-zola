@@ -2,7 +2,7 @@
 title = "Create MCP SQLite server for OpenCode."
 date = 2026-05-18
 updated = 2026-05-18
-description = "Learn how to create a simple MCP server with TypeScript and SQLite, then connect it to OpenCode for natural language database queries"
+description = "Learn how to create a simple MCP server with TypeScript and SQLite, then connect it to OpenCode for natural language database queries."
 
 [taxonomies]
 tags = ["OpenCode", "TypeScript", "Tools", "AI", "YouTube"]

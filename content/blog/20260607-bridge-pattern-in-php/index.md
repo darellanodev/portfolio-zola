@@ -2,7 +2,7 @@
 title = "Bridge pattern for notifications in PHP."
 date = 2026-06-07
 updated = 2026-06-07
-description = "We practice the Bridge pattern in PHP to separate notification types from delivery channels, avoiding class explosion when adding new features"
+description = "We practice the Bridge pattern in PHP to separate notification types from delivery channels, avoiding class explosion when adding new features."
 
 [taxonomies]
 tags = ["PHP", "OOP", "Design Patterns", "YouTube"]

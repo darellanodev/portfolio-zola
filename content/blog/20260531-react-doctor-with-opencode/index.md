@@ -2,7 +2,7 @@
 title = "React Doctor with OpenCode."
 date = 2026-05-31
 updated = 2026-05-31
-description = "Using React Doctor for a deterministic analysis of a React project, then installing the react-doctor skill in OpenCode to fix issues with AI"
+description = "Using React Doctor for a deterministic analysis of a React project, then installing the react-doctor skill in OpenCode to fix issues with AI."
 
 [taxonomies]
 tags = ["OpenCode", "React", "AI", "Tools", "YouTube"]

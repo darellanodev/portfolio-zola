@@ -2,7 +2,7 @@
 title = "PHP Adapter Design Pattern."
 date = 2026-05-07
 updated = 2026-05-07
-description = "A clear guide to the Adapter pattern in PHP, showing how to add new features by adapting external library code without modifying the library itself"
+description = "A clear guide to the Adapter pattern in PHP, showing how to add new features by adapting external library code without modifying the library itself."
 
 [taxonomies]
 tags = ["PHP", "OOP", "Design Patterns"]
