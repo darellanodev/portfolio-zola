@@ -1,4 +1,8 @@
 [[videos]]
+id = "0FSa_SOFGbY"
+title = "Herramientas IA #18: Usando el storyboard de HyperFrames"
+date = "2026-08-26"
+[[videos]]
 id = "jOvlDgLXuJI"
 title = "Herramientas IA #17: Depurar errores con MCP Chrome DevTools"
 date = "2026-08-13"
@@ -6,7 +10,3 @@ date = "2026-08-13"
 id = "e1PzdLoSjW8"
 title = "Herramientas IA #16: Consultar libro con Book-to-skill"
 date = "2026-08-07"
-[[videos]]
-id = "KEs9rO2aCBA"
-title = "Herramientas IA #15: Crear comando en OpenCode"
-date = "2026-08-01"
