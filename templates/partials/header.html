@@ -10,8 +10,11 @@
     {% if config.extra.favicon %}
         <link rel="icon" type="image/png" href="{{ get_url(path=config.extra.favicon) }}"/>
     {% endif %}
-    {% if config.extra.favicon_emoji %}
-        <link rel=icon href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 55"><text y=".7em" font-size="82">{{ config.extra.favicon_emoji }}</text></svg>'>
+    {% if config.extra.apple_touch_icon %}
+        <link rel="apple-touch-icon" href="{{ get_url(path=config.extra.apple_touch_icon) }}"/>
+    {% endif %}
+    {% if config.extra.webmanifest %}
+        <link rel="manifest" href="{{ get_url(path=config.extra.webmanifest) }}"/>
     {% endif %}
 
     {# Feed #}
