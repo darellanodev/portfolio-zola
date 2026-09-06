@@ -1,4 +1,8 @@
 [[videos]]
+id = "OXxyPvL9HIY"
+title = "Pattern Lab PHP #7: Patrón Fluent Interface"
+date = "2026-09-06"
+[[videos]]
 id = "0FSa_SOFGbY"
 title = "Herramientas IA #18: Usando el storyboard de HyperFrames"
 date = "2026-08-26"
@@ -6,7 +10,3 @@ date = "2026-08-26"
 id = "jOvlDgLXuJI"
 title = "Herramientas IA #17: Depurar errores con MCP Chrome DevTools"
 date = "2026-08-13"
-[[videos]]
-id = "e1PzdLoSjW8"
-title = "Herramientas IA #16: Consultar libro con Book-to-skill"
-date = "2026-08-07"
