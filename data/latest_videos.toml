@@ -1,4 +1,8 @@
 [[videos]]
+id = "GqDHUbVCb_g"
+title = "Herramientas IA #19: Crear combo gratuito en OmniRoute"
+date = "2026-09-13"
+[[videos]]
 id = "OXxyPvL9HIY"
 title = "Pattern Lab PHP #7: Patrón Fluent Interface"
 date = "2026-09-06"
@@ -6,7 +10,3 @@ date = "2026-09-06"
 id = "0FSa_SOFGbY"
 title = "Herramientas IA #18: Usando el storyboard de HyperFrames"
 date = "2026-08-26"
-[[videos]]
-id = "jOvlDgLXuJI"
-title = "Herramientas IA #17: Depurar errores con MCP Chrome DevTools"
-date = "2026-08-13"
