@@ -10,4 +10,4 @@ section_path = "projects/_index.md"
 max_posts = 4
 +++
 
-A developer who just loves **building things**. This space is where I share my **_personal projects_**. I create them to keep learning, try new tools, and contribute to the developer community. I also like to share what I learn, in case it helps someone else too. Thanks to everyone who has supported me along the way.
+I enjoy building things and turning ideas into **_personal projects_**. This is where I share what I make while learning, experimenting with new tools, and exploring different technologies. I also share what I learn in the hope that it may be useful to someone else. Thank you to everyone who has supported me along the way.
