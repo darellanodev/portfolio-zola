@@ -1,7 +1,7 @@
 +++
 title = "Bread Baron"
 description = "Build a bread empire, one click at a time."
-weight = 50
+weight = 13
 
 [extra]
 local_image = "projects/breadbaron/logo.png"
