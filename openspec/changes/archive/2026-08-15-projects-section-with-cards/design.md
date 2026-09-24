@@ -1,6 +1,6 @@
 ## Context
 
-- The home page (`templates/main-page.html`) renders featured projects inside `<div class="list featured-list">` with a `section-subtitle` and the `macros_list_posts::list_posts` macro. This produces a 2-column grid of horizontal rows: image on the left (`.left-img-project`, 120px rounded), title, category badge, description and "Read more →" on the right.
+- The home page (`templates/main-page.html`) renders Projects inside `<div class="list featured-list">` with a `section-subtitle` and the `macros_list_posts::list_posts` macro. This produces a 2-column grid of horizontal rows: image on the left (`.left-img-project`, 120px rounded), title, category badge, description and "Read more →" on the right.
 - The projects page (`/projects/`, `templates/cards.html`) renders the same projects via `partials/cards_pages.html`, which produces a `.cards` grid of vertical cards: image on top (`.card-image`), centered `.card-title`, category badge, `.card-description`.
 - The two formats are inconsistent. The user wants `/projects/` to use the home page's card format (featured-list rows).
 - The CSS for `.featured-list` already exists in `sass/parts/_posts_list.scss` and is used by the home page, so no new styles are needed.

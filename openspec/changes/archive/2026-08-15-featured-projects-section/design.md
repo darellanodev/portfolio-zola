@@ -6,7 +6,7 @@ The home page (`content/_index.md`) uses `templates/main-page.html`, which exten
 
 **Goals:**
 
-- Rename the home section title to "Featured projects".
+- Rename the home section title to "Projects".
 - Show the subtitle "Projects I'm building to learn, contribute to the community and enjoy the process." between the heading and the project listing.
 - Lay out the home project listing as two columns of stacked cards (image on top, content below) to use horizontal space better.
 - Keep the change isolated to the home page (blog listing and projects section cards unaffected).
@@ -24,7 +24,7 @@ The home page (`content/_index.md`) uses `templates/main-page.html`, which exten
 
 The `_index.md` body paragraph renders inside the home banner partial (`templates/partials/home_banner.html`, `{{ section.content | safe }}`), not in the list area. Therefore the subtitle is added as a static `<p class="section-subtitle">Projects I'm building to learn, contribute to the community and enjoy the process.</p>` in `templates/main-page.html` between the page_header `<div>` and the `list_posts` macro call.
 
-- Alternative (append to `_index.md` body): rejected — it would render inside the banner, below the avatar, not under the "Featured projects" heading.
+- Alternative (append to `_index.md` body): rejected — it would render inside the banner, below the avatar, not under the "Projects" heading.
 
 ### 2. Two-column layout via a home-only modifier class
 
@@ -42,7 +42,7 @@ Add a `featured-list` class to the home list wrapper (`<div class="list featured
 
 ### 3. Subtitle styling
 
-New `.section-subtitle` rule in `sass/parts/_posts_list.scss`: `font-size ~1.1rem`, color `var(--meta-color)`, margin below the heading (e.g. `margin: -0.5rem 0 1.5rem`), so it reads as a subtitle for "Featured projects".
+New `.section-subtitle` rule in `sass/parts/_posts_list.scss`: `font-size ~1.1rem`, color `var(--meta-color)`, margin below the heading (e.g. `margin: -0.5rem 0 1.5rem`), so it reads as a subtitle for "Projects".
 
 ## Risks / Trade-offs
 

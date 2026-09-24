@@ -1,6 +1,6 @@
 ## 1. Title rename
 
-- [x] 1.1 Change `title = "Latest projects"` to `title = "Featured projects"` in `content/_index.md`
+- [x] 1.1 Change `title = "Latest projects"` to `title = "Projects"` in `content/_index.md`
 
 ## 2. Subtitle phrase
 

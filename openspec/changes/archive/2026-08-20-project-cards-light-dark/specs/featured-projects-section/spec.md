@@ -1,4 +1,4 @@
-# Featured Projects Section
+# Projects Section
 
 ## ADDED Requirements
 

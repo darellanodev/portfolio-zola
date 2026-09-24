@@ -1,17 +1,17 @@
 ## ADDED Requirements
 
-### Requirement: Featured projects section on home page
+### Requirement: Projects section on home page
 
-The home page SHALL present its project listing as a "Featured projects" section that includes a subtitle phrase and lays the projects out as a two-column grid of stacked cards on wide viewports.
+The home page SHALL present its project listing as a "Projects" section that includes a subtitle phrase and lays the projects out as a two-column grid of stacked cards on wide viewports.
 
 #### Scenario: Section title
 
-- **WHEN** the home page renders the featured projects section heading
-- **THEN** the heading reads "Featured projects"
+- **WHEN** the home page renders the Projects section heading
+- **THEN** the heading reads "Projects"
 
 #### Scenario: Subtitle phrase
 
-- **WHEN** the home page renders the featured projects section
+- **WHEN** the home page renders the Projects section
 - **THEN** the phrase "Projects I'm building to learn, contribute to the community and enjoy the process." is displayed between the section heading and the project listing
 
 #### Scenario: Two-column listing on wide viewport

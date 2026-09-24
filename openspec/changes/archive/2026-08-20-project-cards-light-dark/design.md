@@ -1,6 +1,7 @@
 ## Context
 
-The "Featured projects" section on the home page and `/projects/` page uses `.bloglist-row` elements inside `.featured-list`. Currently these rows have:
+The "Projects" section on the home page and `/projects/` page uses `.bloglist-row` elements inside `.featured-list`. Currently these rows have:
+
 - `background-color: var(--navbar-color)` — an undefined/fallback variable
 - No border, no border-radius
 - `padding: 1rem 0` (vertical only)
@@ -12,6 +13,7 @@ The site uses a dual-theme aura gradient (Cotton Candy light / Cosmic Dust dark)
 ## Goals / Non-Goals
 
 **Goals:**
+
 - Add subtle 1px border and 8px border-radius to featured project cards
 - Use translucent backgrounds: `rgba(0,0,0,0.35)` dark, `rgba(255,255,255,0.55)` light
 - Define `--border: #2c2c33` CSS variable for border color
@@ -19,6 +21,7 @@ The site uses a dual-theme aura gradient (Cotton Candy light / Cosmic Dust dark)
 - Work on both home page and `/projects/` page (both use `.featured-list`)
 
 **Non-Goals:**
+
 - Changing card layout, grid, or content structure
 - Modifying the "Latest videos" cards
 - Changing the aura gradient itself

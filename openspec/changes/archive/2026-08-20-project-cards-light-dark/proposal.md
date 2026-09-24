@@ -1,6 +1,6 @@
 ## Why
 
-The "Featured projects" cards currently have no visual border or background separation from the aura gradient behind them. On dark mode the cards blend into the dark backdrop, and on light mode they float without definition. Adding a subtle frame with translucent background gives each card visual containment while preserving the gradient effect underneath — matching the polish already present on the "Latest videos" cards.
+The "Projects" cards currently have no visual border or background separation from the aura gradient behind them. On dark mode the cards blend into the dark backdrop, and on light mode they float without definition. Adding a subtle frame with translucent background gives each card visual containment while preserving the gradient effect underneath — matching the polish already present on the "Latest videos" cards.
 
 ## What Changes
 
