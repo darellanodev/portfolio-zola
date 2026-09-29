@@ -184,6 +184,29 @@ Remove-Item -Recurse -Force "$env:USERPROFILE\.cache\huggingface"
 
 Laya turns a text into a decision between the options you define, and it does so with a handful of lines of Python. The categories and their criteria are yours, so the same tool works for home automation, commit types, or routing customer messages to a department. And it is free and open source.
 
+## Performance on my local machine
+
+Before wrapping up, I wanted to know how fast this runs locally, so I ran `python main.py` three times in a row without changing anything.
+
+These are the specs of the machine:
+
+- Intel i7 8750H 2.2 GHz
+- Nvidia GeForce GTX 1060 (6 Gb)
+- RAM 8 GB 2667 MHz
+
+The sequence is always the same:
+
+1. A short pause.
+2. `Fetching 5 files 100%`.
+3. Another short pause.
+4. The decision, and back to the prompt.
+
+Timing the three runs, the total is about 11-12 seconds. From `Fetching 5 files 100%` to the decision, about 6 seconds.
+
+While it runs, in the Task Manager the CPU goes up, the WiFi activity goes up as well (I assume that is the `Fetching 5 files` part), and the RAM, which was at 49%, goes up to 70% for a moment, about two seconds, and then drops back to 49%. The graphics card does not move, so in this case it is not being used.
+
+I did this test without touching any setting, so there is probably room to tune it, but these are the real numbers of a normal local run.
+
 ## Video
 
 In the following video you can see the complete process (Spanish audio).
