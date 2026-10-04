@@ -1,4 +1,8 @@
 [[videos]]
+id = "Ds-wZIXCTl4"
+title = "Herramientas IA #21: Harlequin y OpenCode para MySQL"
+date = "2026-10-04"
+[[videos]]
 id = "EUgmuBQkZic"
 title = "Herramientas IA #20: Decisiones con Laya, IA gratis y en local"
 date = "2026-09-27"
@@ -6,7 +10,3 @@ date = "2026-09-27"
 id = "GqDHUbVCb_g"
 title = "Herramientas IA #19: Crear combo gratuito en OmniRoute"
 date = "2026-09-13"
-[[videos]]
-id = "OXxyPvL9HIY"
-title = "Pattern Lab PHP #7: Patrón Fluent Interface"
-date = "2026-09-06"
