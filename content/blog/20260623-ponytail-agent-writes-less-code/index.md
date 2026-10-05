@@ -16,7 +16,7 @@ footnote_backlinks = true
 Example: "Email validator" → 500 lines, 3 packages, long comments.
 They write a lot, but not always well.
 
-![ponytail-opencode-post](./ponytail-opencode-post.png)
+![ponytail-opencode-post](./ponytail-opencode-post.webp)
 
 ## What is Ponytail
 

@@ -15,7 +15,7 @@ Hello developer 👋! In this post we try [Harlequin](https://github.com/tconbee
 
 We test it with OpenCode against a MySQL database that we create locally. Remember that the AI can be wrong, so use it carefully (for example, only locally).
 
-![harlequin-opencode-mysql](./harlequin-opencode-mysql.png)
+![harlequin-opencode-mysql](./harlequin-opencode-mysql.webp)
 
 ## What is Harlequin
 

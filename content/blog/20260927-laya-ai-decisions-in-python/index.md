@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋! In this post I try [Laya](https://github.com/NandhaKishorM/laya), a free and open source AI tool to classify texts and make decisions between a set of options I define. I install it locally and use it from a very simple Python script.
 
-![laya-decisions](./laya-decisions.png)
+![laya-decisions](./laya-decisions.webp)
 
 ## What is Laya
 

@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this post, we're going to practice the Decorator pattern in a pizzeria 🍕 to add ingredients dynamically, without creating a class for each possible combination.
 
-![php-decorator-design-pattern](./php-decorator-design-pattern.png)
+![php-decorator-design-pattern](./php-decorator-design-pattern.webp)
 
 🍕 Act 1 — The starting point
 

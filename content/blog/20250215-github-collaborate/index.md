@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 This weekend, I wanted to collaborate on a friend’s repository on GitHub. First, I checked the Issues tab in his repository and found an issue tagged as “good-first-issue”, which means the owner is looking for collaboration on that specific issue.
 
-![github-collaborate](./github-collaborate.png)
+![github-collaborate](./github-collaborate.webp)
 
 Next, I wrote a comment on his issue to ask if I could resolve it. He replied yes and assigned the issue to me.
 

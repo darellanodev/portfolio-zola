@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 Have you ever had a web page with a button that does not work and you do not know why? In this post we try [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), an open source project that gives AI agents access to Chrome DevTools. We configure it in OpenCode and apply it to a real debugging case: a cart button that does not respond.
 
-![chrome-devtools-mcp](./mcp-chrome-devtools.png)
+![chrome-devtools-mcp](./mcp-chrome-devtools.webp)
 
 ## What is Chrome DevTools MCP
 

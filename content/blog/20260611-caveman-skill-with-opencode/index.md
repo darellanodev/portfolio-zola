@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hi developer 👋 In the following video we test the Caveman skill with OpenCode. The idea is to make the agent respond more briefly, reducing token output without losing technical precision. We also test compressing natural language in files, reviewing code, and generating short commit messages.
 
-![caveman-skill-with-opencode](./caveman-skill-with-opencode.png)
+![caveman-skill-with-opencode](./caveman-skill-with-opencode.webp)
 
 ## Installation
 

@@ -17,7 +17,7 @@ I contributed to a friend's repository and created a branch locally, then pushed
 git branch -d branch-name
 ```
 
-![delete_branches](./delete_branches.png)
+![delete_branches](./delete_branches.webp)
 
 Sometimes Git shows a message that it can't delete the branch because it detects that it's not merged, and then suggests that you can force the deletion with the uppercase flag -D instead of -d. However, you must be sure of what you're doing if you use -D to force the deletion:
 

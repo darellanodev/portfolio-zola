@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 This week, I wanted to continue learning about gVim by practicing in one of my GitHub projects. First I wondered if there was an easy way to manage my gVim plugins instead of installing them manually. I found a plugin called vim-plug and I read the installation instructions in the official vim-plug GitHub repository for my Windows 10 machine.
 
-![vim_plug](./vim_plug.png)
+![vim_plug](./vim_plug.webp)
 
 First, I deleted the folders of the plugins I had previously downloaded manually, to avoid conflicts when using vim-plug.
 

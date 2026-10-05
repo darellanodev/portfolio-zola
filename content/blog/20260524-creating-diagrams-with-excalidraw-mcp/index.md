@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 I recently tried the Excalidraw MCP server to create architecture diagrams using AI with OpenCode. The result is fully editable and can be viewed directly inside VSCode. Here's how to set it up.
 
-![excalidraw_mcp_server](./excalidraw_mcp_server.png)
+![excalidraw_mcp_server](./excalidraw_mcp_server.webp)
 
 ## Setting up the MCP server
 

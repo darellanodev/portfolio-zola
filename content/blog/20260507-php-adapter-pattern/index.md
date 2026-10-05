@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Let's look at the Adapter pattern with a PHP example that we created using AI in the previous video. The example shows a music player where we want to add support for more formats using an external library, but we cannot modify that library's code.
 
-![adapter-design-pattern](./adapter-design-pattern-php.png)
+![adapter-design-pattern](./adapter-design-pattern-php.webp)
 
 ## Step 1: Starting point
 

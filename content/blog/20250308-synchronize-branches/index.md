@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 As I collaborate on other users’ GitHub repositories, I often need to synchronize the main branch to retrieve the latest changes. Here’s how I do it. To keep my forked repository up-to-date, I follow these steps:
 
-![synchronize_branches](./synchronize_branches.png)
+![synchronize_branches](./synchronize_branches.webp)
 
 I pull the changes from the main branch of the original repository.
 

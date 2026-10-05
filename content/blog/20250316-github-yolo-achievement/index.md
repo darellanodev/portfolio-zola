@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 This week, I learned about GitHub's YOLO achievement and how to obtain it. This achievement represents a bad practice that occurs when a user merges a pull request that has been assigned to another reviewer without giving the reviewer time to actually review it.
 
-![github_yolo_achievement](./github_yolo_achievement.png)
+![github_yolo_achievement](./github_yolo_achievement.webp)
 
 I attempted to obtain this achievement by following these steps.
 

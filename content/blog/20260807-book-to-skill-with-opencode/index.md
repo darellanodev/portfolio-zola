@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this post I try [book-to-skill](https://github.com/virgiliojr94/book-to-skill), an open source tool that solves a very common problem: you read a technical book and, months later, you do not remember what a specific chapter said. Asking an AI does not help much: either it hallucinates, or it costs a fortune in tokens if you paste the whole book.
 
-![book-to-skill-opencode](./book-to-skill-opencode.png)
+![book-to-skill-opencode](./book-to-skill-opencode.webp)
 
 ## What is book-to-skill
 

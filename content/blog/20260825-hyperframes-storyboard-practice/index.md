@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this post we practice with the storyboard feature of HyperFrames. We use HyperFrames and OpenCode to create a storyboard before generating the final video, defining its frames and adding comments to make modifications. Then we create the sketches and run the final build with the effects and movements of each frame.
 
-![hyperframes-storyboard](./hyperframes-storyboard.png)
+![hyperframes-storyboard](./hyperframes-storyboard.webp)
 
 ## Starting materials
 

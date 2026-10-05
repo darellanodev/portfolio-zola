@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 I've been testing some plugins to improve OpenCode's security.
 
-![security-plugins-opencode](./security-plugins-opencode.png)
+![security-plugins-opencode](./security-plugins-opencode.webp)
 
 ## Claude Code Safety Net
 
@@ -58,7 +58,7 @@ We can test it inside OpenCode in a test project with a README.md file that has 
 git checkout -- README.md
 ```
 
-![screenshot1](./screenshot1.png)
+![screenshot1](./screenshot1.webp)
 
 ## Envsitter Guard
 
@@ -76,7 +76,7 @@ We can also check in OpenCode if the plugin loaded by pressing Ctrl+P and select
 
 To test it, we can ask OpenCode to read a .env file.
 
-![screenshot2](./screenshot2.png)
+![screenshot2](./screenshot2.webp)
 
 You can see the process I followed in [this video](https://youtu.be/dsU2_kJXaLE) (Spanish audio).
 

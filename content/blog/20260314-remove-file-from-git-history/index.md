@@ -15,7 +15,7 @@ footnote_backlinks = true
 
 Imagine you have a file in your project that you never wanted to be part of the Git history. Maybe you added it by mistake in the very first commits, or maybe it was a config file with sensitive info that should never have been tracked.
 
-![remove_file_from_git_history](./remove_file_from_git_history.png)
+![remove_file_from_git_history](./remove_file_from_git_history.webp)
 
 That happened to me with a file called `prompt.txt`. I added it to the project from the very first commit, and although I always wanted to ignore it, I never set it up correctly in the `.gitignore`. The problem is that even if I added the file to `.gitignore` later, **Git would still track it**.
 

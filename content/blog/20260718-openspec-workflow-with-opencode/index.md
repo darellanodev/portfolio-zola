@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this post I explore Spec-Driven Development (SDD) with [OpenSpec](https://openspec.dev/) and [OpenCode](https://github.com/anomalyco/opencode). It is a way of working designed to plan just enough before writing code, without creating a huge planning phase like in the Waterfall methodology.
 
-![openspec-workflow](./openspec-workflow.png)
+![openspec-workflow](./openspec-workflow.webp)
 
 ## What is OpenSpec
 

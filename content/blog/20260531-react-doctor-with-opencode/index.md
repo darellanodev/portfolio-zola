@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hi developer 👋 In this video, we use React Doctor to analyze a React project. Then we install the react-doctor skill in OpenCode to help us fix the problems with AI. Finally, we run the audit again to check if the score improved.
 
-![react_doctor_with_opencode](./react_doctor_with_opencode.png)
+![react_doctor_with_opencode](./react_doctor_with_opencode.webp)
 
 ## Documentation
 

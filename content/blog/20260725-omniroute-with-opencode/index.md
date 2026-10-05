@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this post we look at [OmniRoute](https://github.com/diegosouzapw/OmniRoute), a free and open source local gateway that connects your editor or CLI with more than 90 AI providers that offer free tiers. When one provider runs out of quota, OmniRoute switches automatically to the next one.
 
-![omniroute-opencode](./omniroute-opencode.png)
+![omniroute-opencode](./omniroute-opencode.webp)
 
 ## What is OmniRoute
 

@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Yesterday, I completed my first front-end project from the [Frontend Mentor](https://www.frontendmentor.io) website. I started a beginner path to review HTML, CSS, responsiveness, and learn about good practices.
 
-![QR card project](./qr-card-project.png)
+![QR card project](./qr-card-project.webp)
 
 The code of this project is available on [GitHub](https://github.com/darellanodev/fm-projects/tree/main/01-qr-code-component).
 

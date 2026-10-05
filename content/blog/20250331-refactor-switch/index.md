@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 A few days ago, I saw a post on LinkedIn showcasing a cool JavaScript refactor to convert a switch statement into an object-like structure. This approach reduces the number of lines of code and makes it more readable. I decided to apply it to my GitHub project, [Gif Tower Defense](https://github.com/darellanodev/gif-tower-defense), and refactored some of its switch statements.
 
-![refactor_switch](./refactor_switch.png)
+![refactor_switch](./refactor_switch.webp)
 
 Before performing a refactor, I like to have a set of tests covering the code to ensure that I don't break anything after the changes.
 

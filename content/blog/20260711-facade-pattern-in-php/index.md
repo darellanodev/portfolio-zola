@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this video we practice the Facade pattern in PHP. This pattern lets us hide the complexity of a subsystem so the client code stays simple and elegant ✨
 
-![php-facade-pattern](./php-facade-pattern.png)
+![php-facade-pattern](./php-facade-pattern.webp)
 
 We apply it to an example of playing movies in a smart home. You just instantiate the facade and call one of its methods, and it takes care of the rest.
 

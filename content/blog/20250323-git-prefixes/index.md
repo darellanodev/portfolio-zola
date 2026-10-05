@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 I recently began incorporating prefixes into my Git commits to add more context to them.
 
-![git_prefixes](./git_prefixes.png)
+![git_prefixes](./git_prefixes.webp)
 
 The prefixes I used last week are:
 

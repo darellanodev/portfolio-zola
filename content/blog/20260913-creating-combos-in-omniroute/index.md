@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 In this video we test OmniRoute Combos: we create one with several free models from Groq, Gemini, and Mistral so that if one fails, the gateway automatically redirects to another.
 
-![combos-omniroute](./combos-omniroute.jpg)
+![combos-omniroute](./combos-omniroute.webp)
 
 ## Introduction
 

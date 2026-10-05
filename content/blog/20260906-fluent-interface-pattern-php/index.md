@@ -11,7 +11,7 @@ tags = ["PHP", "OOP", "Design Patterns", "YouTube"]
 footnote_backlinks = true
 +++
 
-![Fluent Interface Pattern](./fluent-interface-pattern.png)
+![Fluent Interface Pattern](./fluent-interface-pattern.webp)
 
 ## Let's practice
 

@@ -17,7 +17,7 @@ DCP cleans old information from the context to prevent accumulation of unnecessa
 
 In practice, this means fewer tokens per iteration, lighter contexts, and more efficient model usage. This helps make better use of free models and reduce costs on paid ones.
 
-![optimize_opencode_tokens](./optimize_opencode_tokens.png)
+![optimize_opencode_tokens](./optimize_opencode_tokens.webp)
 
 Here are the steps I followed on Windows:
 

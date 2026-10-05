@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Hello developer 👋 In this post we practice the Bridge pattern in PHP through a notification application that sends messages across different channels. This pattern lets us extend two dimensions separately: the type of notification and the delivery channel ✨
 
-![bridge-design-pattern-in-php](./bridge-design-pattern-in-php.png)
+![bridge-design-pattern-in-php](./bridge-design-pattern-in-php.webp)
 
 🚀 Act 1 — The beginning of the application
 

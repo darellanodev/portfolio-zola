@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 I've been using the Vim extension for VSCode for the past year and now I want to deepen my knowledge and practice more with Vim by using the gVim application on my Windows system.
 
-![starting_gvim](./starting_gvim.png)
+![starting_gvim](./starting_gvim.webp)
 
 First I downloaded and installed gVim from the [official Vim website](https://www.vim.org).
 

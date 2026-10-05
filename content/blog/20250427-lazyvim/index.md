@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 Last week, I wanted to try LazyVim. I followed these steps to install it on my Windows 10 machine.
 
-![lazyvim](./lazyvim.png)
+![lazyvim](./lazyvim.webp)
 
 First, I downloaded the latest stable release of Neovim:
 <https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi>

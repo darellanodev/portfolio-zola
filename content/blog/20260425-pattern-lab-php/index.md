@@ -11,7 +11,7 @@ tags = ["PHP", "OOP", "Design Patterns", "YouTube"]
 footnote_backlinks = true
 +++
 
-![php-design-patterns](./php-design-patterns.png)
+![php-design-patterns](./php-design-patterns.webp)
 
 I wanted to create a new PHP app to practice design patterns. I used AI to help me build the base. Let me share how I did it.
 

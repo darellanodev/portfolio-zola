@@ -13,25 +13,25 @@ footnote_backlinks = true
 
 The Composite pattern lets you compose objects into uniform interface hierarchies. The power of this pattern is that both composite and leaf objects share a common method. When you call it on a composite object, it propagates through the entire hierarchy.
 
-![composite-pattern-in-php](./composite-pattern-in-php.png)
+![composite-pattern-in-php](./composite-pattern-in-php.webp)
 
 ## Use cases
 
 A book structure with chapters (composite elements) and pages (leaf elements). Both types share a common method `countWords()`. If you call it on a chapter, it counts words throughout its hierarchy.
 
-![example-book](./example-book.png)
+![example-book](./example-book.webp)
 
 Another use case is a file system with directories and files and a common method `display()`. If you call it on a directory, it shows its name and the names of its children.
 
-![example-filesystem](./example-filesystem.png)
+![example-filesystem](./example-filesystem.webp)
 
 Another example could be a game with spaceships (leaf elements) and coordinator ships (composite elements). Both have a method `launchAttack()`. If you call it on a coordinator ship, it launches an attack from itself and its children.
 
-![example-spaceships](./example-spaceships.png)
+![example-spaceships](./example-spaceships.webp)
 
 An HTML form is also a good example. You have simple elements like buttons or inputs and composite elements like fieldsets. A `render()` method on a root form node renders the root and its children.
 
-![example-form](./example-form.png)
+![example-form](./example-form.webp)
 
 ## Example: file system structure
 

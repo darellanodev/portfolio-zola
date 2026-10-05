@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 We build a mini application called `study-cards-cli`, designed to review theoretical concepts from the terminal using a Markdown file. It works like a flashcard app.
 
-![speckit](./speckit.png)
+![speckit](./speckit.webp)
 
 ## Installing Spec Kit
 

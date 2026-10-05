@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 In this post, I'll show you how to create a simple MCP server with TypeScript and SQLite, and then connect it to OpenCode so you can query your database using natural language.
 
-![creating-mcp-opencode](./creating-mpc-opencode.png)
+![creating-mcp-opencode](./creating-mpc-opencode.webp)
 
 ## What is MCP
 

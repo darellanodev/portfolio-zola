@@ -13,7 +13,7 @@ footnote_backlinks = true
 
 I am contributing to a friend’s repository on GitHub. A few days ago, he told me he was working on a branch and wanted me to look at it to view his progress.
 
-![reviewing_branch](./reviewing_branch.png)
+![reviewing_branch](./reviewing_branch.webp)
 
 First, I wanted to ensure I didn’t have an upstream repository by using:
 
