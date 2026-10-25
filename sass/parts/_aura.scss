@@ -4,6 +4,7 @@
   overflow: hidden;
   z-index: 0;
   pointer-events: none;
+  display: none;
 
   .aura-layer {
     position: absolute;
@@ -45,6 +46,8 @@
 // Dark mode — Cosmic Dust (override all layer properties)
 html[data-theme='dark'] {
   .aura-bg {
+    display: block;
+
     .aura-layer-1 {
       background: radial-gradient(ellipse 40% 50% at 25% 35%, rgba(139, 92, 246, 0.9) 0%, transparent 70%);
       mix-blend-mode: screen;
