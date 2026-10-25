@@ -46,6 +46,13 @@ header {
   line-height: 2.5;
   text-decoration: none;
   border-radius: 5px;
+
+  &.active {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.35em;
+  }
 }
 
 .home-title {
