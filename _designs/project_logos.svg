@@ -29,9 +29,9 @@
      inkscape:cy="300.3034"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-x="-32000"
+     inkscape:window-y="-32000"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" /><defs
      id="defs1"><linearGradient
    id="linearGradient41"
@@ -1781,7 +1781,10 @@
      inkscape:export-filename="..\content\projects_old\spacelab\doteki_logo.png"
      inkscape:export-xdpi="281.10382"
      inkscape:export-ydpi="281.10382" /></g><g
-   id="g50"><image
+   id="g50"
+   inkscape:export-filename="..\..\..\..\Users\Daniel\Desktop\gaaa50.png"
+   inkscape:export-xdpi="426.22211"
+   inkscape:export-ydpi="426.22211"><image
      width="35.756001"
      height="35.756001"
      preserveAspectRatio="none"
